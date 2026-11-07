@@ -142,7 +142,7 @@
      "surface-geochemistry"
     ],
     "licence": "unstated",
-    "last_verified": "2026-11-06"
+    "last_verified": "2026-11-07"
    }
   },
   {
@@ -339,7 +339,7 @@
      "3d-models"
     ],
     "licence": "unstated",
-    "last_verified": "2026-11-06"
+    "last_verified": "2026-11-07"
    }
   },
   {
@@ -401,8 +401,8 @@
      "remote-sensing",
      "3d-models"
     ],
-    "licence": "unstated",
-    "last_verified": "2026-11-06"
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-07"
    }
   },
   {
@@ -519,7 +519,7 @@
      "core-library"
     ],
     "licence": "CC-BY-4.0",
-    "last_verified": "2026-11-06"
+    "last_verified": "2026-11-07"
    }
   },
   {
@@ -604,7 +604,7 @@
      "tenements"
     ],
     "licence": "unstated",
-    "last_verified": "2026-11-06"
+    "last_verified": "2026-11-07"
    }
   },
   {
@@ -1146,7 +1146,7 @@
    "properties": {
     "id": "nl-geoscience-atlas",
     "name": "Newfoundland and Labrador GeoScience Atlas, MODS and GeoFiles",
-    "agency": "Geological Survey of Newfoundland and Labrador (Department of Natural Resources)",
+    "agency": "Geological Survey of Newfoundland and Labrador (Department of Energy and Mines)",
     "jurisdiction": "CA-NL",
     "status": "active",
     "homepage": "https://gis.geosurv.gov.nl.ca/",

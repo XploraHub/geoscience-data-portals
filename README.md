@@ -2,7 +2,7 @@
 
 # Geoscience data portals
 
-> Where to find open geoscience data, and what to check before you use it.
+> Where to find public geoscience data, and what to check before you use it.
 
 [![Validate](https://github.com/XploraHub/geoscience-data-portals/actions/workflows/validate.yml/badge.svg)](https://github.com/XploraHub/geoscience-data-portals/actions/workflows/validate.yml)
 [![Nightly check](https://github.com/XploraHub/geoscience-data-portals/actions/workflows/links.yml/badge.svg)](https://github.com/XploraHub/geoscience-data-portals/actions/workflows/links.yml)
@@ -10,7 +10,9 @@
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE-CODE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24028841.svg)](https://doi.org/10.5281/zenodo.24028841)
 
-A catalogue of government geoscience data portals for mineral exploration. For each portal: what it holds, how to get the data, the licence, what to watch out for and when someone last checked it. <!-- count:start -->75<!-- count:end --> portals across Australia, Canada, the United States, the UK and Ireland, the Nordic countries, Greenland, Saudi Arabia and India. More countries will follow.
+A catalogue of government geoscience data portals for mineral exploration. For each portal: what it holds, how to get the data, the licence, what to watch out for and when someone last checked it. <!-- count:start -->75<!-- count:end --> portals across Australia, Canada, the United States, the UK and Ireland, Sweden, Finland, Norway, Greenland, Saudi Arabia and India.
+
+The list is not complete. It started with national surveys and the main mining states and provinces, and some are still missing (in the US, for example, Utah, Wyoming and New Mexico). [Suggest a portal](../../issues/new?template=new-portal.yml). Mining title registers (tenement and claim systems) are out of scope unless a geoscience portal also holds them. Not every portal here is open data: check each licence.
 
 Curated by [XploraHub](https://xplorahub.com), open ground for exploration & mining technology. For open-source software, see [Awesome mineral exploration](https://github.com/XploraHub/awesome-mineral-exploration).
 
@@ -35,23 +37,23 @@ The tables below and the files above are generated from `data/`. Each portal's c
 | [Exploring for the Future Data Discovery Portal](https://portal.ga.gov.au/persona/eftf) | electromagnetics, magnetotellurics, surface geochemistry, drillholes | map viewer, WMS, download | CC BY 4.0 | [2026-11-06](data/AU/ga-eftf-portal.yaml) |
 | [Geophysical Archive Data Delivery System (GADDS)](https://portal.ga.gov.au/persona/gaddsResources) | magnetics, radiometrics, gravity, elevation | download | not stated | [2026-11-06](data/AU/ga-gadds.yaml) |
 | [Geoscience Australia Portal](https://portal.ga.gov.au) | geological maps, mineral occurrences, surface geochemistry, magnetics, gravity, radiometrics, electromagnetics, magnetotellurics, geochronology | map viewer | CC BY 4.0 | [2026-11-06](data/AU/ga-portal.yaml) |
-| [Company Mineral Drillhole and Surface Geochemistry Database (MDHDB)](https://wa.gov.au/service/natural-resources/mineral-resources/access-company-mineral-drillhole-and-surface-geochemistry-database) (Western Australia) | drillholes, drillhole assays, surface geochemistry | map viewer, bulk download | not stated | [2026-11-06](data/AU-WA/wa-mdhdb.yaml) |
+| [Company Mineral Drillhole and Surface Geochemistry Database (MDHDB)](https://wa.gov.au/service/natural-resources/mineral-resources/access-company-mineral-drillhole-and-surface-geochemistry-database) (Western Australia) | drillholes, drillhole assays, surface geochemistry | map viewer, bulk download | not stated | [2026-11-07](data/AU-WA/wa-mdhdb.yaml) |
 | [DMPE eBookshop (GSWA publications)](https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/geological-survey-of-western-australia/dmpe-ebookshop) (Western Australia) | publications, geological maps, surface geochemistry | download, order (paid) | not stated | [2026-11-06](data/AU-WA/wa-gswa-ebookshop.yaml) |
 | [DMPE map services on Data WA (SLIP)](https://data.wa.gov.au/slip) (Western Australia) | geological maps, mineral occurrences, drillholes, surface geochemistry, geochronology, tenements, company reports, magnetics, radiometrics, gravity, seismic, core library | WMS, WFS, ArcGIS REST | CC BY 4.0 | [2026-11-06](data/AU-WA/wa-datawa-slip.yaml) |
 | [Data and Software Centre (DASC)](https://dasc.dmirs.wa.gov.au) (Western Australia) | geological maps, drillholes, drillhole assays, surface geochemistry, magnetics, gravity, radiometrics, mineral occurrences, tenements | bulk download | CC BY 4.0 | [2026-11-06](data/AU-WA/wa-dasc.yaml) |
 | [GeoVIEW.WA](https://www.wa.gov.au/service/natural-resources/mineral-resources/search-geoscience-and-titles-information-geoviewwa) (Western Australia) | geological maps, mineral occurrences, drillholes, surface geochemistry, geochronology, tenements, company reports, publications | map viewer, download | not stated | [2026-11-06](data/AU-WA/wa-geoview.yaml) |
 | [MAGIX geophysical survey register](https://www.wa.gov.au/service/natural-resources/mineral-resources/access-magix-online) (Western Australia) | magnetics, radiometrics, gravity, electromagnetics, magnetotellurics, seismic | download, order (paid), WMS, WFS | not stated | [2026-11-06](data/AU-WA/wa-magix.yaml) |
 | [MINEDEX (Mines and Mineral Deposits)](https://www.wa.gov.au/service/natural-resources/mineral-resources/access-mines-and-mineral-deposits-minedex) (Western Australia) | mineral occurrences | map viewer, bulk download, WMS, WFS | not stated | [2026-11-06](data/AU-WA/wa-minedex.yaml) |
-| [WAMEX mineral exploration reports](https://wamex.dmp.wa.gov.au/Wamex) (Western Australia) | company reports, drillholes, surface geochemistry, 3D models | download | not stated | [2026-11-06](data/AU-WA/wa-wamex.yaml) |
+| [WAMEX mineral exploration reports](https://wamex.dmp.wa.gov.au/Wamex) (Western Australia) | company reports, drillholes, surface geochemistry, 3D models | download | not stated | [2026-11-07](data/AU-WA/wa-wamex.yaml) |
 | [SARIG (South Australian Resources Information Gateway)](https://map.sarig.sa.gov.au) (South Australia) | geological maps, drillholes, drillhole assays, surface geochemistry, petrophysics, mineral occurrences, company reports, core library | map viewer, bulk download | CC BY 4.0 | [2026-11-06](data/AU-SA/sa-sarig.yaml) |
-| [GSQ Open Data Portal](https://geoscience.data.qld.gov.au) (Queensland) | drillholes, surface geochemistry, magnetics, gravity, radiometrics, seismic, mineral occurrences, geological maps, company reports, remote sensing, 3D models | download | not stated | [2026-11-06](data/AU-QLD/qld-gsq-open-data-portal.yaml) |
+| [GSQ Open Data Portal](https://geoscience.data.qld.gov.au) (Queensland) | drillholes, surface geochemistry, magnetics, gravity, radiometrics, seismic, mineral occurrences, geological maps, company reports, remote sensing, 3D models | download, CKAN | CC BY 4.0 | [2026-11-07](data/AU-QLD/qld-gsq-open-data-portal.yaml) |
 | [GeoResGlobe](https://www.business.qld.gov.au/industries/mining-energy-water/resources/minerals-coal/online-services/georesglobe) (Queensland) | tenements, geological maps, drillholes, mineral occurrences, magnetics, gravity, radiometrics, seismic, magnetotellurics, company reports | map viewer, ArcGIS REST | not stated | [2026-11-06](data/AU-QLD/qld-georesglobe.yaml) |
 | [DIGS (exploration reports)](https://search.geoscience.nsw.gov.au) (New South Wales) | company reports, publications | download | not stated | [2026-11-06](data/AU-NSW/nsw-digs.yaml) |
 | [MinView](https://minview.geoscience.nsw.gov.au) (New South Wales) | geological maps, mineral occurrences, drillholes, drillhole assays, surface geochemistry, magnetics, gravity, radiometrics, seismic, geochronology, tenements | map viewer, download | CC BY 4.0 | [2026-11-06](data/AU-NSW/nsw-minview.yaml) |
-| [GeoVic](https://resources.vic.gov.au/geology-and-data/maps-reports-data/geovic) (Victoria) | geological maps, drillholes, surface geochemistry, mineral occurrences, tenements, core library | map viewer, download, WFS | CC BY 4.0 | [2026-11-06](data/AU-VIC/vic-geovic.yaml) |
+| [GeoVic](https://resources.vic.gov.au/geology-and-data/maps-reports-data/geovic) (Victoria) | geological maps, drillholes, surface geochemistry, mineral occurrences, tenements, core library | map viewer, map viewer (free login), download, WFS | CC BY 4.0 | [2026-11-07](data/AU-VIC/vic-geovic.yaml) |
 | [Mineral Resources Tasmania digital data](https://mrt.tas.gov.au/products/digital_data) (Tasmania) | geological maps, drillholes, surface geochemistry, magnetics, radiometrics, gravity, tenements, company reports | download, WMS, WFS | CC BY 3.0 AU | [2026-11-06](data/AU-TAS/tas-mrt.yaml) |
 | [GEMIS](https://geoscience.nt.gov.au/gemis/) (Northern Territory) | company reports, drillholes, drillhole assays, surface geochemistry, magnetics, publications | download | not stated | [2026-11-06](data/AU-NT/nt-gemis.yaml) |
-| [STRIKE](https://nt.gov.au/industry/geoscience/online-geoscience-information-systems) (Northern Territory) | geological maps, drillholes, surface geochemistry, mineral occurrences, tenements | map viewer | not stated | [2026-11-06](data/AU-NT/nt-strike.yaml) |
+| [STRIKE](https://nt.gov.au/industry/geoscience/online-geoscience-information-systems) (Northern Territory) | geological maps, drillholes, surface geochemistry, mineral occurrences, tenements | map viewer | not stated | [2026-11-07](data/AU-NT/nt-strike.yaml) |
 
 ### Canada
 
@@ -160,7 +162,7 @@ The tables below and the files above are generated from `data/`. Each portal's c
 
 ## How it is kept accurate
 
-- Every entry lists the pages its claims come from, and the date someone last checked them. Where a portal could not be opened directly (it blocks automated access, or only answers from inside its own country), the entry says so in its caveats.
+- Every entry lists the pages its claims come from, and the date someone last checked them. Where a portal could not be opened directly (it blocks automated access, or only answers from inside its own country), the entry says so in its caveats. Such an entry is marked *uncertain* in the tables.
 - The build lists entries not checked for a year, so they can be checked again.
 - Links are checked every night. A broken link updates one open issue; it does not delete the entry.
 - A portal that closes is marked deprecated or superseded, never removed.

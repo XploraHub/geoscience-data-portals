@@ -54,7 +54,7 @@
         "notes": { "type": "string" }
       }
     },
-    "open_file_after": { "type": "integer", "minimum": 0, "maximum": 50, "description": "Years before company reports or data become public, where the portal states it" },
+    "open_file_after": { "type": "integer", "minimum": 0, "maximum": 50, "description": "Minimum years before company reports or data become public, where the portal states it; release rules go in caveats" },
     "caveats": { "type": "array", "items": { "type": "string", "minLength": 10 } },
     "sources": { "type": "array", "minItems": 1, "items": { "type": "string", "format": "uri", "pattern": "^https?://" } },
     "aggregated_by": { "type": "array", "items": { "enum": ["auscope", "egdi", "onegeology", "sciencebase", "data-gov-au", "open-canada"] } },

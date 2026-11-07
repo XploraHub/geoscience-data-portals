@@ -31,6 +31,7 @@ open_file_after: 5
 caveats:
   - Each survey is public, open file, multi-client (sold by an approved sales agent) or confidential (owner only).
   - Airborne surveys are confidential for five years after the survey ends, with an optional five-year extension if submitted to a sales agent; ground surveys for five years or until mentioned in a public report.
+  - Check the licence file in each survey download. On 30 October 2026 a GSWA survey (70823) came with an old DMP non-commercial licence and a company survey (72105) with none. Only the outline layers and GSWA's statewide merges (72203, 72204, 72205) were clearly CC BY.
   - Very large datasets, such as LiDAR or 3D seismic, need separate arrangements.
 sources:
   - https://www.wa.gov.au/service/natural-resources/mineral-resources/access-magix-online

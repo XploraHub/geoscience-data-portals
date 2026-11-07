@@ -7,7 +7,7 @@ homepage: https://wa.gov.au/service/natural-resources/mineral-resources/access-c
 status: active
 summary: Over 3 million historic drillholes and 11 million surface samples from open-file company exploration reports (WAMEX), with harmonised assays in ppm.
 data_types: [drillholes, drillhole-assays, surface-geochemistry]
-formats: [CSV, ESRI file geodatabase]
+formats: [SQL Server BCP, SQL Server backup, PostgreSQL]
 access:
   - method: viewer
     url: https://geoview.dmp.wa.gov.au/GeoView/?Viewer=GeoVIEW&layerTheme=Drillholes&Module=Drillholes
@@ -15,22 +15,26 @@ access:
   - method: bulk-download
     url: https://dasc.dmirs.wa.gov.au
     auth: none
-    notes: Datasets [GDA1994] tab, Statewide spatial datasets
-  - method: viewer
+    notes: Datasets [GDA2020] tab, Statewide spatial datasets - [GDA2020], Company Drillhole and Surface Geochemistry Database (SQL Server BCP files and a 40 GB SQL Server backup)
+  - method: bulk-download
     url: https://wamexgeochem.net.au
     auth: none
-    notes: WAMEX Geochem website, listed on the department's database page as a way to view the data
+    notes: WAMEX Geochem, run by Expedio for GSWA, built on the May 2026 release. Search and download harmonised assays, or download Postgres copies (full 56.7 GB, harmonised and pivoted assays 4.1 GB)
 licence:
   id: unstated
   url: https://wa.gov.au/terms-of-use
-  notes: The page links to WA Government terms of use; the download centre itself is CC BY 4.0.
+  notes: The page links to WA Government terms of use; the download centre itself is CC BY 4.0, and so is the open-file drillholes layer on Data WA (DMIRS-046). WAMEX Geochem's help guide has its own licence text.
 open_file_after: 5
 caveats:
+  - The database page (updated 3 February 2026) still points to the GDA1994 tab; since 31 March 2026 DASC holds the database under GDA2020 only.
   - No quality control on assay results; only the collar file is checked against tenement outlines. Check the original WAMEX report if in doubt.
   - Not a complete record of drilling in WA. Digital submission became mandatory in 2007; pre-2000 data is sparse.
-  - Data becomes public after a five-year confidentiality period.
-  - The WAMEX page still quotes 2 million drillholes and 7 million samples; the database page (updated 3 February 2026) says over 3 million and 11 million.
+  - Data comes from WAMEX reports, which become public through a yearly release, not automatically after five years (see the WAMEX entry).
+  - The WAMEX page still quotes 2 million drillholes and 7 million samples; the database page says over 3 million and 11 million.
 sources:
   - https://wa.gov.au/service/natural-resources/mineral-resources/access-company-mineral-drillhole-and-surface-geochemistry-database
-last_verified: 2026-11-06
+  - https://wamexgeochem.net.au
+  - https://dasc.dmirs.wa.gov.au
+  - https://catalogue.data.wa.gov.au/dataset/mineral-exploration-drillholes-open-file
+last_verified: 2026-11-07
 verified_by: XploraHub

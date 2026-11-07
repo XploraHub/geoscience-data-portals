@@ -15,11 +15,15 @@ access:
     notes: Report search and download; map search through GeoVIEW
 licence:
   id: unstated
+  notes: The WAMEX site states no licence; the report location index on Data WA (DMIRS-033) is CC BY 4.0.
 open_file_after: 5
 caveats:
-  - Reports are confidential for five years; current tenement holders can request confidential reports.
+  - Five years is the minimum. Reports held for five years go on a yearly release list, published from early March; current tenement holders have two months to object, and an objection can hold a report back for up to five years. Reports with no objection are released from the beginning of May.
+  - Current tenement holders can request confidential reports.
   - Raw data is as the company submitted it, in many layouts.
 sources:
   - https://wamex.dmp.wa.gov.au/Wamex
-last_verified: 2026-11-06
+  - https://www.wa.gov.au/service/natural-resources/mineral-resources/access-mineral-exploration-reports-wamex
+  - https://catalogue.data.wa.gov.au/dataset/mineral-exploration-reports-wamex
+last_verified: 2026-11-07
 verified_by: XploraHub

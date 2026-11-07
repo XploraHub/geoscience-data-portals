@@ -7,8 +7,8 @@ ga-eftf-portal,download,https://ecat.ga.gov.au/geonetwork/srv/api/records/44f4bc
 ga-gadds,download,https://portal.ga.gov.au/persona/gaddsResources,none,
 ga-portal,viewer,https://portal.ga.gov.au,none,
 wa-mdhdb,viewer,https://geoview.dmp.wa.gov.au/GeoView/?Viewer=GeoVIEW&layerTheme=Drillholes&Module=Drillholes,none,
-wa-mdhdb,bulk-download,https://dasc.dmirs.wa.gov.au,none,"Datasets [GDA1994] tab, Statewide spatial datasets"
-wa-mdhdb,viewer,https://wamexgeochem.net.au,none,"WAMEX Geochem website, listed on the department's database page as a way to view the data"
+wa-mdhdb,bulk-download,https://dasc.dmirs.wa.gov.au,none,"Datasets [GDA2020] tab, Statewide spatial datasets - [GDA2020], Company Drillhole and Surface Geochemistry Database (SQL Server BCP files and a 40 GB SQL Server backup)"
+wa-mdhdb,bulk-download,https://wamexgeochem.net.au,none,"WAMEX Geochem, run by Expedio for GSWA, built on the May 2026 release. Search and download harmonised assays, or download Postgres copies (full 56.7 GB, harmonised and pivoted assays 4.1 GB)"
 wa-gswa-ebookshop,download,https://dmpbookshop.eruditetechnologies.com.au/ebookshop/department-mines-petroleum-bookshop-home.do,none,"Free PDFs of reports, records, bulletins and pre-1991 maps"
 wa-gswa-ebookshop,order,https://dmpbookshop.eruditetechnologies.com.au/ebookshop/department-mines-petroleum-bookshop-home.do,paid,"Printed maps while stocks last, USB data packages and selected premium titles through the online cart"
 wa-datawa-slip,wms,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Geology_and_Soils_Map/MapServer/WMSServer,none,"Interpreted bedrock geology, structures, GSWA geochemistry and geochronology, regolith, basic raw materials"
@@ -33,7 +33,8 @@ wa-minedex,wfs,https://public-services.slip.wa.gov.au/public/services/SLIP_Publi
 wa-wamex,download,https://wamex.dmp.wa.gov.au/Wamex,none,Report search and download; map search through GeoVIEW
 sa-sarig,viewer,https://map.sarig.sa.gov.au,none,
 sa-sarig,bulk-download,https://pid.sarig.sa.gov.au/dataset/mesac1017,none,"SARIG data packages, updated yearly in June or July"
-qld-gsq-open-data-portal,download,https://geoscience.data.qld.gov.au,none,The portal can be used without registering; it says it offers open API access but does not name the API
+qld-gsq-open-data-portal,download,https://geoscience.data.qld.gov.au,none,The portal can be used without registering
+qld-gsq-open-data-portal,ckan,https://geoscience.data.qld.gov.au/api/3/action/package_search,none,"CKAN API; about 193,000 records on 7 November 2026"
 qld-georesglobe,viewer,https://georesglobe.information.qld.gov.au/,none,Logging in is optional and saves your work
 qld-georesglobe,arcgis-rest,https://spatial-gis.information.qld.gov.au/arcgis/rest/services/GeoscientificInformation/GeologyDetailed/MapServer,none,"Detailed 1:100 000 geology and structure; the GeoscientificInformation folder also holds GeologyState, Boreholes, Geophysics, MiningResources and ReportIndex"
 qld-georesglobe,arcgis-rest,https://spatial-gis.information.qld.gov.au/arcgis/rest/services/GeoscientificInformation/Boreholes/MapServer,none,
@@ -41,14 +42,15 @@ qld-georesglobe,arcgis-rest,https://spatial-gis.information.qld.gov.au/arcgis/re
 nsw-digs,download,https://search.geoscience.nsw.gov.au,none,
 nsw-minview,viewer,https://minview.geoscience.nsw.gov.au,none,
 nsw-minview,download,https://minview.geoscience.nsw.gov.au,none,Downloads for all of NSW or clipped to the map view; an account is only needed for alerts and saved views
-vic-geovic,viewer,https://resources.vic.gov.au/geology-and-data/maps-reports-data/geovic,none,
+vic-geovic,viewer,https://gsv.vic.gov.au/sd_weave/anonymous.html,none,"Anonymous version, no login, with restricted data and functions"
+vic-geovic,viewer,https://gsv.vic.gov.au/sd_weave/registered.htm,free-registration,"Registered version, with all online data and functions"
 vic-geovic,download,https://discover.data.vic.gov.au/dataset/boreholes-from-earth-resources-database,none,"Borehole locations from the Earth Resources database on the Victorian datamart (shapefile, GDB, MapInfo and others)"
 vic-geovic,wfs,https://opendata.maps.vic.gov.au/geoserver/wfs,none,"Victorian open data WFS, including the bores layer"
 tas-mrt,download,https://mrt.tas.gov.au/products/digital_data,none,
 tas-mrt,wms,https://www.mrt.tas.gov.au/web-services/ows,none,
 tas-mrt,wfs,https://www.mrt.tas.gov.au/web-services/ows,none,"Borehole, geoscience, tenement and geohazard layers"
 nt-gemis,download,https://geoscience.nt.gov.au/gemis/,none,
-nt-strike,viewer,https://nt.gov.au/industry/geoscience/online-geoscience-information-systems,none,
+nt-strike,viewer,https://strike.nt.gov.au/,none,No login needed
 ca-cdogs,viewer,https://geochem.nrcan.gc.ca/indexmap/content/mapserver/main_e.phtml,none,Index map of survey extents
 ca-cdogs,download,https://geochem.nrcan.gc.ca/cdogs/content/main/home_en.htm,none,"Per-survey data, periodic-table search and index tables"
 ca-cdogs,wms,https://geochem.nrcan.gc.ca/cgi-bin/GSC_Geochemistry/wms,none,"Survey index layers only, not the analytical data"

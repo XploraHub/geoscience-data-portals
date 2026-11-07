@@ -18,7 +18,8 @@ licence:
   notes: Attribute as "© State of Western Australia (Department of Mines, Petroleum and Exploration)".
 caveats:
   - From 31 March 2026 new outputs are GDA2020 only; older releases are GDA1994.
-  - Several WMS and REST services were retired in 2023 and moved to DataWA (SLIP). Scripts using old DASC or GeoVIEW addresses need updating after the 2022 move to the cloud.
+  - Several WMS and REST services were retired in 2023 and moved to Data WA (SLIP).
+  - Scripts using DASC or GeoVIEW addresses from before the 2022 move to the cloud need updating.
 sources:
   - https://dasc.dmirs.wa.gov.au
 last_verified: 2026-11-06

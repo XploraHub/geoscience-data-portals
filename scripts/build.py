@@ -142,6 +142,14 @@ def geojson(portals, places):
     return json.dumps({"type": "FeatureCollection", "features": features}, indent=1, ensure_ascii=False) + "\n"
 
 
+def short(notes, limit=60):
+    """First clause of an access note, cut at a word, to name a QGIS connection."""
+    text = notes.split(";")[0].strip()
+    if len(text) <= limit:
+        return text
+    return re.sub(r",?\s+(and|or)$", "", text[:limit].rsplit(" ", 1)[0].rstrip(",")) + "…"
+
+
 def qgis(portals, method, root_tag, item_tag):
     lines = ["<!DOCTYPE connections>", f'<{root_tag} version="1.0">']
     seen = set()  # one connection per service, even when several portals list it
@@ -150,7 +158,7 @@ def qgis(portals, method, root_tag, item_tag):
             if a["url"] in seen:
                 continue
             seen.add(a["url"])
-            name = p["name"] if i == 0 else f"{p['name']} ({i + 1})"
+            name = p["name"] if i == 0 else f"{p['name']}: {short(a['notes'])}" if a.get("notes") else f"{p['name']} ({i + 1})"
             lines.append(f"  <{item_tag} name={quoteattr(name)} url={quoteattr(a['url'])} />")
     lines.append(f"</{root_tag}>")
     return "\n".join(lines) + "\n"

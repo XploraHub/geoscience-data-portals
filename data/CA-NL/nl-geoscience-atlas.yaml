@@ -1,6 +1,6 @@
 id: nl-geoscience-atlas
 name: Newfoundland and Labrador GeoScience Atlas, MODS and GeoFiles
-agency: Geological Survey of Newfoundland and Labrador (Department of Natural Resources)
+agency: Geological Survey of Newfoundland and Labrador (Department of Energy and Mines)
 jurisdiction: CA-NL
 level: province
 homepage: https://gis.geosurv.gov.nl.ca/
@@ -29,6 +29,7 @@ licence:
   id: unstated
   notes: The GeoFiles and Mines pages say all contents are copyright, Government of Newfoundland and Labrador, all rights reserved.
 caveats:
+  - The survey's About page still names the Department of Mines and Energy in its text; the department is Energy and Mines.
   - Only non-confidential maps and reports from exploration companies can be downloaded from GeoFiles, at no cost.
   - Quarry information in the Atlas is for reference only and its accuracy is not guaranteed.
   - The GeoScience Atlas has had several maintenance outages announced on the GeoScience OnLine page.
@@ -36,5 +37,6 @@ sources:
   - https://gis.geosurv.gov.nl.ca/
   - https://gis.geosurv.gov.nl.ca/minesen/geofiles/
   - https://www.gov.nl.ca/em/mines/maps/
+  - https://www.gov.nl.ca/em/mines/geoscience/about-survey/
 last_verified: 2026-11-06
 verified_by: XploraHub

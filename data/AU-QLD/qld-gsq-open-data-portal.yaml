@@ -11,13 +11,20 @@ access:
   - method: download
     url: https://geoscience.data.qld.gov.au
     auth: none
-    notes: The portal can be used without registering; it says it offers open API access but does not name the API
+    notes: The portal can be used without registering
+  - method: ckan
+    url: https://geoscience.data.qld.gov.au/api/3/action/package_search
+    auth: none
+    notes: CKAN API; about 193,000 records on 7 November 2026
 licence:
-  id: unstated
-  url: https://www.qld.gov.au/legal/copyright
+  id: CC-BY-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  notes: Set per record. The portal's licence counts on 7 November 2026 showed 185,653 records as Creative Commons Attribution with no version given, 7,271 as CC BY 4.0 and two with no licence. The Queensland Government's default licence is CC BY 4.0.
 caveats:
-  - The information page states no data licence; check each dataset.
+  - The licence is set on each record, not the portal; check the record you use.
 sources:
+  - https://geoscience.data.qld.gov.au/api/3/action/package_search?rows=0&facet.field=%5B%22license_id%22%5D
+  - https://www.qld.gov.au/legal/copyright
   - https://www.business.qld.gov.au/industries/mining-energy-water/resources/minerals-coal/online-services/gsq-open-data-portal
-last_verified: 2026-11-06
+last_verified: 2026-11-07
 verified_by: XploraHub

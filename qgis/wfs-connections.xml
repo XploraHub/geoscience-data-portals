@@ -9,8 +9,8 @@
   <wfs name="MapPlace 2" url="http://apps.empr.gov.bc.ca/geoserver/cgi/ows" />
   <wfs name="Earth MRI data releases" url="https://mrdata.usgs.gov/services/wfs/emri-project" />
   <wfs name="Mineral Resources Online Spatial Data (MRDS, NGDB rock, NURE-HSSR)" url="https://mrdata.usgs.gov/services/wfs/mrds" />
-  <wfs name="Mineral Resources Online Spatial Data (MRDS, NGDB rock, NURE-HSSR) (2)" url="https://mrdata.usgs.gov/services/wfs/ngdbrock" />
-  <wfs name="Mineral Resources Online Spatial Data (MRDS, NGDB rock, NURE-HSSR) (3)" url="https://mrdata.usgs.gov/services/wfs/nuresed" />
+  <wfs name="Mineral Resources Online Spatial Data (MRDS, NGDB rock, NURE-HSSR): NGDB rock geochemistry" url="https://mrdata.usgs.gov/services/wfs/ngdbrock" />
+  <wfs name="Mineral Resources Online Spatial Data (MRDS, NGDB rock, NURE-HSSR): NURE-HSSR sediment" url="https://mrdata.usgs.gov/services/wfs/nuresed" />
   <wfs name="USMIN Mineral Deposit Database" url="https://mrdata.usgs.gov/services/wfs/deposit" />
   <wfs name="Alaska Resource Data File (ARDF)" url="https://mrdata.usgs.gov/services/wfs/ardf" />
   <wfs name="Greenland Mineral Occurrence Map (GMOM) and Greenland Portal" url="https://data.geus.dk/geusmap/ows/32624.jsp" />

@@ -15,7 +15,7 @@ Rules:
 - **State only what a source shows.** Put the page in `sources`. If a portal names no licence, write `unstated`.
 - **Open the pages yourself** and set `last_verified` to that day and `verified_by` to your GitHub name. Entries checked by the XploraHub team say `XploraHub`.
 - **Service addresses must be the service itself.** A `wms` or `wfs` entry needs the address QGIS would use, not a catalogue page about it.
-- **Caveats are facts users need,** such as "no quality control on assays". If the portal states how long company reports stay confidential, put the years in `open_file_after`.
+- **Caveats are facts users need,** such as "no quality control on assays". If the portal states how long company reports stay confidential, put the minimum years in `open_file_after`, and describe any release process (lists, objections, extensions) in the caveats.
 - **Never delete a portal.** Set `status` to `deprecated` or `superseded` (with `superseded_by`).
 
 Then run:
