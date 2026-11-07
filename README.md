@@ -10,7 +10,7 @@
 [![Code: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE-CODE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24028841.svg)](https://doi.org/10.5281/zenodo.24028841)
 
-A catalogue of government geoscience data portals for mineral exploration. For each portal: what it holds, how to get the data, the licence, the known traps and when someone last checked it. <!-- count:start -->75<!-- count:end --> portals across Australia, Canada, the United States, the UK and Ireland, the Nordic countries, Greenland, Saudi Arabia and India. More countries will follow.
+A catalogue of government geoscience data portals for mineral exploration. For each portal: what it holds, how to get the data, the licence, what to watch out for and when someone last checked it. <!-- count:start -->75<!-- count:end --> portals across Australia, Canada, the United States, the UK and Ireland, the Nordic countries, Greenland, Saudi Arabia and India. More countries will follow.
 
 Curated by [XploraHub](https://xplorahub.com), open ground for exploration & mining technology. For open-source software, see [Awesome mineral exploration](https://github.com/XploraHub/awesome-mineral-exploration).
 
