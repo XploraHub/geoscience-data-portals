@@ -245,6 +245,30 @@
     ]
    },
    "properties": {
+    "id": "wa-gswa-geochemistry",
+    "name": "GSWA Geochemistry (WACHEM)",
+    "agency": "Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)",
+    "jurisdiction": "AU-WA",
+    "status": "active",
+    "homepage": "https://catalogue.data.wa.gov.au/dataset/gswa-geochemistry",
+    "data_types": [
+     "surface-geochemistry",
+     "drillhole-assays"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6,
+     -25.0
+    ]
+   },
+   "properties": {
     "id": "wa-geoview",
     "name": "GeoVIEW.WA",
     "agency": "Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)",

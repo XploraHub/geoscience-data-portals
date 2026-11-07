@@ -20,6 +20,10 @@ wa-datawa-slip,arcgis-rest,https://public-services.slip.wa.gov.au/public/rest/se
 wa-datawa-slip,wms,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/DMIRS_Imagery_Service/MapServer/WMSServer,none,"Statewide magnetics, radiometrics and gravity images, and 1:100 000 and 1:250 000 geological map mosaics"
 wa-datawa-slip,arcgis-rest,https://public-services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/DMIRS_Imagery_Service/MapServer,none,
 wa-dasc,bulk-download,https://dasc.dmirs.wa.gov.au,none,
+wa-gswa-geochemistry,bulk-download,https://dasc.dmirs.wa.gov.au/home?productAlias=GSWAGeochem,none,"Data and Software Centre, Statewide spatial datasets - [GDA2020], Geochemistry & Mineralogy"
+wa-gswa-geochemistry,wms,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Geology_and_Soils_Map/MapServer/WMSServer,none,Layer GSWA Geochemistry (DMIRS-047)
+wa-gswa-geochemistry,wfs,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Geology_and_Soils_Map_WFS/MapServer/WFSServer,none,Layer GSWA Geochemistry (DMIRS-047)
+wa-gswa-geochemistry,arcgis-rest,https://public-services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/Geology_and_Soils_Map/MapServer/20,none,
 wa-geoview,viewer,https://geoview.dmp.wa.gov.au/geoview/?Viewer=GeoView,none,
 wa-geoview,download,https://geoview.dmp.wa.gov.au/geoview/index.html?viewer=geoview&run=Extract_Tool,none,Extract data tool exports selected layers for a map area to shapefile or file geodatabase
 wa-magix,download,https://magix.dmirs.wa.gov.au/,none,MAGIX Online search and download; also through the Geophysical Surveys layers in GeoVIEW.WA
@@ -31,6 +35,7 @@ wa-minedex,bulk-download,https://dasc.dmirs.wa.gov.au/home?productAlias=MINEDEX,
 wa-minedex,wms,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer,none,Layer Minedex (DMIRS-001)
 wa-minedex,wfs,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining_WFS/MapServer/WFSServer,none,Layer Minedex (DMIRS-001)
 wa-wamex,download,https://wamex.dmp.wa.gov.au/Wamex,none,Report search and download; map search through GeoVIEW
+wa-wamex,email-request,https://www.wa.gov.au/service/natural-resources/mineral-resources/access-mineral-exploration-reports-wamex,none,"All public reports on an external hard drive, on request to wamex.enquiries@dmpe.wa.gov.au; updated in May and November"
 sa-sarig,viewer,https://map.sarig.sa.gov.au,none,
 sa-sarig,bulk-download,https://pid.sarig.sa.gov.au/dataset/mesac1017,none,"SARIG data packages, updated yearly in June or July"
 qld-gsq-open-data-portal,download,https://geoscience.data.qld.gov.au,none,The portal can be used without registering

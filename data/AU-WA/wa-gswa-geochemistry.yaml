@@ -1,0 +1,38 @@
+id: wa-gswa-geochemistry
+name: GSWA Geochemistry (WACHEM)
+agency: Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)
+jurisdiction: AU-WA
+level: state
+homepage: https://catalogue.data.wa.gov.au/dataset/gswa-geochemistry
+status: active
+summary: The Geological Survey's own geochemistry of about 68,500 rock, regolith and drill core samples, with major oxides, trace elements, rare earths and isotopes, and the quality control results analysed with them.
+data_types: [surface-geochemistry, drillhole-assays]
+formats: [ESRI file geodatabase, shapefile, MapInfo TAB, CSV]
+access:
+  - method: bulk-download
+    url: https://dasc.dmirs.wa.gov.au/home?productAlias=GSWAGeochem
+    auth: none
+    notes: Data and Software Centre, Statewide spatial datasets - [GDA2020], Geochemistry & Mineralogy
+  - method: wms
+    url: https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Geology_and_Soils_Map/MapServer/WMSServer
+    auth: none
+    notes: Layer GSWA Geochemistry (DMIRS-047)
+  - method: wfs
+    url: https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Geology_and_Soils_Map_WFS/MapServer/WFSServer
+    auth: none
+    notes: Layer GSWA Geochemistry (DMIRS-047)
+  - method: arcgis-rest
+    url: https://public-services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/Geology_and_Soils_Map/MapServer/20
+    auth: none
+licence:
+  id: CC-BY-4.0
+  url: https://catalogue.data.wa.gov.au/dataset/gswa-geochemistry
+caveats:
+  - These are GSWA's own samples, separate from the company drillhole and geochemistry database (MDHDB).
+  - Samples were analysed at commercial, government and university laboratories by different methods over many years; check the technique and detection limit given with each result.
+  - The old GeoChem Extract page no longer works; use the Data and Software Centre.
+sources:
+  - https://catalogue.data.wa.gov.au/dataset/gswa-geochemistry
+  - https://public-services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/Geology_and_Soils_Map/MapServer/20/query?where=1%3D1&returnCountOnly=true&f=json
+last_verified: 2026-11-07
+verified_by: XploraHub

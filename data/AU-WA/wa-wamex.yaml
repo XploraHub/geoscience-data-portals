@@ -13,6 +13,10 @@ access:
     url: https://wamex.dmp.wa.gov.au/Wamex
     auth: none
     notes: Report search and download; map search through GeoVIEW
+  - method: email-request
+    url: https://www.wa.gov.au/service/natural-resources/mineral-resources/access-mineral-exploration-reports-wamex
+    auth: none
+    notes: All public reports on an external hard drive, on request to wamex.enquiries@dmpe.wa.gov.au; updated in May and November
 licence:
   id: unstated
   notes: The WAMEX site states no licence; the report location index on Data WA (DMIRS-033) is CC BY 4.0.
