@@ -1,0 +1,22 @@
+id: nt-strike
+name: STRIKE
+agency: Northern Territory Geological Survey
+jurisdiction: AU-NT
+level: territory
+homepage: https://nt.gov.au/industry/geoscience/online-geoscience-information-systems
+status: active
+summary: Northern Territory web map for geology, titles and exploration data, with downloads of surface geochemistry and drillhole locations.
+data_types: [geological-maps, drillholes, surface-geochemistry, mineral-occurrences, tenements]
+formats: [shapefile, MapInfo TAB, KML, CSV]
+access:
+  - method: viewer
+    url: https://nt.gov.au/industry/geoscience/online-geoscience-information-systems
+    auth: none
+licence:
+  id: unstated
+caveats:
+  - Drillhole assays and downhole surveys are not on STRIKE; use GEMIS.
+sources:
+  - https://resourcingtheterritory.nt.gov.au/news-and-events/news/2024/legacy-data-capture-complete-over-darwin-1250-000-map-sheet
+last_verified: 2026-11-06
+verified_by: XploraHub

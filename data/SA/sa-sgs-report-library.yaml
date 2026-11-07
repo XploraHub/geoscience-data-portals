@@ -1,0 +1,25 @@
+id: sa-sgs-report-library
+name: SGS technical reports, books and maps database
+agency: Saudi Geological Survey
+jurisdiction: SA
+level: national
+homepage: https://ngdp.sgs.gov.sa/biblioapp/
+status: active
+summary: Saudi Geological Survey catalogue of technical reports, open-file reports, books and maps, searchable by originator (USGS, BRGM, Riofinex, DGMR, DMMR, SGS and others), author, year, report type, title and abstract.
+language: [ar, en]
+data_types: [publications, geological-maps]
+access:
+  - method: viewer
+    url: https://ngdp.sgs.gov.sa/biblioapp/
+    auth: none
+    notes: Catalogue search; whether full reports can be downloaded was not confirmed
+licence:
+  id: unstated
+caveats:
+  - The report types listed include confidential and internal reports.
+  - The NGD home page links to the database at ngdp.sgs.org.sa, which did not resolve on 2026-11-06; ngdp.sgs.gov.sa works.
+sources:
+  - https://ngdp.sgs.gov.sa/biblioapp/
+  - https://ngd.sgs.gov.sa/
+last_verified: 2026-11-06
+verified_by: XploraHub

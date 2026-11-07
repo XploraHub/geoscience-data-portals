@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: Geoscience data portals
+message: If you use this catalogue, please cite it as below.
+type: dataset
+authors:
+  - name: XploraHub
+    website: https://xplorahub.com
+license: CC-BY-4.0
+repository-code: https://github.com/XploraHub/geoscience-data-portals
+keywords: [geoscience, open data, mineral exploration, geological survey, drillholes, geophysics, geochemistry]

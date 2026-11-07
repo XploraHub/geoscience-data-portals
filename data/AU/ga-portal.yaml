@@ -1,0 +1,24 @@
+id: ga-portal
+name: Geoscience Australia Portal
+agency: Geoscience Australia
+jurisdiction: AU
+level: national
+homepage: https://portal.ga.gov.au
+status: active
+summary: National map portal for Australian geology, geophysics, mineral deposits and geochemistry, with OGC web services catalogued in GA's eCat.
+data_types: [geological-maps, mineral-occurrences, surface-geochemistry, magnetics, gravity, radiometrics, electromagnetics, magnetotellurics, geochronology]
+access:
+  - method: viewer
+    url: https://portal.ga.gov.au
+    auth: none
+licence:
+  id: CC-BY-4.0
+  url: https://www.ga.gov.au/copyright
+  notes: Most GA services are CC BY 4.0; data from states and other owners keeps its owner's terms. Check each dataset's record.
+caveats:
+  - The portal is a JavaScript map application, so it shows nothing to scripts or text-only browsers. WMS and WFS addresses (for example the Geophysical Surveys and Datasets WFS) are in each dataset's eCat catalogue record.
+sources:
+  - https://geoscience.gov.au/about/copyright
+  - https://ecat.ga.gov.au/geonetwork/srv/api/records/b249b01e-1f8c-4cd2-bb79-d374b4884c9f
+last_verified: 2026-11-06
+verified_by: XploraHub

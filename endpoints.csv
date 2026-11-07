@@ -1,0 +1,224 @@
+portal_id,method,url,auth,notes
+auscope-discovery-portal,viewer,https://portal.auscope.org.au/,none,
+auscope-discovery-portal,api,https://portal.auscope.org.au/api/getKnownLayers.do,none,"JSON list of the portal's layers, each with the source agency's own service addresses"
+ga-eftf-portal,viewer,https://portal.ga.gov.au/persona/eftf,none,Also reached at https://portal.ga.gov.au/eftf
+ga-eftf-portal,wms,https://services.ga.gov.au/gis/magnetotellurics/wms,none,"AusLAMP resistivity depth slices, listed in GA's eCat records for the AusLAMP data releases"
+ga-eftf-portal,download,https://ecat.ga.gov.au/geonetwork/srv/api/records/44f4bc4f-b826-48d1-b134-33c6646ed675,none,"Example AusAEM release (Eastern Resources Corridor) with EM data, conductivity products and shapefiles"
+ga-gadds,download,https://portal.ga.gov.au/persona/gaddsResources,none,
+ga-portal,viewer,https://portal.ga.gov.au,none,
+wa-mdhdb,viewer,https://geoview.dmp.wa.gov.au/GeoView/?Viewer=GeoVIEW&layerTheme=Drillholes&Module=Drillholes,none,
+wa-mdhdb,bulk-download,https://dasc.dmirs.wa.gov.au,none,"Datasets [GDA1994] tab, Statewide spatial datasets"
+wa-mdhdb,viewer,https://wamexgeochem.net.au,none,"WAMEX Geochem website, listed on the department's database page as a way to view the data"
+wa-gswa-ebookshop,download,https://dmpbookshop.eruditetechnologies.com.au/ebookshop/department-mines-petroleum-bookshop-home.do,none,"Free PDFs of reports, records, bulletins and pre-1991 maps"
+wa-gswa-ebookshop,order,https://dmpbookshop.eruditetechnologies.com.au/ebookshop/department-mines-petroleum-bookshop-home.do,paid,"Printed maps while stocks last, USB data packages and selected premium titles through the online cart"
+wa-datawa-slip,wms,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Geology_and_Soils_Map/MapServer/WMSServer,none,"Interpreted bedrock geology, structures, GSWA geochemistry and geochronology, regolith, basic raw materials"
+wa-datawa-slip,wfs,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Geology_and_Soils_Map_WFS/MapServer/WFSServer,none,
+wa-datawa-slip,arcgis-rest,https://public-services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/Geology_and_Soils_Map/MapServer,none,
+wa-datawa-slip,wms,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer,none,"MINEDEX, open-file exploration drillholes, core library holes, tenements, WAMEX report locations, MAGIX surveys, seismic surveys, map sheet indexes"
+wa-datawa-slip,wfs,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining_WFS/MapServer/WFSServer,none,
+wa-datawa-slip,arcgis-rest,https://public-services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/Industry_and_Mining/MapServer,none,
+wa-datawa-slip,wms,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/DMIRS_Imagery_Service/MapServer/WMSServer,none,"Statewide magnetics, radiometrics and gravity images, and 1:100 000 and 1:250 000 geological map mosaics"
+wa-datawa-slip,arcgis-rest,https://public-services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/DMIRS_Imagery_Service/MapServer,none,
+wa-dasc,bulk-download,https://dasc.dmirs.wa.gov.au,none,
+wa-geoview,viewer,https://geoview.dmp.wa.gov.au/geoview/?Viewer=GeoView,none,
+wa-geoview,download,https://geoview.dmp.wa.gov.au/geoview/index.html?viewer=geoview&run=Extract_Tool,none,Extract data tool exports selected layers for a map area to shapefile or file geodatabase
+wa-magix,download,https://magix.dmirs.wa.gov.au/,none,MAGIX Online search and download; also through the Geophysical Surveys layers in GeoVIEW.WA
+wa-magix,order,https://forms.dmp.wa.gov.au/lfserver/anonymous/MAGIX_OpenFile,paid,"All public data on a hard drive costs $132, or $55 to copy onto your own drive (including GST)"
+wa-magix,wms,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer,none,"Survey areas, lines and locations (DMIRS-055, 056, 057)"
+wa-magix,wfs,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining_WFS/MapServer/WFSServer,none,"Survey areas, lines and locations (DMIRS-055, 056, 057)"
+wa-minedex,viewer,https://minedex.dmirs.wa.gov.au/Web/home,none,"Full-text search, custom reports and bulk downloads; spatial search is through GeoVIEW.WA"
+wa-minedex,bulk-download,https://dasc.dmirs.wa.gov.au/home?productAlias=MINEDEX,none,Spatial extract from the Data and Software Centre
+wa-minedex,wms,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer,none,Layer Minedex (DMIRS-001)
+wa-minedex,wfs,https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining_WFS/MapServer/WFSServer,none,Layer Minedex (DMIRS-001)
+wa-wamex,download,https://wamex.dmp.wa.gov.au/Wamex,none,Report search and download; map search through GeoVIEW
+sa-sarig,viewer,https://map.sarig.sa.gov.au,none,
+sa-sarig,bulk-download,https://pid.sarig.sa.gov.au/dataset/mesac1017,none,"SARIG data packages, updated yearly in June or July"
+qld-gsq-open-data-portal,download,https://geoscience.data.qld.gov.au,none,The portal can be used without registering; it says it offers open API access but does not name the API
+qld-georesglobe,viewer,https://georesglobe.information.qld.gov.au/,none,Logging in is optional and saves your work
+qld-georesglobe,arcgis-rest,https://spatial-gis.information.qld.gov.au/arcgis/rest/services/GeoscientificInformation/GeologyDetailed/MapServer,none,"Detailed 1:100 000 geology and structure; the GeoscientificInformation folder also holds GeologyState, Boreholes, Geophysics, MiningResources and ReportIndex"
+qld-georesglobe,arcgis-rest,https://spatial-gis.information.qld.gov.au/arcgis/rest/services/GeoscientificInformation/Boreholes/MapServer,none,
+qld-georesglobe,arcgis-rest,https://spatial-gis.information.qld.gov.au/arcgis/rest/services/GeoscientificInformation/GeophysicalImagery/MapServer,none,"Statewide TMI, RTP, radiometric and Bouguer gravity images"
+nsw-digs,download,https://search.geoscience.nsw.gov.au,none,
+nsw-minview,viewer,https://minview.geoscience.nsw.gov.au,none,
+nsw-minview,download,https://minview.geoscience.nsw.gov.au,none,Downloads for all of NSW or clipped to the map view; an account is only needed for alerts and saved views
+vic-geovic,viewer,https://resources.vic.gov.au/geology-and-data/maps-reports-data/geovic,none,
+vic-geovic,download,https://discover.data.vic.gov.au/dataset/boreholes-from-earth-resources-database,none,"Borehole locations from the Earth Resources database on the Victorian datamart (shapefile, GDB, MapInfo and others)"
+vic-geovic,wfs,https://opendata.maps.vic.gov.au/geoserver/wfs,none,"Victorian open data WFS, including the bores layer"
+tas-mrt,download,https://mrt.tas.gov.au/products/digital_data,none,
+tas-mrt,wms,https://www.mrt.tas.gov.au/web-services/ows,none,
+tas-mrt,wfs,https://www.mrt.tas.gov.au/web-services/ows,none,"Borehole, geoscience, tenement and geohazard layers"
+nt-gemis,download,https://geoscience.nt.gov.au/gemis/,none,
+nt-strike,viewer,https://nt.gov.au/industry/geoscience/online-geoscience-information-systems,none,
+ca-cdogs,viewer,https://geochem.nrcan.gc.ca/indexmap/content/mapserver/main_e.phtml,none,Index map of survey extents
+ca-cdogs,download,https://geochem.nrcan.gc.ca/cdogs/content/main/home_en.htm,none,"Per-survey data, periodic-table search and index tables"
+ca-cdogs,wms,https://geochem.nrcan.gc.ca/cgi-bin/GSC_Geochemistry/wms,none,"Survey index layers only, not the analytical data"
+ca-gdr,download,https://geophysical-data.canada.ca/portal,none,"Search by drawn area, province or territory, NTS sheet, coordinates or keyword"
+ca-ostr,download,https://ostrnrcan-dostrncan.canada.ca,none,
+bc-aris,viewer,https://apps.nrs.gov.bc.ca/pub/aris/,none,"Search by report number, owner, operator, property, mining division, map sheet, MINFILE number or work type"
+bc-aris,wms,https://openmaps.gov.bc.ca/geo/pub/WHSE_MINERAL_TENURE.ARIS_MINERAL_REPORTS/ows,none,
+bc-aris,wfs,https://openmaps.gov.bc.ca/geo/pub/WHSE_MINERAL_TENURE.ARIS_MINERAL_REPORTS/ows,none,Report locations and index fields
+bc-aris-drillholes,download,https://cmscontent.nrs.gov.bc.ca/geoscience/PublicationCatalogue/GeoFile/BCGS_GF2026-11.zip,none,"2026 update, about 106 MB, holds ardh_data_release_2026.gpkg and the GeoFile PDF"
+bc-aris-drillholes,download,https://cmscontent.nrs.gov.bc.ca/geoscience/PublicationCatalogue/GeoFile/BCGS_GF2025-11.pdf,none,Initial 2025 release (GeoFile 2025-11)
+bc-minfile,viewer,https://minfile.gov.bc.ca/searchbasic.aspx,none,Basic and advanced search
+bc-minfile,bulk-download,https://minfile.gov.bc.ca/publish/minfilepc.zip,none,MINFILE_pc database
+bc-minfile,wms,https://openmaps.gov.bc.ca/geo/pub/WHSE_MINERAL_TENURE.MINFIL_MINERAL_FILE/ows,none,
+bc-minfile,wfs,https://openmaps.gov.bc.ca/geo/pub/WHSE_MINERAL_TENURE.MINFIL_MINERAL_FILE/ows,none,Layer pub:WHSE_MINERAL_TENURE.MINFIL_MINERAL_FILE
+bc-mapplace,viewer,http://apps.empr.gov.bc.ca/pub/mapplace/mp2/fusion/templates/mapguide/slate/index.html?ApplicationDefinition=Library://mp2.ApplicationDefinition&locale=en,none,
+bc-mapplace,wms,http://apps.empr.gov.bc.ca/geoserver/cgi/ows,none,"Bedrock geology and 1:250,000 mineral occurrences"
+bc-mapplace,wfs,http://apps.empr.gov.bc.ca/geoserver/cgi/ows,none,
+yt-ygs-data,viewer,https://data.geology.gov.yk.ca,none,
+yt-ygs-data,bulk-download,https://ygsftp.gov.yk.ca/YGSIDS/compilations/Minfile/,none,MINFILE compilation files
+yt-ygs-data,arcgis-rest,https://mapservices.gov.yk.ca/arcgis/rest/services/GeoYukon/GY_Geological/MapServer,none,"Geochemistry (RGS, assessment report and lithogeochemistry), mineral occurrences, drillhole locations, geochronology, rock properties, bedrock and surficial geology"
+yt-ygs-data,arcgis-rest,https://mapservices.gov.yk.ca/arcgis/rest/services/GeoYukon/GY_Mining/MapServer,none,"Quartz, placer and coal tenure"
+nwt-ntgs-apps,viewer,https://app.nwtgeoscience.ca/Searching/ReferenceSearch.aspx,none,"References, including assessment reports; choose ""Assessment Report"" as the type"
+nwt-ntgs-apps,viewer,https://app.nwtgeoscience.ca/Searching/ShowingsSearch.aspx,none,Mineral showings (NORMIN)
+nwt-ntgs-apps,viewer,https://app.nwtgeoscience.ca/Searching/KANDDSearch.aspx,none,Kimberlite anomaly and drillhole data
+nwt-ntgs-apps,download,https://ntgs-open-data-ntgs.hub.arcgis.com,none,NTGS open data hub on ArcGIS Online
+nu-numin,viewer,https://nunavutgeoscience.ca/apps/showing/showQuery.php,none,Showings map and query
+nu-numin,viewer,https://nunavutgeoscience.ca/apps/ref/showQuery.php,none,Reference query
+nu-numin,download,https://nunavutgeoscience.ca/gateway/browseA.php,none,Gateway report search and download
+ab-mars,viewer,https://content.energy.alberta.ca/minerals/abmarsv2,none,
+ab-ags-mar-data,download,https://ags.aer.ca/publications/all-publications/dig-2024-0022,none,DIG 2024-0022 drillhole data; DIG 2024-0023 to 0027 hold the other datasets
+ab-ags-mar-data,download,https://geology-ags-aer.opendata.arcgis.com/,none,AGS open data portal for map data
+ab-ags-mar-data,viewer,https://experience.arcgis.com/experience/d813bc54fcde4e099de7b399f7145434/,none,"Alberta Geology, Minerals and Energy Infrastructure mapping application"
+sk-geods,viewer,https://geoscience-data-system.saskatchewan.ca/portal/apps/experiencebuilder/experience?id=b9ada8a933ee4e229f426a3d79480b8b,none,
+sk-geods,arcgis-rest,https://geoscience-data-system.saskatchewan.ca/arcgis/rest/services/P_GeoDS_DrillingPage_EM/MapServer,none,"Observation locations, samples, subsurface drilling, lithology, structure and mineral assessment layers"
+sk-geods,arcgis-rest,https://geoscience-data-system.saskatchewan.ca/arcgis/rest/services/P_GeoDS_AssessmentPage_EM/MapServer,none,
+sk-geoatlas,viewer,https://gisappl.saskatchewan.ca/Html5Ext/index.html?viewer=GeoAtlas,none,GeoAtlas
+sk-geoatlas,viewer,https://mineraldeposits.saskatchewan.ca/,none,Saskatchewan Mineral Deposit Index (SMDI)
+sk-geoatlas,download,https://mineral-assessment.saskatchewan.ca/Pages/BasePages/Main.aspx,none,SMAD text and map search; files zipped for download
+mb-map-gallery,viewer,https://rdmaps.gov.mb.ca/Html5Viewer/index.html?viewer=MapGallery_Geology.MapGallery,none,Geology map gallery
+mb-map-gallery,viewer,https://rdmaps.gov.mb.ca/Html5Viewer/index.html?viewer=MapGallery_Mining.MapGallery,none,"Mining map gallery (dispositions, assessment files, drillholes)"
+mb-map-gallery,arcgis-rest,https://rdmaps.gov.mb.ca/arcgis/rest/services/MapGallery/MG_GEOLOGY_CLIENT/MapServer,none,"Drillhole locations, assessment files, mineral tenure, geology, mineral occurrences, geochronology, kimberlite indicators"
+mb-map-gallery,download,https://www.manitoba.ca/iem/info/libmin/geofile5.zip,none,"GeoFile 5, updates to the Manitoba Mineral Deposits Database"
+mb-map-gallery,download,https://www.manitoba.ca/iem/geo/gis/databases.html,none,"Till geochemistry, lithogeochemistry, kimberlite indicator, geochronology and PGE databases"
+on-geologyontario,viewer,https://www.geologyontario.mines.gov.on.ca/,none,
+on-geologyontario,download,https://www.hub.geologyontario.mines.gov.on.ca/pages/assessment-files,none,GeologyOntario hub; assessment file PDFs and the assessment file database
+on-geologyontario,arcgis-rest,https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/GeologyOntario/GeologyOntario_Map/MapServer,none,"Mineral inventory, drill holes, technical file areas, abandoned mines, bedrock and Quaternary geology"
+on-geologyontario,wms,https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/GeologyOntario/GeologyOntario_Map/MapServer/WMSServer,none,
+on-odhd,download,https://www.geologyontario.mndm.gov.on.ca/mines/data/google/EDS013_rev/ODHD.kml,none,
+on-odhd,viewer,https://www.hub.geologyontario.mines.gov.on.ca/pages/drill-holes,none,
+qc-sigeom,viewer,https://sigeom.mines.gouv.qc.ca/signet/classes/I1102_indexAccueil?l=F,none,"Interactive map, EXAMINE document search and SIGÉOM à la carte"
+qc-sigeom,bulk-download,https://gq.mines.gouv.qc.ca/documents/SIGEOM/TOUTQC/FRA/,none,Whole-of-Quebec downloads by theme
+qc-sigeom,wms,https://servicesvectoriels.atlas.gouv.qc.ca/IDS_SGM_WMS/service.svc/get,none,"SIGÉOM vector layers (mining activity, geochronology, EXAMINE documents, geochemistry, geology and more)"
+qc-sigeom,wms,https://servicesgeo.atlas.gouv.qc.ca/ApolloCatalogWMSPublic/service.svc/get,none,Geophysics rasters; SIGÉOM links it with layers=Geophysique_MERN (Quebec surveys) and layers=Geophysique_FED (federal surveys)
+qc-sigeom,ckan,https://www.donneesquebec.ca/recherche/dataset/sondages,none,Diamond drillholes on Données Québec; 13 SIGÉOM datasets are listed there
+nb-nbgs-open-data,arcgis-rest,https://gis-erd-der.gnb.ca/server/rest/services/OpenData/NBGS_Exploration_Drillholes/MapServer,none,Drillhole collars from reports of work
+nb-nbgs-open-data,arcgis-rest,https://gis-erd-der.gnb.ca/server/rest/services/OpenData/NBGS_Mineral_Occurrences_Venues_minerales/MapServer,none,
+nb-nbgs-open-data,arcgis-rest,https://gis-erd-der.gnb.ca/server/rest/services/OpenData/NBGS_Reports_Of_Work/MapServer,none,"Further OpenData services cover trenches, claims, bedrock geology, geochronology and till"
+nb-nbgs-open-data,download,https://gnb.socrata.com/datasets/y6kx-pxd5,none,Mineral occurrences on the GNB open data portal
+ns-modb-drillholes,download,https://novascotia.ca/natr/meb/download/dp002.asp,none,"Mineral Occurrence Database DP ME 2, version 12, 2024"
+ns-modb-drillholes,download,https://novascotia.ca/natr/meb/download/dp003.asp,none,"Drillhole Database DP ME 3, version 6, 2023"
+ns-modb-drillholes,viewer,https://gesner.novascotia.ca/modb/queryView/querysearch.aspx,none,Online mineral occurrence search
+ns-modb-drillholes,arcgis-rest,https://services.arcgis.com/TS1HHBYLM10d1SZH/arcgis/rest/services/db_NS_Drillhole_Database__d003ns_UT83/FeatureServer,none,"Drillhole database, version 6"
+nl-geoscience-atlas,viewer,https://geoatlas.gov.nl.ca,none,GeoScience Atlas
+nl-geoscience-atlas,viewer,https://gis.geosurv.gov.nl.ca/mods/mods.asp,none,Mineral Occurrence Data System (MODS) query
+nl-geoscience-atlas,download,https://gis.geosurv.gov.nl.ca/minesen/geofiles/,none,GeoFiles search; full PDFs online where digitised
+nl-geoscience-atlas,email-request,https://gis.geosurv.gov.nl.ca/minesen/geofiles/,none,Accessory digital data and items not yet digitised are supplied on request to Geofiles@gov.nl.ca
+us-earth-mri,download,https://www.sciencebase.gov/catalog/items?q=&filter=tags%3DEarthMRI,none,ScienceBase items tagged EarthMRI (150 on the day checked)
+us-earth-mri,download,https://mrdata.usgs.gov/earthmri/geochemistry/,none,Earth MRI geochemistry as CSV and Access database
+us-earth-mri,wms,https://mrdata.usgs.gov/services/emri-project,none,Footprints of acquisition projects
+us-earth-mri,wfs,https://mrdata.usgs.gov/services/wfs/emri-project,none,Footprints of acquisition projects
+us-earth-mri,wms,https://mrdata.usgs.gov/services/earthmrichem,none,Earth MRI geochemistry samples
+us-mrdata,viewer,https://mrdata.usgs.gov/,none,
+us-mrdata,bulk-download,https://mrdata.usgs.gov/mrds/,none,MRDS as CSV or shapefile; NGDB rock at https://mrdata.usgs.gov/ngdb/rock/ and NURE-HSSR sediment at https://mrdata.usgs.gov/nure/sediment/
+us-mrdata,wms,https://mrdata.usgs.gov/services/mrds,none,MRDS
+us-mrdata,wfs,https://mrdata.usgs.gov/services/wfs/mrds,none,MRDS
+us-mrdata,wms,https://mrdata.usgs.gov/services/ngdbrock,none,NGDB rock geochemistry
+us-mrdata,wfs,https://mrdata.usgs.gov/services/wfs/ngdbrock,none,NGDB rock geochemistry
+us-mrdata,wms,https://mrdata.usgs.gov/services/nuresed,none,NURE-HSSR sediment; answers with WMS 1.1.1 capabilities
+us-mrdata,wfs,https://mrdata.usgs.gov/services/wfs/nuresed,none,NURE-HSSR sediment
+us-ngmdb,download,https://ngmdb.usgs.gov/ngm-bin/ngm_compsearch.pl,none,"Catalogue search by keyword, theme, location and publisher, with links to viewable documents and downloadable files"
+us-ngmdb,viewer,https://ngmdb.usgs.gov/mapview/,none,Selected maps from the catalogue; the interface is in beta
+us-geochemical-data-portal,viewer,https://alaska.usgs.gov/science/geology/geochem_portal/geochem_portal.html,none,
+us-geochemical-data-portal,bulk-download,https://doi.org/10.5066/P1FXE9GK,none,Whole data release on ScienceBase (about 0.3 to 0.65 GB zipped per format)
+us-usmin,viewer,https://mrdata.usgs.gov/deposit/map-us.html,none,
+us-usmin,download,https://mrdata.usgs.gov/deposit/,none,"Packages by commodity, hosted on ScienceBase"
+us-usmin,wms,https://mrdata.usgs.gov/services/deposit,none,
+us-usmin,wfs,https://mrdata.usgs.gov/services/wfs/deposit,none,
+nv-nbmg,download,https://data-nbmg.opendata.arcgis.com/,none,
+nv-nbmg,viewer,https://gisweb.unr.edu/MiningDistricts/,none,Mining districts map
+nv-nbmg,download,https://collections.nbmg.unr.edu/pages/themes.php?simpleview=true&theme1=Mining+District+Files,none,"Mining district files, scanned PDF"
+nv-nbmg,arcgis-rest,https://gisweb.unr.edu/nbmg/rest/services,none,"MineralsAndEnergy folder includes mining districts, active mines and MRDS for Nevada"
+az-azgs,download,https://library.azgs.arizona.edu/,none,Document repository
+az-azgs,download,https://mininginfo.azgs.arizona.edu/,none,ADMMR mining files
+az-azgs,api,https://data.azgs.arizona.edu/api/v1,none,JSON metadata and collection downloads for both
+ak-dggs,viewer,https://maps.dggs.alaska.gov/geochem/,none,Search results download as zipped CSV; an empty search returns the whole dataset
+ak-dggs,download,https://dggs.alaska.gov/geophysics/get-data.html,none,"Airborne geophysical survey list with links to view, download or order data"
+ak-dggs,viewer,https://maps.dggs.alaska.gov/gmc/,none,Geologic Materials Center inventory
+ak-dggs,arcgis-rest,https://geoportal.dggs.dnr.alaska.gov/arcgis/rest/services,none,
+ak-ardf,viewer,https://mrdata.usgs.gov/ardf/map-ak.html,none,
+ak-ardf,download,https://mrdata.usgs.gov/ardf/,none,
+ak-ardf,wms,https://mrdata.usgs.gov/services/ardf,none,
+ak-ardf,wfs,https://mrdata.usgs.gov/services/wfs/ardf,none,
+mn-dnr-minerals,download,https://gis.data.mn.gov/datasets/ff548af5cbba4259966882b17539ce82,none,Boring hole locations
+mn-dnr-minerals,arcgis-rest,https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_dnr/geos_boring_hole_locations/FeatureServer,none,
+mn-dnr-minerals,download,https://gis.data.mn.gov/datasets/3242279480c24fb797c85211414e84c8,none,"Minarchive exploration document footprints, linked to the online documents"
+id-igs-mines,viewer,https://www.idahogeology.org/webmap/?show=mines,none,
+id-igs-mines,bulk-download,https://www.idahogeology.org/pub/Digital_Data/Digital_Databases/MinesPubDD-1_2023.zip,none,"Database, metadata, shapefile, map projects and KMZ (about 27 MB)"
+id-igs-mines,order,https://www.idahogeology.org/geologic-resources/mines-minerals/mineral-property-files,paid,"Scanned mineral property files as PDF, $10 per order plus $0.50 a sheet"
+mt-mbmg,download,https://mbmg.mtech.edu/mbmgcat/public/BrowseCatalog.asp,none,"Choose ""AD - Analytical Dataset"" to list the datasets"
+mt-mbmg,viewer,https://gis-data-hub-mbmg.hub.arcgis.com/,none,
+mi-dnr-mineral-leases,download,https://gis-michigan.opendata.arcgis.com/maps/midnr::michigan-dnr-mineral-leases,none,
+mi-dnr-mineral-leases,arcgis-rest,https://services3.arcgis.com/Jdnp1TjADvSDxMAX/ArcGIS/rest/services/DNRLOTSParcelsOPENDATA/FeatureServer,none,"Layer 6 leases, 7 lease nominations, 1 parcel lease classification"
+mi-mgs-mgrre,viewer,https://experience.arcgis.com/experience/542473a7826f4cc6a09644d752b29498,none,Michigan Borehole Inventory
+mi-mgs-mgrre,download,https://mgs.wmich.edu/michigan-geological-repository-for-research-and-education/geological-data/core-specimens/,none,Core inventory and core box photo inventory
+mi-mgs-mgrre,download,https://michigan-geological-survey-hub-wmugeography.hub.arcgis.com/,none,"GIS map datasets, mostly county geology"
+gb-bgs-geoindex,viewer,https://mapapps2.bgs.ac.uk/geoindex/home.html,none,
+gb-bgs-geoindex,wms,https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/boreholes/MapServer/WmsServer,none,"Borehole records, drillcore, geophysical logs, onshore hydrocarbon wells"
+gb-bgs-geoindex,wms,https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/geochemistry/MapServer/WmsServer,none,"Stream sediment, stream water, soil, rock and panned drainage sample locations"
+gb-bgs-geoindex,wms,https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/geophysics/MapServer/WmsServer,none,"Gravity and magnetic anomalies, airborne survey extents, survey lines, UKOGL seismic"
+gb-bgs-geoindex,wms,https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer,none,"Includes a Mineral.Occurrences layer, mineral resources and MEIGA (Mineral Exploration Investment Grants Act) areas"
+gb-bgs-geoindex,arcgis-rest,https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_Onshore/boreholes/MapServer,none,Other themes sit in the same GeoIndex_Onshore folder
+gb-bgs-opengeoscience,download,https://www.bgs.ac.uk/geological-data/opengeoscience/,none,
+gb-bgs-opengeoscience,wms,https://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows,none,"1:625,000 bedrock and superficial geology"
+gb-nir-gsni-geoindex,viewer,https://mapapps2.bgs.ac.uk/GSNI_Geoindex/home.html,none,
+gb-nir-gsni-geoindex,wms,https://map.bgs.ac.uk/arcgis/services/GeoIndex_GSNI/GSNI_Minerals/MapServer/WMSServer,none,"Mineral occurrences to 2000, gold in stream sediments, mineral resources, mineral licence applications, mining and petroleum licences"
+gb-nir-gsni-geoindex,wms,https://map.bgs.ac.uk/arcgis/services/GeoIndex_GSNI/GSNI_Geophysics/MapServer/WMSServer,none,"Tellus 2005-2006 magnetics, electromagnetics and radiometrics; 1959 regional magnetics; combined gravity"
+gb-nir-gsni-geoindex,arcgis-rest,https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_GSNI/GSNI_Minerals/MapServer,none,"Geochemistry, geology, hydrogeology and enquiries services sit in the same GeoIndex_GSNI folder"
+gb-nir-tellus-opendatani,ckan,https://admin.opendatani.gov.uk/api/3/action/package_search?fq=organization:geological-survey-of-northern-ireland,none,12 GSNI datasets on 2026-11-06
+gb-nir-tellus-opendatani,download,https://resources.bgs.ac.uk/gsni/geophysics/Magnetics.zip,none,Tellus magnetic line data (XYZ); other files are linked from each dataset record
+ie-gsi-minerals,viewer,https://experience.arcgis.com/experience/73a4c33e9e7e4e5a857f47cd1b50d700,none,
+ie-gsi-minerals,download,https://gsi.geodata.gov.ie/downloads/Minerals/Data/IE_GSI_Mineral_Locations_IE26_ITM.zip,none,Mineral localities
+ie-gsi-minerals,download,https://gsi.geodata.gov.ie/downloads/Minerals/Data/IE_GSI_Mineral_Exploration_Boreholes_50K_IE26_ITM.zip,none,Mineral exploration boreholes (shapefile); an Excel version is also offered
+ie-gsi-minerals,wms,https://gsi.geodata.gov.ie/server/services/Minerals/IE_GSI_Mineral_Exploration_Boreholes_50K_IE26_ITM/MapServer/WMSServer,none,
+ie-gsi-minerals,arcgis-rest,https://gsi.geodata.gov.ie/server/rest/services/Minerals/IE_GSI_Mineral_Locations_IE26_ITM/MapServer,none,"Other minerals services, including the boreholes, are in the same Minerals folder"
+ie-gsi-minerals,viewer,https://experience.arcgis.com/experience/a186544ca13f491cb25cb4721f19c948/page/Home,none,"Mineral Exploration and Mining web applications, linked from the Exploration Records section"
+ie-gsi-tellus,download,https://gsi.ie/data-and-maps/geophysics/,none,Tellus survey blocks and the 2022 merged dataset
+ie-gsi-tellus,download,https://gsi.ie/data-and-maps/geochemistry/,none,
+ie-gsi-tellus,arcgis-rest,https://gsi.geodata.gov.ie/server/rest/services/Geophysics/IE_GSI_GSNI_Magnetic_Intensity_50m_IE32_ITM_GRID/MapServer,none,"Other magnetic, radiometric and EM grids are in the same Geophysics folder"
+ie-gsi-tellus,wms,https://gsi.geodata.gov.ie/server/services/Geochemistry/IE_GSI_GSNI_Geochemistry_Shallow_Topsoil_A_ICPar_IE32_ITM/MapServer/WMSServer,none,Shallow topsoil geochemistry
+se-sgu,viewer,https://apps.sgu.se/kartvisare/index-en.html,none,
+se-sgu,bulk-download,https://resource.sgu.se/data/oppnadata/mineralresurser/mineralresurser.zip,none,Mineral and bedrock occurrences (GeoPackage); each product page has its own zip
+se-sgu,ogc-api,https://api.sgu.se/oppnadata/mineralresurser/ogc/features/v1,none,Mineral and bedrock occurrences
+se-sgu,ogc-api,https://api.sgu.se/oppnadata/borrhal/ogc/features/v1,none,Boreholes
+se-sgu,wms,https://resource.sgu.se/service/wms/130/mineralresurser,none,
+se-sgu,wms,https://resource.sgu.se/service/wms/130/borrkarnor,none,Boreholes and drill cores
+fi-gtk-hakku,download,https://hakku.gtk.fi/en,none,
+fi-gtk-hakku,order,https://hakku.gtk.fi/en,paid,"Area-selected drill core analyses, core logging and bedrock drilling petrophysics are sold; printed publications too"
+fi-gtk-mdae,viewer,https://gtkdata.gtk.fi/mdae/,none,
+fi-gtk-mdae,arcgis-rest,https://gtkdata.gtk.fi/arcgis/rest/services/MDaE/Mines_deposits_waste/MapServer,none,"Mines, deposits and extractive waste; dated exploration and geophysics services are in the same MDaE folder"
+fi-gtk-mdae,wms,https://gtkdata.gtk.fi/arcgis/services/Rajapinnat/GTK_Geofysiikka_WMS/MapServer/WMSServer,none,GTK geophysics WMS (Finnish layer names)
+no-ngu-geoscience-portal,viewer,https://geo.ngu.no/geoscienceportalopen/search,none,
+no-ngu-geoscience-portal,download,https://geo.ngu.no/geoscienceportalopen/search,none,"Download manager, zipped data packages or GeoTIFF"
+no-ngu-geoscience-portal,wms,https://geo.ngu.no/mapserver/GeofysikkWMS4,none,"Petrophysics, gravity and magnetics (Norwegian layer names)"
+no-ngu-mineral-resources,viewer,https://geo.ngu.no/kart/mineralressurser_mobil/?lang=eng,none,
+no-ngu-mineral-resources,wms,https://geo.ngu.no/mapserver/MetalsWMS2,none,
+no-ngu-mineral-resources,wms,https://geo.ngu.no/mapserver/IndustrialMineralsWMS3,none,
+no-ngu-mineral-resources,download,https://kartkatalog.geonorge.no/metadata/mineralressurser-industrimineral-naturstein-og-metaller/5a887d78-07ef-44c6-8941-cb8017c6328c,none,"Geonorge download, by country or county"
+gl-geus-dataverse,download,https://dataverse.geus.dk/dataverse/greenland_data_centre,none,
+gl-geus-dataverse,api,https://dataverse.geus.dk/api/search?q=greenland&type=dataset,none,Dataverse search and file access API
+gl-geus-gmom,viewer,https://data.geus.dk/geusmap/?mapname=greenland_portal&lang=en,none,
+gl-geus-gmom,wms,https://data.geus.dk/geusmap/ows/32624.jsp,none,Layer mineral_occurrences_v3_external
+gl-geus-gmom,wfs,https://data.geus.dk/geusmap/ows/32624.jsp,none,Feature type mineral_occurrences_v3_external; GetFeature returns shapefile or GeoJSON
+sa-ngd,viewer,https://ngp.sgs.gov.sa/,none,
+sa-ngd,download,https://ngp.sgs.gov.sa/,free-registration,The portal's download tool asks the user to sign in before data are released
+sa-ngd,email-request,https://ngp.sgs.gov.sa/DataRequestForm.aspx?opt=newdatarequest,none,"Data request form for other datasets, with purpose, area and format"
+sa-sgs-report-library,viewer,https://ngdp.sgs.gov.sa/biblioapp/,none,Catalogue search; whether full reports can be downloaded was not confirmed
+sa-taadeen,viewer,https://taadeen.sa/en/mining-map,none,
+sa-taadeen,order,https://taadeen.sa/bidding,restricted,Bidding platform; licence services go through the MiningPortal login
+in-gsi-bhukosh,viewer,https://bhukosh.gsi.gov.in/Bhukosh/Public,none,
+in-gsi-bhukosh,download,https://bhukosh.gsi.gov.in/Bhukosh/Public,free-registration,Registered users search and add items to a unified download cart
+in-ngdr,viewer,https://geodataindia.gov.in/login,free-registration,"Whole site is behind a login, with username, password and OTP; a public sign-up form exists"
+in-ibm-nmi,order,https://ibm.gov.in/IBMPortal/pages/National-Mineral-Inventory,paid,"Orders by letter or email to the Chief Mineral Economist, Nagpur; payment by demand draft or cheque"
+in-ibm-nmi,download,https://ibm.gov.in/IBMPortal/pages/National-Mineral-Inventory,none,"NMI At a Glance (2015, 2020, 2025) and overview summaries"

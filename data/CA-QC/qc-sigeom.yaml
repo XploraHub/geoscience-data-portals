@@ -1,0 +1,45 @@
+id: qc-sigeom
+name: SIGÉOM (Système d'information géominière du Québec)
+agency: Ministère des Ressources naturelles et des Forêts du Québec (Géologie Québec)
+jurisdiction: CA-QC
+level: province
+homepage: https://sigeom.mines.gouv.qc.ca
+status: active
+summary: Quebec's geomining information system, with 150 years of geoscience data, including geological mapping, mineral occurrences, diamond drillholes, geochemistry, geochronology, geophysics and over 80,000 EXAMINE documents including assessment reports.
+language: [fr, en]
+data_types: [geological-maps, mineral-occurrences, drillholes, surface-geochemistry, geochronology, magnetics, radiometrics, electromagnetics, petrophysics, company-reports, publications]
+formats: [shapefile, FGDB, GeoPackage, CSV]
+access:
+  - method: viewer
+    url: https://sigeom.mines.gouv.qc.ca/signet/classes/I1102_indexAccueil?l=F
+    auth: none
+    notes: Interactive map, EXAMINE document search and SIGÉOM à la carte
+  - method: bulk-download
+    url: https://gq.mines.gouv.qc.ca/documents/SIGEOM/TOUTQC/FRA/
+    auth: none
+    notes: Whole-of-Quebec downloads by theme
+  - method: wms
+    url: https://servicesvectoriels.atlas.gouv.qc.ca/IDS_SGM_WMS/service.svc/get
+    auth: none
+    notes: SIGÉOM vector layers (mining activity, geochronology, EXAMINE documents, geochemistry, geology and more)
+  - method: wms
+    url: https://servicesgeo.atlas.gouv.qc.ca/ApolloCatalogWMSPublic/service.svc/get
+    auth: none
+    notes: Geophysics rasters; SIGÉOM links it with layers=Geophysique_MERN (Quebec surveys) and layers=Geophysique_FED (federal surveys)
+  - method: ckan
+    url: https://www.donneesquebec.ca/recherche/dataset/sondages
+    auth: none
+    notes: Diamond drillholes on Données Québec; 13 SIGÉOM datasets are listed there
+licence:
+  id: CC-BY-4.0
+  url: https://www.donneesquebec.ca/licence/#cc-by
+  notes: As given on the SIGÉOM datasets at Données Québec.
+caveats:
+  - The site opens in French; an English interface is at ?l=A. The theme downloads linked here are the French-language (FRA) versions.
+  - The drillhole dataset covers diamond drilling only.
+sources:
+  - https://sigeom.mines.gouv.qc.ca/signet/classes/I1102_indexAccueil?l=F
+  - https://www.donneesquebec.ca/recherche/dataset/sondages
+  - https://servicesvectoriels.atlas.gouv.qc.ca/IDS_SGM_WMS/service.svc/get?service=WMS&request=GetCapabilities
+last_verified: 2026-11-06
+verified_by: XploraHub

@@ -1,0 +1,24 @@
+id: nsw-minview
+name: MinView
+agency: Geological Survey of New South Wales
+jurisdiction: AU-NSW
+level: state
+homepage: https://minview.geoscience.nsw.gov.au
+status: active
+summary: Web map with over 500 layers for New South Wales geology, mineral occurrences, drillholes, geochemistry, geophysics and titles, with downloads.
+data_types: [geological-maps, mineral-occurrences, drillholes, drillhole-assays, surface-geochemistry, magnetics, gravity, radiometrics, seismic, geochronology, tenements]
+access:
+  - method: viewer
+    url: https://minview.geoscience.nsw.gov.au
+    auth: none
+  - method: download
+    url: https://minview.geoscience.nsw.gov.au
+    auth: none
+    notes: Downloads for all of NSW or clipped to the map view; an account is only needed for alerts and saved views
+licence:
+  id: CC-BY-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+sources:
+  - https://resources.nsw.gov.au/geological-survey/minview
+last_verified: 2026-11-06
+verified_by: XploraHub

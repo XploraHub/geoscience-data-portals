@@ -1,0 +1,25 @@
+id: wa-geoview
+name: GeoVIEW.WA
+agency: Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)
+jurisdiction: AU-WA
+level: state
+homepage: https://www.wa.gov.au/service/natural-resources/mineral-resources/search-geoscience-and-titles-information-geoviewwa
+status: active
+summary: GSWA's interactive map of statewide geology and resource data, with mines, mineral deposits, petroleum wells and active leases, and searches for GSWA products, WAMEX reports, drillholes, geochemistry, geochronology and historical tenement maps.
+data_types: [geological-maps, mineral-occurrences, drillholes, surface-geochemistry, geochronology, tenements, company-reports, publications]
+formats: [shapefile, ESRI file geodatabase]
+access:
+  - method: viewer
+    url: https://geoview.dmp.wa.gov.au/geoview/?Viewer=GeoView
+    auth: none
+  - method: download
+    url: https://geoview.dmp.wa.gov.au/geoview/index.html?viewer=geoview&run=Extract_Tool
+    auth: none
+    notes: Extract data tool exports selected layers for a map area to shapefile or file geodatabase
+licence:
+  id: unstated
+  url: https://www.wa.gov.au/terms-of-use
+sources:
+  - https://www.wa.gov.au/service/natural-resources/mineral-resources/search-geoscience-and-titles-information-geoviewwa
+last_verified: 2026-11-06
+verified_by: XploraHub

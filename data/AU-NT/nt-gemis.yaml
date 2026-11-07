@@ -1,0 +1,24 @@
+id: nt-gemis
+name: GEMIS
+agency: Northern Territory Geological Survey
+jurisdiction: AU-NT
+level: territory
+homepage: https://geoscience.nt.gov.au/gemis/
+status: active
+summary: Repository for Northern Territory open-file company reports and survey data packages, including the DIP001 drillhole and geochemistry compilation (about 2.3 million assay records).
+data_types: [company-reports, drillholes, drillhole-assays, surface-geochemistry, magnetics, publications]
+access:
+  - method: download
+    url: https://geoscience.nt.gov.au/gemis/
+    auth: none
+licence:
+  id: unstated
+  notes: GEMIS items are copyright unless stated; data packages carry their own licence folder.
+caveats:
+  - Drillhole assays, downhole surveys and raw geochemistry are only in the DIP001 package on GEMIS, not on STRIKE.
+  - DIP001 is updated about twice a year as legacy reports are captured.
+sources:
+  - https://geoscience.nt.gov.au/gemis/ntgsjspui/handle/1/94622
+  - https://resourcingtheterritory.nt.gov.au/news-and-events/news/2024/legacy-data-capture-complete-over-darwin-1250-000-map-sheet
+last_verified: 2026-11-06
+verified_by: XploraHub

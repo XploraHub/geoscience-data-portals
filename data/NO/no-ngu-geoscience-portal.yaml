@@ -1,0 +1,35 @@
+id: no-ngu-geoscience-portal
+name: NGU Geoscience Portal
+agency: Geological Survey of Norway (NGU)
+jurisdiction: "NO"
+level: national
+homepage: https://geo.ngu.no/geoscienceportalopen/search
+status: active
+summary: NGU's access point for airborne magnetics, radiometrics, resistivity, FDEM and VLF surveys, petrophysics and gravity in Norway, with survey metadata, compilations and a download manager.
+language: ["no", en]
+data_types: [magnetics, radiometrics, electromagnetics, gravity, petrophysics]
+formats: [Geosoft GRD, ERMapper ERS, GeoTIFF]
+access:
+  - method: viewer
+    url: https://geo.ngu.no/geoscienceportalopen/search
+    auth: none
+  - method: download
+    url: https://geo.ngu.no/geoscienceportalopen/search
+    auth: none
+    notes: Download manager, zipped data packages or GeoTIFF
+  - method: wms
+    url: https://geo.ngu.no/mapserver/GeofysikkWMS4
+    auth: none
+    notes: Petrophysics, gravity and magnetics (Norwegian layer names)
+licence:
+  id: NLOD-2.0
+  url: https://data.norge.no/nlod/en/2.0/
+  notes: The portal's terms and conditions link to the Norwegian Licence for Open Government Data (NLOD) 2.0; users must accept them.
+caveats:
+  - The portal is a JavaScript application; content was read from its search page and NGU's description page.
+sources:
+  - https://geo.ngu.no/geoscienceportalopen/search
+  - https://www.ngu.no/en/geological-resources/ngu-geoscience-portal
+  - https://www.ngu.no/en/geologiske-kart/karttjenester
+last_verified: 2026-11-06
+verified_by: XploraHub

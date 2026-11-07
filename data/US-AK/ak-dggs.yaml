@@ -1,0 +1,40 @@
+id: ak-dggs
+name: Alaska DGGS geochemistry, geophysics and Geologic Materials Center
+agency: Alaska Division of Geological & Geophysical Surveys
+jurisdiction: US-AK
+level: state
+homepage: https://dggs.alaska.gov/maps-data/interactive-maps.html
+status: active
+summary: Alaska's state survey data, including a searchable geochemistry tool drawn from DGGS, U.S. Bureau of Mines, BLM and USGS publications, airborne geophysical surveys, and the inventory of the Geologic Materials Center sample repository.
+data_types: [surface-geochemistry, magnetics, electromagnetics, radiometrics, gravity, core-library, publications]
+formats: [CSV]
+access:
+  - method: viewer
+    url: https://maps.dggs.alaska.gov/geochem/
+    auth: none
+    notes: Search results download as zipped CSV; an empty search returns the whole dataset
+  - method: download
+    url: https://dggs.alaska.gov/geophysics/get-data.html
+    auth: none
+    notes: Airborne geophysical survey list with links to view, download or order data
+  - method: viewer
+    url: https://maps.dggs.alaska.gov/gmc/
+    auth: none
+    notes: Geologic Materials Center inventory
+  - method: arcgis-rest
+    url: https://geoportal.dggs.dnr.alaska.gov/arcgis/rest/services
+    auth: none
+licence:
+  id: unstated
+caveats:
+  - The geochemistry tool gives raw data; best values are not selected where a sample was analysed more than once.
+  - Below and above detection limit results are coded as -1 and -2 so the values stay numeric.
+  - The Geophysical_Surveys feature and map services timed out when tested, and the geophysics_grids image service requires a token.
+  - Geologic Materials Center viewing and sampling may carry fees estimated by staff; sampling needs a proposal approved by the curator.
+sources:
+  - https://dggs.alaska.gov/maps-data/interactive-maps.html
+  - https://maps.dggs.alaska.gov/geochem/help.html
+  - https://dggs.alaska.gov/geophysics/get-data.html
+  - https://dggs.alaska.gov/gmc/access-samples.html
+last_verified: 2026-11-06
+verified_by: XploraHub

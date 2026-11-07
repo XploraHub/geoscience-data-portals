@@ -1,0 +1,25 @@
+id: in-ngdr
+name: National Geoscience Data Repository (NGDR)
+agency: Geological Survey of India, Ministry of Mines
+jurisdiction: IN
+level: national
+homepage: https://geodataindia.gov.in/
+status: active
+summary: India's repository for exploration geoscience data under the National Mineral Exploration Policy 2016, with legacy and exploration block data standardised to the MERT template and searchable by state, commodity, agency and stage.
+data_types: [geological-maps, surface-geochemistry, magnetics, gravity, drillholes, company-reports]
+access:
+  - method: viewer
+    url: https://geodataindia.gov.in/login
+    auth: free-registration
+    notes: Whole site is behind a login, with username, password and OTP; a public sign-up form exists
+licence:
+  id: unstated
+caveats:
+  - Nothing can be seen without an account. Whether accounts are free and open to all was not confirmed from the site.
+  - News and summaries describe it as open access after registration and say 35 map services are included; these come from secondary reports.
+  - New modules handle data submission for auctionable exploration blocks.
+sources:
+  - https://geodataindia.gov.in/login
+  - https://psuwatch.com/newsupdates/joshi-launches-indias-national-geoscience-data-repository-ngdr-portal
+last_verified: 2026-11-06
+verified_by: XploraHub

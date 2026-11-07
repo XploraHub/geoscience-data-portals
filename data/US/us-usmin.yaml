@@ -1,0 +1,37 @@
+id: us-usmin
+name: USMIN Mineral Deposit Database
+agency: U.S. Geological Survey
+jurisdiction: US
+level: national
+homepage: https://mrdata.usgs.gov/deposit/
+status: active
+summary: A developing national database of the most important mines, mineral deposits and mineral districts of the United States, released commodity by commodity (cobalt, gallium, lithium, tungsten and others) with map, OGC services and downloads.
+data_types: [mineral-occurrences]
+formats: [file geodatabase, shapefile, CSV, KML, KMZ]
+access:
+  - method: viewer
+    url: https://mrdata.usgs.gov/deposit/map-us.html
+    auth: none
+  - method: download
+    url: https://mrdata.usgs.gov/deposit/
+    auth: none
+    notes: Packages by commodity, hosted on ScienceBase
+  - method: wms
+    url: https://mrdata.usgs.gov/services/deposit
+    auth: none
+  - method: wfs
+    url: https://mrdata.usgs.gov/services/wfs/deposit
+    auth: none
+licence:
+  id: LicenseRef-US-Public-Domain
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+aggregated_by: [sciencebase]
+caveats:
+  - The database is still being built; the download page lists 12 commodities so far, each with its own package and metadata.
+  - USMIN also covers prospect- and mine-related features digitised from historical USGS topographic maps, a separate product at https://mrdata.usgs.gov/usmin/.
+sources:
+  - https://mrdata.usgs.gov/deposit/
+  - https://mrdata.usgs.gov/
+  - https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+last_verified: 2026-11-06
+verified_by: XploraHub

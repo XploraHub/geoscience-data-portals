@@ -1,0 +1,29 @@
+id: mt-mbmg
+name: Montana Bureau of Mines and Geology publications and analytical datasets
+agency: Montana Bureau of Mines and Geology (Montana Technological University)
+jurisdiction: US-MT
+level: state
+homepage: https://mbmg.mtech.edu/mbmgcat/public/BrowseCatalog.asp
+status: active
+summary: Montana's state survey catalogue of publications and maps, including a free Analytical Dataset series with whole-rock assays from mines, mine waste and rare earth deposits, and U-Pb geochronology, each with a DOI.
+data_types: [surface-geochemistry, geochronology, publications, geological-maps]
+access:
+  - method: download
+    url: https://mbmg.mtech.edu/mbmgcat/public/BrowseCatalog.asp
+    auth: none
+    notes: Choose "AD - Analytical Dataset" to list the datasets
+  - method: viewer
+    url: https://gis-data-hub-mbmg.hub.arcgis.com/
+    auth: none
+licence:
+  id: unstated
+caveats:
+  - Several analytical datasets are labelled preliminary data releases.
+  - Many older bulletins and reports in the catalogue are priced, not free.
+  - The GIS hub holds web maps and apps, such as abandoned and inactive mines, rather than downloadable datasets.
+sources:
+  - https://mbmg.mtech.edu/mbmgcat/public/BrowseCatalog.asp
+  - https://mbmg.mtech.edu/mbmgcat/public/ListCitation.asp?pub_id=32682
+  - https://gis-data-hub-mbmg.hub.arcgis.com/
+last_verified: 2026-11-06
+verified_by: XploraHub

@@ -1,0 +1,25 @@
+name: New portal
+description: Suggest a government geoscience data portal
+labels: [new-portal]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Portal name and agency
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Address
+    validations:
+      required: true
+  - type: textarea
+    id: holds
+    attributes:
+      label: What it holds and how to get it
+      description: For example drillholes and assays as CSV, airborne magnetics as grids, a WMS, a login
+  - type: input
+    id: licence
+    attributes:
+      label: Licence, if stated

@@ -1,0 +1,36 @@
+id: ab-ags-mar-data
+name: Data extracted from Alberta mineral assessment reports (AGS)
+agency: Alberta Geological Survey (Alberta Energy Regulator)
+jurisdiction: CA-AB
+level: province
+homepage: https://ags.aer.ca/our-science/mineral-resources/mineral-exploration
+status: active
+summary: Alberta Geological Survey datasets digitised from 328 mineral assessment reports, including over 5,300 drillholes with collars, intervals and assays, plus outcrop, sediment, water and gamma-ray data.
+data_types: [drillholes, drillhole-assays, surface-geochemistry, radiometrics, company-reports]
+formats: [tab-delimited text]
+access:
+  - method: download
+    url: https://ags.aer.ca/publications/all-publications/dig-2024-0022
+    auth: none
+    notes: DIG 2024-0022 drillhole data; DIG 2024-0023 to 0027 hold the other datasets
+  - method: download
+    url: https://geology-ags-aer.opendata.arcgis.com/
+    auth: none
+    notes: AGS open data portal for map data
+  - method: viewer
+    url: https://experience.arcgis.com/experience/d813bc54fcde4e099de7b399f7145434/
+    auth: none
+    notes: Alberta Geology, Minerals and Energy Infrastructure mapping application
+licence:
+  id: LicenseRef-OGL-Alberta
+  url: https://open.alberta.ca/licence
+  notes: The AGS copyright statement says site material is covered by the Open Government Licence – Alberta.
+caveats:
+  - Data were captured as is from the reports and may hold transcription or unit-conversion errors; AGS advises checking the original reports.
+  - The drillhole compilation covers 167 reports from 1954 to 2022.
+sources:
+  - https://ags.aer.ca/our-science/mineral-resources/mineral-exploration
+  - https://ags.aer.ca/publications/all-publications/dig-2024-0022
+  - https://ags.aer.ca/copyright-legal-disclaimers
+last_verified: 2026-11-06
+verified_by: XploraHub

@@ -1,0 +1,35 @@
+id: mi-mgs-mgrre
+name: Michigan Geological Repository for Research and Education (MGRRE)
+agency: Michigan Geological Survey (Western Michigan University)
+jurisdiction: US-MI
+level: state
+homepage: https://mgs.wmich.edu/michigan-geological-repository-for-research-and-education
+status: active
+summary: Michigan's repository of more than 600,000 feet of core and cuttings and records from over 50,000 wells, with a borehole inventory map, inventory spreadsheets, core photos and 3D scans.
+data_types: [core-library, drillholes, geological-maps]
+formats: [XLSX]
+access:
+  - method: viewer
+    url: https://experience.arcgis.com/experience/542473a7826f4cc6a09644d752b29498
+    auth: none
+    notes: Michigan Borehole Inventory
+  - method: download
+    url: https://mgs.wmich.edu/michigan-geological-repository-for-research-and-education/geological-data/core-specimens/
+    auth: none
+    notes: Core inventory and core box photo inventory
+  - method: download
+    url: https://michigan-geological-survey-hub-wmugeography.hub.arcgis.com/
+    auth: none
+    notes: GIS map datasets, mostly county geology
+licence:
+  id: unstated
+caveats:
+  - From 1 July 2026 samples and data are not available on site while the repository moves to a new building.
+  - Most cores came from oil, gas and mineral exploration; Upper Peninsula cores are listed separately by the state agency EGLE.
+  - The core inventory gives location, API and permit numbers, well name, driller and depths, not analyses.
+sources:
+  - https://mgs.wmich.edu/michigan-geological-repository-for-research-and-education
+  - https://mgs.wmich.edu/michigan-geological-repository-for-research-and-education/geological-data/
+  - https://mgs.wmich.edu/michigan-geological-repository-for-research-and-education/geological-data/core-specimens/
+last_verified: 2026-11-06
+verified_by: XploraHub

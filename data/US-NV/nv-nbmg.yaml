@@ -1,0 +1,42 @@
+id: nv-nbmg
+name: Nevada Bureau of Mines and Geology data and mining district files
+agency: Nevada Bureau of Mines and Geology (University of Nevada, Reno)
+jurisdiction: US-NV
+level: state
+homepage: https://nbmg.unr.edu/Maps&Data/index.html
+status: active
+summary: Nevada's state survey data, with an open data site and map services for mines, mining districts, critical minerals and geochemistry, and scanned mining district files of historical maps, reports, assays and production records.
+data_types: [mineral-occurrences, company-reports, geological-maps, surface-geochemistry, publications]
+formats: [PDF]
+access:
+  - method: download
+    url: https://data-nbmg.opendata.arcgis.com/
+    auth: none
+  - method: viewer
+    url: https://gisweb.unr.edu/MiningDistricts/
+    auth: none
+    notes: Mining districts map
+  - method: download
+    url: https://collections.nbmg.unr.edu/pages/themes.php?simpleview=true&theme1=Mining+District+Files
+    auth: none
+    notes: Mining district files, scanned PDF
+  - method: arcgis-rest
+    url: https://gisweb.unr.edu/nbmg/rest/services
+    auth: none
+    notes: MineralsAndEnergy folder includes mining districts, active mines and MRDS for Nevada
+licence:
+  id: unstated
+  notes: Open data items differ; some state CC BY 4.0, some "All Rights Reserved" (University of Nevada, Reno), some none.
+caveats:
+  - Mining district files are scanned paper documents donated by individuals, companies and agencies; digitisation is ongoing.
+  - The simple mining districts search is being phased out and lacks the latest records; the collections database holds the full set.
+  - GIS data packages of published NBMG maps are generally sold, not free; the PDF maps are free.
+  - The geochemistry layers on the open data site are NURE-HSSR and National Geochemical Database soils, served from USGS data.
+sources:
+  - https://nbmg.unr.edu/Maps&Data/index.html
+  - https://nbmg.unr.edu/Collections/MiningDistricts/MiningDistricts.html
+  - https://nbmg.unr.edu/Minerals&Energy/index.html
+  - https://data-nbmg.opendata.arcgis.com/
+  - https://gisweb.unr.edu/nbmg/rest/services/MineralsAndEnergy
+last_verified: 2026-11-06
+verified_by: XploraHub

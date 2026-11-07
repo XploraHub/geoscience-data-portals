@@ -1,0 +1,32 @@
+id: tas-mrt
+name: Mineral Resources Tasmania digital data
+agency: Mineral Resources Tasmania
+jurisdiction: AU-TAS
+level: state
+homepage: https://mrt.tas.gov.au/products/digital_data
+status: active
+summary: Download catalogue and OGC services for Tasmanian geology, boreholes, samples and observations, airborne geophysics, mining leases and company reports.
+data_types: [geological-maps, drillholes, surface-geochemistry, magnetics, radiometrics, gravity, tenements, company-reports]
+access:
+  - method: download
+    url: https://mrt.tas.gov.au/products/digital_data
+    auth: none
+  - method: wms
+    url: https://www.mrt.tas.gov.au/web-services/ows
+    auth: none
+  - method: wfs
+    url: https://www.mrt.tas.gov.au/web-services/ows
+    auth: none
+    notes: Borehole, geoscience, tenement and geohazard layers
+licence:
+  id: CC-BY-3.0-AU
+  url: https://mrt.tas.gov.au/__data/assets/pdf_file/0009/447174/MRT_Creative_Commons.pdf
+  notes: MRT states CC BY 3.0 Australia and its own conditions of use; some data.gov.au mirrors say "Not Specified".
+aggregated_by: [auscope, data-gov-au]
+caveats:
+  - The MRT website blocks some automated access.
+sources:
+  - https://mrt.tas.gov.au/products/digital_data
+  - https://portal.auscope.org.au/geonetwork/srv/api/records/b91c9017e2e157a493f46142b36ead11541185de
+last_verified: 2026-11-06
+verified_by: XploraHub

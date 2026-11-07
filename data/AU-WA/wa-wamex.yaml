@@ -1,0 +1,25 @@
+id: wa-wamex
+name: WAMEX mineral exploration reports
+agency: Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)
+jurisdiction: AU-WA
+level: state
+homepage: https://wamex.dmp.wa.gov.au/Wamex
+status: active
+summary: Over 120,000 company exploration reports for Western Australia, of which more than 105,000 are public, with their raw drilling, geochemistry and 3D data.
+data_types: [company-reports, drillholes, surface-geochemistry, 3d-models]
+formats: [PDF, CSV]
+access:
+  - method: download
+    url: https://wamex.dmp.wa.gov.au/Wamex
+    auth: none
+    notes: Report search and download; map search through GeoVIEW
+licence:
+  id: unstated
+open_file_after: 5
+caveats:
+  - Reports are confidential for five years; current tenement holders can request confidential reports.
+  - Raw data is as the company submitted it, in many layouts.
+sources:
+  - https://wamex.dmp.wa.gov.au/Wamex
+last_verified: 2026-11-06
+verified_by: XploraHub

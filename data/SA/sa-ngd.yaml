@@ -1,0 +1,34 @@
+id: sa-ngd
+name: National Geological Database (NGD) and portal
+agency: Saudi Geological Survey
+jurisdiction: SA
+level: national
+homepage: https://ngd.sgs.gov.sa/
+status: active
+summary: Saudi Geological Survey database and map portal with geological maps, mineral occurrences (MODS), regional geochemistry, geophysics, boreholes and core library data, bibliography, relinquished licence data and mineral potential reports.
+language: [ar, en]
+data_types: [geological-maps, mineral-occurrences, surface-geochemistry, magnetics, drillholes, core-library, publications, company-reports]
+access:
+  - method: viewer
+    url: https://ngp.sgs.gov.sa/
+    auth: none
+  - method: download
+    url: https://ngp.sgs.gov.sa/
+    auth: free-registration
+    notes: The portal's download tool asks the user to sign in before data are released
+  - method: email-request
+    url: https://ngp.sgs.gov.sa/DataRequestForm.aspx?opt=newdatarequest
+    auth: none
+    notes: Data request form for other datasets, with purpose, area and format
+licence:
+  id: unstated
+caveats:
+  - Downloads (boreholes, geology at 1:250,000 to 1:2 million, geophysics, mineral occurrences, regional geochemistry, National Core Library, surface samples) need a portal login; whether accounts are open to all or free was not confirmed.
+  - Data from expired or relinquished licences (boreholes, surface samples, geophysics) are offered by project and also need a login.
+  - The portal lists a WMS at https://gis.taadeen.sa/server/services/Maps/SGS_WMS/MapServer/WMSServer, which returned 404 on 2026-11-06.
+sources:
+  - https://ngd.sgs.gov.sa/
+  - https://ngp.sgs.gov.sa/
+  - https://ngp.sgs.gov.sa/DataRequestForm.aspx?opt=newdatarequest
+last_verified: 2026-11-06
+verified_by: XploraHub

@@ -1,0 +1,35 @@
+id: ak-ardf
+name: Alaska Resource Data File (ARDF)
+agency: U.S. Geological Survey
+jurisdiction: US-AK
+level: state
+homepage: https://mrdata.usgs.gov/ardf/
+status: active
+summary: USGS descriptions of 7,448 mines, prospects and mineral occurrences in Alaska, compiled by 1:250,000 quadrangle from published literature and unpublished industry, U.S. Bureau of Mines and USGS records.
+data_types: [mineral-occurrences]
+formats: [shapefile, KML, KMZ]
+access:
+  - method: viewer
+    url: https://mrdata.usgs.gov/ardf/map-ak.html
+    auth: none
+  - method: download
+    url: https://mrdata.usgs.gov/ardf/
+    auth: none
+  - method: wms
+    url: https://mrdata.usgs.gov/services/ardf
+    auth: none
+  - method: wfs
+    url: https://mrdata.usgs.gov/services/wfs/ardf
+    auth: none
+licence:
+  id: LicenseRef-US-Public-Domain
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+caveats:
+  - Compilation is ongoing and USGS calls each quadrangle report essentially a progress report.
+  - The original quadrangle reports are USGS Open-File Reports listed at https://ardf.wr.usgs.gov/.
+sources:
+  - https://mrdata.usgs.gov/ardf/
+  - https://mrdata.usgs.gov/mrds/
+  - https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+last_verified: 2026-11-06
+verified_by: XploraHub

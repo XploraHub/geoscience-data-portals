@@ -1,0 +1,39 @@
+id: wa-magix
+name: MAGIX geophysical survey register
+agency: Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)
+jurisdiction: AU-WA
+level: state
+homepage: https://www.wa.gov.au/service/natural-resources/mineral-resources/access-magix-online
+status: active
+summary: Register and repository of Western Australian geophysical survey datasets, mostly submitted by companies under the Mining Act 1978, plus voluntary submissions and government-funded surveys. Public and open-file data download free.
+data_types: [magnetics, radiometrics, gravity, electromagnetics, magnetotellurics, seismic]
+access:
+  - method: download
+    url: https://magix.dmirs.wa.gov.au/
+    auth: none
+    notes: MAGIX Online search and download; also through the Geophysical Surveys layers in GeoVIEW.WA
+  - method: order
+    url: https://forms.dmp.wa.gov.au/lfserver/anonymous/MAGIX_OpenFile
+    auth: paid
+    notes: All public data on a hard drive costs $132, or $55 to copy onto your own drive (including GST)
+  - method: wms
+    url: https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer
+    auth: none
+    notes: Survey areas, lines and locations (DMIRS-055, 056, 057)
+  - method: wfs
+    url: https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining_WFS/MapServer/WFSServer
+    auth: none
+    notes: Survey areas, lines and locations (DMIRS-055, 056, 057)
+licence:
+  id: unstated
+  notes: The MAGIX page states no licence; the survey outline layers on Data WA are under Creative Commons Attribution.
+open_file_after: 5
+caveats:
+  - Each survey is public, open file, multi-client (sold by an approved sales agent) or confidential (owner only).
+  - Airborne surveys are confidential for five years after the survey ends, with an optional five-year extension if submitted to a sales agent; ground surveys for five years or until mentioned in a public report.
+  - Very large datasets, such as LiDAR or 3D seismic, need separate arrangements.
+sources:
+  - https://www.wa.gov.au/service/natural-resources/mineral-resources/access-magix-online
+  - https://public-services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/Industry_and_Mining/MapServer/31/query?where=1%3D1&outFields=methods&returnDistinctValues=true&returnGeometry=false&f=json
+last_verified: 2026-11-06
+verified_by: XploraHub

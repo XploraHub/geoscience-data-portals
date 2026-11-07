@@ -1,0 +1,32 @@
+id: bc-mapplace
+name: MapPlace 2
+agency: British Columbia Geological Survey
+jurisdiction: CA-BC
+level: province
+homepage: https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/british-columbia-geological-survey/mapplace
+status: active
+summary: The British Columbia Geological Survey's web map for viewing, analysing and downloading the province's geoscience and mineral resource data, with bedrock geology and mineral occurrences also served as WMS and WFS.
+data_types: [geological-maps, mineral-occurrences]
+access:
+  - method: viewer
+    url: http://apps.empr.gov.bc.ca/pub/mapplace/mp2/fusion/templates/mapguide/slate/index.html?ApplicationDefinition=Library://mp2.ApplicationDefinition&locale=en
+    auth: none
+  - method: wms
+    url: http://apps.empr.gov.bc.ca/geoserver/cgi/ows
+    auth: none
+    notes: Bedrock geology and 1:250,000 mineral occurrences
+  - method: wfs
+    url: http://apps.empr.gov.bc.ca/geoserver/cgi/ows
+    auth: none
+licence:
+  id: unstated
+caveats:
+  - The gov.bc.ca MapPlace page blocks automated access; viewer links were taken from a Wayback Machine copy of 16 January 2026.
+  - The apps.empr.gov.bc.ca services answer over HTTP; the HTTPS address failed its certificate check on 6 November 2026.
+  - MapPlace 1 is no longer fully maintained.
+  - The Survey says data from recent field and laboratory programmes may appear in its publications before they reach MapPlace.
+sources:
+  - https://web.archive.org/web/20260116024106/https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/british-columbia-geological-survey/mapplace
+  - http://apps.empr.gov.bc.ca/geoserver/cgi/ows?service=WMS&request=GetCapabilities
+last_verified: 2026-11-06
+verified_by: XploraHub

@@ -1,0 +1,32 @@
+id: fi-gtk-hakku
+name: Hakku (GTK search and download service)
+agency: Geological Survey of Finland (GTK)
+jurisdiction: FI
+level: national
+homepage: https://hakku.gtk.fi/en
+status: active
+summary: GTK's search and download service for Finnish publications, archived reports, maps, photographs and spatial datasets, including mineral deposit and drill core products. Most products are free; some are sold.
+language: [fi, en]
+data_types: [publications, company-reports, geological-maps, mineral-occurrences, drillholes, drillhole-assays, petrophysics, magnetics]
+access:
+  - method: download
+    url: https://hakku.gtk.fi/en
+    auth: none
+  - method: order
+    url: https://hakku.gtk.fi/en
+    auth: paid
+    notes: Area-selected drill core analyses, core logging and bedrock drilling petrophysics are sold; printed publications too
+licence:
+  id: CC-BY-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  notes: GTK Open Licence, stated as compatible with CC BY 4.0, valid from 1 December 2025. GTK also grants a Basic Licence for some material.
+caveats:
+  - The Hakku site is a JavaScript application; this entry relies on GTK news and service pages.
+  - Free spatial datasets usually hold basic information only, normally covering the whole of Finland.
+  - Questions about digital datasets go to geodata@gtk.fi.
+sources:
+  - https://www.gtk.fi/en/current/gtks-search-and-download-service-hakku-has-been-revamped/
+  - https://www.gtk.fi/en/research-infrastructure/national-drill-core-archive/
+  - https://www.gtk.fi/en/open-licence/
+last_verified: 2026-11-06
+verified_by: XploraHub

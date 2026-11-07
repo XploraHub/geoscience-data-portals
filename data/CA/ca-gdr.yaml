@@ -1,0 +1,27 @@
+id: ca-gdr
+name: Geophysical Data (Geoscience Data Repository)
+agency: Natural Resources Canada (Geological Survey of Canada)
+jurisdiction: CA
+level: national
+homepage: https://geophysical-data.canada.ca
+status: active
+summary: National search and download portal for aeromagnetic, airborne electromagnetic, gravity and radiometric survey and compilation data from the Canadian Airborne Geophysical Data Base, plus Canadian Geodetic Survey gravity.
+language: [en, fr]
+data_types: [magnetics, electromagnetics, gravity, radiometrics]
+access:
+  - method: download
+    url: https://geophysical-data.canada.ca/portal
+    auth: none
+    notes: Search by drawn area, province or territory, NTS sheet, coordinates or keyword
+licence:
+  id: LicenseRef-OGL-Canada-2.0
+  url: https://open.canada.ca/en/open-government-licence-canada
+  notes: The portal states the data are free for commercial, personal and public use on condition that the terms are kept with the data, the stated citation is used and the contact is told of any publication, and points to the Open Government Licence – Canada.
+caveats:
+  - The old address gdr.agg.nrcan.gc.ca now redirects to geophysical-data.canada.ca.
+  - Data are provided as is; publications must carry the citation given on the portal for each data type.
+sources:
+  - https://geophysical-data.canada.ca/portal
+  - https://gdr.agg.nrcan.gc.ca
+last_verified: 2026-11-06
+verified_by: XploraHub

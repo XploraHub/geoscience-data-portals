@@ -1,0 +1,23 @@
+id: ab-mars
+name: Alberta metallic and industrial mineral assessment reports
+agency: Alberta Energy and Minerals (Coal and Mineral Development Unit)
+jurisdiction: CA-AB
+level: province
+homepage: https://www.alberta.ca/metallic-and-industrial-mineral-assessment-report-searches
+status: active
+summary: Search and download of Alberta metallic and industrial mineral assessment reports from 1949 to the present, by assessment number, project name, release date or commodity, with overview reports, boundary maps and supplementary data.
+data_types: [company-reports]
+access:
+  - method: viewer
+    url: https://content.energy.alberta.ca/minerals/abmarsv2
+    auth: none
+licence:
+  id: unstated
+open_file_after: 1
+caveats:
+  - Reports are confidential for the first year after submission.
+  - Digital copies are provided as is and are the best copy the department holds; legibility and completeness are not guaranteed.
+sources:
+  - https://www.alberta.ca/metallic-and-industrial-mineral-assessment-report-searches
+last_verified: 2026-11-06
+verified_by: XploraHub

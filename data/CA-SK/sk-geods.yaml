@@ -1,0 +1,30 @@
+id: sk-geods
+name: Saskatchewan Geoscience Data System (GeoDS)
+agency: Saskatchewan Geological Survey (Ministry of Energy and Resources)
+jurisdiction: CA-SK
+level: province
+homepage: https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/mineral-exploration-and-mining/saskatchewan-geological-survey/saskatchewan-geoscience-data-system
+status: active
+summary: Saskatchewan's integrated geoscience data system for searching, viewing and downloading mineral assessment files and geoscience data taken from them or collected by the Survey, including drilling, samples, lithology and structure.
+data_types: [company-reports, drillholes, surface-geochemistry]
+access:
+  - method: viewer
+    url: https://geoscience-data-system.saskatchewan.ca/portal/apps/experiencebuilder/experience?id=b9ada8a933ee4e229f426a3d79480b8b
+    auth: none
+  - method: arcgis-rest
+    url: https://geoscience-data-system.saskatchewan.ca/arcgis/rest/services/P_GeoDS_DrillingPage_EM/MapServer
+    auth: none
+    notes: Observation locations, samples, subsurface drilling, lithology, structure and mineral assessment layers
+  - method: arcgis-rest
+    url: https://geoscience-data-system.saskatchewan.ca/arcgis/rest/services/P_GeoDS_AssessmentPage_EM/MapServer
+    auth: none
+licence:
+  id: unstated
+caveats:
+  - Public data can be searched and downloaded without an account; saving searches and views needs a free Saskatchewan Account.
+  - The system has scheduled maintenance outages, announced on the GeoDS page.
+sources:
+  - https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/mineral-exploration-and-mining/saskatchewan-geological-survey/saskatchewan-geoscience-data-system
+  - https://geoscience-data-system.saskatchewan.ca/arcgis/rest/services?f=json
+last_verified: 2026-11-06
+verified_by: XploraHub

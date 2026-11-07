@@ -1,0 +1,54 @@
+id: wa-datawa-slip
+name: DMPE map services on Data WA (SLIP)
+agency: Department of Mines, Petroleum and Exploration, published through Data WA and SLIP (Landgate)
+jurisdiction: AU-WA
+level: state
+homepage: https://data.wa.gov.au/slip
+status: active
+summary: WA Government spatial platform hosting the Department of Mines, Petroleum and Exploration's public WMS, WFS and ArcGIS REST services for geology, MINEDEX, drillholes, tenements, MAGIX surveys and statewide magnetics, radiometrics and gravity images.
+data_types: [geological-maps, mineral-occurrences, drillholes, surface-geochemistry, geochronology, tenements, company-reports, magnetics, radiometrics, gravity, seismic, core-library]
+access:
+  - method: wms
+    url: https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Geology_and_Soils_Map/MapServer/WMSServer
+    auth: none
+    notes: Interpreted bedrock geology, structures, GSWA geochemistry and geochronology, regolith, basic raw materials
+  - method: wfs
+    url: https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Geology_and_Soils_Map_WFS/MapServer/WFSServer
+    auth: none
+  - method: arcgis-rest
+    url: https://public-services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/Geology_and_Soils_Map/MapServer
+    auth: none
+  - method: wms
+    url: https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer
+    auth: none
+    notes: MINEDEX, open-file exploration drillholes, core library holes, tenements, WAMEX report locations, MAGIX surveys, seismic surveys, map sheet indexes
+  - method: wfs
+    url: https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining_WFS/MapServer/WFSServer
+    auth: none
+  - method: arcgis-rest
+    url: https://public-services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/Industry_and_Mining/MapServer
+    auth: none
+  - method: wms
+    url: https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/DMIRS_Imagery_Service/MapServer/WMSServer
+    auth: none
+    notes: Statewide magnetics, radiometrics and gravity images, and 1:100 000 and 1:250 000 geological map mosaics
+  - method: arcgis-rest
+    url: https://public-services.slip.wa.gov.au/public/rest/services/SLIP_Public_Services/DMIRS_Imagery_Service/MapServer
+    auth: none
+licence:
+  id: CC-BY-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  notes: As given on the Data WA records for MINEDEX (DMIRS-001) and the 1:100 000 geology mosaic (DMIRS-096); check each dataset's record.
+aggregated_by: [auscope]
+caveats:
+  - DMPE's own WMS and REST services were retired on 1 November 2023; DASC points to these Data WA/SLIP services as the replacements.
+  - Layer names still carry the former department's DMIRS dataset codes.
+  - For MINEDEX, the Data WA record lists downloads on data-downloads.slip.wa.gov.au that need a login, and open downloads from DASC.
+sources:
+  - https://data.wa.gov.au/slip
+  - https://dasc.dmirs.wa.gov.au
+  - https://catalogue.data.wa.gov.au/dataset/minedex-dmirs-001
+  - https://catalogue.data.wa.gov.au/dataset/1-100-000-geological-series-mosaic-image-dmirs-096
+  - https://portal.auscope.org.au/api/getKnownLayers.do
+last_verified: 2026-11-06
+verified_by: XploraHub

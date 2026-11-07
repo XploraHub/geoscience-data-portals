@@ -1,0 +1,34 @@
+id: sk-geoatlas
+name: Saskatchewan Mining and Petroleum GeoAtlas, SMDI and SMAD
+agency: Saskatchewan Ministry of Energy and Resources (Saskatchewan Geological Survey)
+jurisdiction: CA-SK
+level: province
+homepage: https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/mineral-exploration-and-mining/saskatchewan-geological-survey
+status: active
+summary: Saskatchewan's map viewer for mining and petroleum data, with the Mineral Deposit Index (SMDI) of showing reports and the Mineral Assessment Database (SMAD) of non-confidential assessment files to view or download.
+data_types: [geological-maps, mineral-occurrences, company-reports, tenements]
+access:
+  - method: viewer
+    url: https://gisappl.saskatchewan.ca/Html5Ext/index.html?viewer=GeoAtlas
+    auth: none
+    notes: GeoAtlas
+  - method: viewer
+    url: https://mineraldeposits.saskatchewan.ca/
+    auth: none
+    notes: Saskatchewan Mineral Deposit Index (SMDI)
+  - method: download
+    url: https://mineral-assessment.saskatchewan.ca/Pages/BasePages/Main.aspx
+    auth: none
+    notes: SMAD text and map search; files zipped for download
+licence:
+  id: unstated
+caveats:
+  - Resource and reserve figures in SMAD are not to be taken as NI 43-101 compliant.
+  - Only non-confidential assessment files are in SMAD; files are added as they come off confidentiality.
+  - Historic assessment files are indexed by NTS sheet and file number, and may also cover other sheets.
+  - geoatlas.saskatchewan.ca did not answer on 6 November 2026; the GeoAtlas is on gisappl.saskatchewan.ca.
+sources:
+  - https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/mineral-exploration-and-mining/saskatchewan-geological-survey/saskatchewan-mineral-assessment-database-smad
+  - https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/mineral-exploration-and-mining/saskatchewan-geological-survey/saskatchewan-mineral-deposit-index-smdi
+last_verified: 2026-11-06
+verified_by: XploraHub

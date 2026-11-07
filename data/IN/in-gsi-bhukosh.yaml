@@ -1,0 +1,29 @@
+id: in-gsi-bhukosh
+name: Bhukosh (GSI geoscience portal)
+agency: Geological Survey of India
+jurisdiction: IN
+level: national
+homepage: https://bhukosh.gsi.gov.in/Bhukosh/Public
+status: uncertain
+summary: GSI's GIS portal for viewing, searching and downloading geological, mineral, geophysical and seismotectonic maps and GSI reports; downloads go through a unified cart for registered users.
+data_types: [geological-maps, mineral-occurrences, magnetics, gravity, publications]
+access:
+  - method: viewer
+    url: https://bhukosh.gsi.gov.in/Bhukosh/Public
+    auth: none
+  - method: download
+    url: https://bhukosh.gsi.gov.in/Bhukosh/Public
+    auth: free-registration
+    notes: Registered users search and add items to a unified download cart
+licence:
+  id: unstated
+caveats:
+  - The site did not respond from our testing location on 2026-11-06 (other gov.in sites also reset the connection); it may block access from outside India.
+  - Details come from search-result excerpts of data.gov.in and Survey of India catalogue pages, not from the site itself.
+  - A 2020 user report described registered downloads with some datasets missing from the cart.
+sources:
+  - https://data.gov.in/resource/digital-seismotectonic-atlas-india-and-its-environs-0
+  - https://Surveyofindia.gov.in/webroot/UserFiles/files/Data%20Catalogue-GIS2_240301_211510.pdf
+  - https://groups.google.com/g/datameet/c/wmaj7xaqUkI/m/DGURbONjAgAJ
+last_verified: 2026-11-06
+verified_by: XploraHub

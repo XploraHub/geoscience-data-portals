@@ -1,0 +1,36 @@
+id: wa-minedex
+name: MINEDEX (Mines and Mineral Deposits)
+agency: Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)
+jurisdiction: AU-WA
+level: state
+homepage: https://www.wa.gov.au/service/natural-resources/mineral-resources/access-mines-and-mineral-deposits-minedex
+status: active
+summary: Western Australia's database of mines, mineral deposits, prospects and project owners, with locations, geology, commodities, project status and ownership, resource estimates, production and an inventory of abandoned mine sites.
+data_types: [mineral-occurrences]
+formats: [MS Excel, PDF, CSV, shapefile, ESRI file geodatabase, KMZ, MapInfo TAB]
+access:
+  - method: viewer
+    url: https://minedex.dmirs.wa.gov.au/Web/home
+    auth: none
+    notes: Full-text search, custom reports and bulk downloads; spatial search is through GeoVIEW.WA
+  - method: bulk-download
+    url: https://dasc.dmirs.wa.gov.au/home?productAlias=MINEDEX
+    auth: none
+    notes: Spatial extract from the Data and Software Centre
+  - method: wms
+    url: https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer
+    auth: none
+    notes: Layer Minedex (DMIRS-001)
+  - method: wfs
+    url: https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining_WFS/MapServer/WFSServer
+    auth: none
+    notes: Layer Minedex (DMIRS-001)
+licence:
+  id: unstated
+  url: https://www.wa.gov.au/terms-of-use
+  notes: The MINEDEX page links to WA Government terms of use; the spatial extract on Data WA is CC BY 4.0.
+sources:
+  - https://www.wa.gov.au/service/natural-resources/mineral-resources/access-mines-and-mineral-deposits-minedex
+  - https://catalogue.data.wa.gov.au/dataset/minedex-dmirs-001
+last_verified: 2026-11-06
+verified_by: XploraHub

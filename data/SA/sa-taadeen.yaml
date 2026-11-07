@@ -1,0 +1,30 @@
+id: sa-taadeen
+name: Taadeen mining platform
+agency: Ministry of Industry and Mineral Resources (run by ESNAD, Saudi Mining Services Company)
+jurisdiction: SA
+level: national
+homepage: https://taadeen.sa/en
+status: active
+summary: Saudi digital mining platform for licence applications, the mining map, sector data and exploration licensing rounds. Qualified bidders select sites through it.
+language: [ar, en]
+data_types: [tenements]
+access:
+  - method: viewer
+    url: https://taadeen.sa/en/mining-map
+    auth: none
+  - method: order
+    url: https://taadeen.sa/bidding
+    auth: restricted
+    notes: Bidding platform; licence services go through the MiningPortal login
+licence:
+  id: unstated
+caveats:
+  - What geological data bidders receive is not stated on the site. Press reports say qualified bidders get bidding documents and select sites on Taadeen; earlier rounds used separate data rooms for qualified bidders.
+  - The ArcGIS server at gis.taadeen.sa answers, but its MiningMaps, SGS and Geoportal folders require a token.
+sources:
+  - https://taadeen.sa/en
+  - https://taadeen.sa/en/mining-bids
+  - https://www.eyeofriyadh.com/news/details/24-companies-consortia-qualify-to-compete-for-exploration-licenses-in-3-mineralized-belts-mimr
+  - https://www.arabnews.pk/node/2646551
+last_verified: 2026-11-06
+verified_by: XploraHub

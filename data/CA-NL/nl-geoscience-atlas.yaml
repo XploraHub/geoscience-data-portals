@@ -1,0 +1,40 @@
+id: nl-geoscience-atlas
+name: Newfoundland and Labrador GeoScience Atlas, MODS and GeoFiles
+agency: Geological Survey of Newfoundland and Labrador (Department of Natural Resources)
+jurisdiction: CA-NL
+level: province
+homepage: https://gis.geosurv.gov.nl.ca/
+status: active
+summary: Newfoundland and Labrador's GeoScience OnLine, with the GeoScience Atlas of geology, geophysics, geochemistry, mineral occurrences and mineral lands, the MODS mineral occurrence database and GeoFiles, the index of reports including assessment reports.
+data_types: [geological-maps, surface-geochemistry, mineral-occurrences, company-reports, tenements, publications]
+formats: [PDF]
+access:
+  - method: viewer
+    url: https://geoatlas.gov.nl.ca
+    auth: none
+    notes: GeoScience Atlas
+  - method: viewer
+    url: https://gis.geosurv.gov.nl.ca/mods/mods.asp
+    auth: none
+    notes: Mineral Occurrence Data System (MODS) query
+  - method: download
+    url: https://gis.geosurv.gov.nl.ca/minesen/geofiles/
+    auth: none
+    notes: GeoFiles search; full PDFs online where digitised
+  - method: email-request
+    url: https://gis.geosurv.gov.nl.ca/minesen/geofiles/
+    auth: none
+    notes: Accessory digital data and items not yet digitised are supplied on request to Geofiles@gov.nl.ca
+licence:
+  id: unstated
+  notes: The GeoFiles and Mines pages say all contents are copyright, Government of Newfoundland and Labrador, all rights reserved.
+caveats:
+  - Only non-confidential maps and reports from exploration companies can be downloaded from GeoFiles, at no cost.
+  - Quarry information in the Atlas is for reference only and its accuracy is not guaranteed.
+  - The GeoScience Atlas has had several maintenance outages announced on the GeoScience OnLine page.
+sources:
+  - https://gis.geosurv.gov.nl.ca/
+  - https://gis.geosurv.gov.nl.ca/minesen/geofiles/
+  - https://www.gov.nl.ca/em/mines/maps/
+last_verified: 2026-11-06
+verified_by: XploraHub

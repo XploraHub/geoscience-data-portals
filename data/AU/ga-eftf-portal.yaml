@@ -1,0 +1,34 @@
+id: ga-eftf-portal
+name: Exploring for the Future Data Discovery Portal
+agency: Geoscience Australia
+jurisdiction: AU
+level: national
+homepage: https://portal.ga.gov.au/persona/eftf
+status: active
+summary: View of the Geoscience Australia Portal for data from the Exploring for the Future program, launched in July 2020 with about 250 free datasets from geophysical surveys, geochemical sampling, hydrological mapping and stratigraphic drilling.
+data_types: [electromagnetics, magnetotellurics, surface-geochemistry, drillholes]
+access:
+  - method: viewer
+    url: https://portal.ga.gov.au/persona/eftf
+    auth: none
+    notes: Also reached at https://portal.ga.gov.au/eftf
+  - method: wms
+    url: https://services.ga.gov.au/gis/magnetotellurics/wms
+    auth: none
+    notes: AusLAMP resistivity depth slices, listed in GA's eCat records for the AusLAMP data releases
+  - method: download
+    url: https://ecat.ga.gov.au/geonetwork/srv/api/records/44f4bc4f-b826-48d1-b134-33c6646ed675
+    auth: none
+    notes: Example AusAEM release (Eastern Resources Corridor) with EM data, conductivity products and shapefiles
+licence:
+  id: CC-BY-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  notes: As given on the AusAEM and AusLAMP eCat records; check each dataset's record.
+caveats:
+  - The portal is a JavaScript map application, so it shows nothing to scripts or text-only browsers. Dataset files and service addresses are in GA's eCat records.
+sources:
+  - https://www.ga.gov.au/news/news-archive/new-online-data-portal-for-resources-sector
+  - https://ecat.ga.gov.au/geonetwork/srv/api/records/44f4bc4f-b826-48d1-b134-33c6646ed675
+  - https://ecat.ga.gov.au/geonetwork/srv/api/records/5e0d855f-7dcb-4985-b64b-309da1402b59
+last_verified: 2026-11-06
+verified_by: XploraHub

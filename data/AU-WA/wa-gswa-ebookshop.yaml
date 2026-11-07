@@ -1,0 +1,29 @@
+id: wa-gswa-ebookshop
+name: DMPE eBookshop (GSWA publications)
+agency: Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)
+jurisdiction: AU-WA
+level: state
+homepage: https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/geological-survey-of-western-australia/dmpe-ebookshop
+status: active
+summary: Shop and download site for Geological Survey of Western Australia publications. Reports, Records and Bulletins are free PDFs; printed maps, USB data packages and premium titles are sold.
+data_types: [publications, geological-maps, surface-geochemistry]
+formats: [PDF, ESRI, MapInfo]
+access:
+  - method: download
+    url: https://dmpbookshop.eruditetechnologies.com.au/ebookshop/department-mines-petroleum-bookshop-home.do
+    auth: none
+    notes: Free PDFs of reports, records, bulletins and pre-1991 maps
+  - method: order
+    url: https://dmpbookshop.eruditetechnologies.com.au/ebookshop/department-mines-petroleum-bookshop-home.do
+    auth: paid
+    notes: Printed maps while stocks last, USB data packages and selected premium titles through the online cart
+licence:
+  id: unstated
+caveats:
+  - GIS files for maps published since 1991 are free from the Data and Software Centre (DASC), not the eBookshop.
+  - Some publications link to zipped geochemical and geophysical data files.
+  - The page says all premium publications can be downloaded free, but also offers a purchase link and a $55 hardcopy price for some titles.
+sources:
+  - https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/geological-survey-of-western-australia/dmpe-ebookshop
+last_verified: 2026-11-06
+verified_by: XploraHub

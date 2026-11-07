@@ -1,0 +1,43 @@
+id: mb-map-gallery
+name: Manitoba GIS Map Gallery and geological databases
+agency: Manitoba Geological Survey
+jurisdiction: CA-MB
+level: province
+homepage: https://www.manitoba.ca/iem/geo/gis/index.html
+status: active
+summary: Manitoba's geoscience map viewer and downloads, covering geology, geophysics, geochronology, mineral occurrences, kimberlite indicators, assessment files, drillhole locations and mineral dispositions, plus the Manitoba Mineral Deposits Database (GeoFile 5).
+data_types: [geological-maps, mineral-occurrences, drillholes, company-reports, magnetics, geochronology, surface-geochemistry, tenements, publications]
+formats: [ZIP, XLSX]
+access:
+  - method: viewer
+    url: https://rdmaps.gov.mb.ca/Html5Viewer/index.html?viewer=MapGallery_Geology.MapGallery
+    auth: none
+    notes: Geology map gallery
+  - method: viewer
+    url: https://rdmaps.gov.mb.ca/Html5Viewer/index.html?viewer=MapGallery_Mining.MapGallery
+    auth: none
+    notes: Mining map gallery (dispositions, assessment files, drillholes)
+  - method: arcgis-rest
+    url: https://rdmaps.gov.mb.ca/arcgis/rest/services/MapGallery/MG_GEOLOGY_CLIENT/MapServer
+    auth: none
+    notes: Drillhole locations, assessment files, mineral tenure, geology, mineral occurrences, geochronology, kimberlite indicators
+  - method: download
+    url: https://www.manitoba.ca/iem/info/libmin/geofile5.zip
+    auth: none
+    notes: GeoFile 5, updates to the Manitoba Mineral Deposits Database
+  - method: download
+    url: https://www.manitoba.ca/iem/geo/gis/databases.html
+    auth: none
+    notes: Till geochemistry, lithogeochemistry, kimberlite indicator, geochronology and PGE databases
+licence:
+  id: unstated
+caveats:
+  - Data extracted from the Map Gallery are in UTM zone 14, NAD83.
+  - The drillhole layer shows holes with core in Manitoba's drill core libraries and from open assessment files only.
+  - For current mineral dispositions the gallery points users to iMaQs or the Mines Branch.
+sources:
+  - https://www.manitoba.ca/iem/geo/gis/index.html
+  - https://www.manitoba.ca/iem/geo/gis/databases.html
+  - https://rdmaps.gov.mb.ca/arcgis/rest/services/MapGallery/MG_GEOLOGY_CLIENT/MapServer?f=json
+last_verified: 2026-11-06
+verified_by: XploraHub

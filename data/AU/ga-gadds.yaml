@@ -1,0 +1,23 @@
+id: ga-gadds
+name: Geophysical Archive Data Delivery System (GADDS)
+agency: Geoscience Australia
+jurisdiction: AU
+level: national
+homepage: https://portal.ga.gov.au/persona/gaddsResources
+status: active
+summary: Download of magnetic, radiometric, gravity and elevation survey data from the national, state and territory geophysical archives.
+data_types: [magnetics, radiometrics, gravity, elevation]
+access:
+  - method: download
+    url: https://portal.ga.gov.au/persona/gaddsResources
+    auth: none
+licence:
+  id: unstated
+  notes: The data.gov.au listings for GADDS say "Not Specified". GA's general terms are CC BY 4.0, but state survey data keeps the state's terms.
+caveats:
+  - Many data.gov.au entries for GADDS are harvested stubs that point back to the same download page; they hold no data themselves.
+sources:
+  - https://ecat.ga.gov.au/geonetwork/js/api/records/a05f7892-f91c-7506-e044-00144fdd4fa6
+  - https://data.gov.au/data/dataset/australian-national-gravity-data-collection1/resource/919c9f82-0cef-41f9-a387-03e27b515a4b
+last_verified: 2026-11-06
+verified_by: XploraHub

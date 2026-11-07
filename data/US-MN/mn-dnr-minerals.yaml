@@ -1,0 +1,35 @@
+id: mn-dnr-minerals
+name: Minnesota DNR Drill Core Library and mineral exploration documents
+agency: Minnesota Department of Natural Resources (Lands and Minerals Division)
+jurisdiction: US-MN
+level: state
+homepage: https://gis.data.mn.gov/datasets/ff548af5cbba4259966882b17539ce82
+status: active
+summary: Locations of exploration, scientific and engineering borings statewide since the early 1900s, many with core in the DNR Drill Core Library at Hibbing, and footprints of more than 10,000 scanned mineral exploration documents.
+data_types: [drillholes, core-library, company-reports]
+formats: [shapefile, file geodatabase, CSV, GeoJSON]
+access:
+  - method: download
+    url: https://gis.data.mn.gov/datasets/ff548af5cbba4259966882b17539ce82
+    auth: none
+    notes: Boring hole locations
+  - method: arcgis-rest
+    url: https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_dnr/geos_boring_hole_locations/FeatureServer
+    auth: none
+  - method: download
+    url: https://gis.data.mn.gov/datasets/3242279480c24fb797c85211414e84c8
+    auth: none
+    notes: Minarchive exploration document footprints, linked to the online documents
+licence:
+  id: LicenseRef-MN-State-Noncommercial
+  notes: State of Minnesota terms on the dataset record; data are copyright and may be copied and used for any lawful noncommercial purpose, and the disclaimer must go with any copy passed on.
+caveats:
+  - Core and data from borings on an active state mineral lease are not public; viewing them needs the lessee's employment or written permission.
+  - Drill core from a terminated state lease becomes public and stays public even if a new lease is issued.
+  - The Minarchive application was retired in 2024; its documents are now in the Minnesota Mineral Resources Database (https://www.dnr.state.mn.us/lands_minerals/mpes_projects/mmrd.html).
+  - The DNR pages for the Drill Core Library and the Mineral Resources Database blocked automated access, so they were not opened for this entry.
+sources:
+  - https://gis.data.mn.gov/datasets/ff548af5cbba4259966882b17539ce82
+  - https://gis.data.mn.gov/datasets/3242279480c24fb797c85211414e84c8
+last_verified: 2026-11-06
+verified_by: XploraHub

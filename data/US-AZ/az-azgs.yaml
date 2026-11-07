@@ -1,0 +1,36 @@
+id: az-azgs
+name: AZGS Document Repository and Mining Data (AZLibrary)
+agency: Arizona Geological Survey (University of Arizona)
+jurisdiction: US-AZ
+level: state
+homepage: https://library.azgs.arizona.edu/
+status: active
+summary: Arizona's geological reports and maps since 1915, free with no log-in, and thousands of historic mine files, photographs and maps from the former Arizona Department of Mines and Mineral Resources (ADMMR).
+data_types: [publications, geological-maps, company-reports, mineral-occurrences]
+access:
+  - method: download
+    url: https://library.azgs.arizona.edu/
+    auth: none
+    notes: Document repository
+  - method: download
+    url: https://mininginfo.azgs.arizona.edu/
+    auth: none
+    notes: ADMMR mining files
+  - method: api
+    url: https://data.azgs.arizona.edu/api/v1
+    auth: none
+    notes: JSON metadata and collection downloads for both
+licence:
+  id: CC-BY-NC-SA-4.0
+  url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+  notes: Stated in each item's metadata in the AZLibrary API; every item sampled carried it. Commercial use is not covered.
+caveats:
+  - Both sites need JavaScript; the API is the easier route for scripts.
+  - Of 23,826 collections in the API, 21,501 belong to the ADMMR group, many of them single photographs or mine file scans.
+  - Some ADMMR records still link files on the old minedata.azgs.arizona.edu host, which did not answer when checked.
+sources:
+  - https://azgs.arizona.edu/azgs-document-repository
+  - https://azgs.arizona.edu/azgs-mining-data
+  - https://data.azgs.arizona.edu/api/v1/metadata?collection_group=ADMM&limit=1
+last_verified: 2026-11-06
+verified_by: XploraHub

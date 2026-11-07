@@ -1,0 +1,30 @@
+id: gl-geus-dataverse
+name: GEUS Dataverse - Greenland Data Centre
+agency: Geological Survey of Denmark and Greenland (GEUS)
+jurisdiction: GL
+level: national
+homepage: https://dataverse.geus.dk/dataverse/greenland_data_centre
+status: active
+summary: GEUS data repository for Greenland with exploration data packages (zinc, nickel, diamonds), nationwide rock, soil and stream sediment geochemistry, airborne EM and magnetic surveys and 1:100,000 geological maps, each with a DOI.
+data_types: [surface-geochemistry, mineral-occurrences, magnetics, electromagnetics, geological-maps, company-reports]
+formats: [GeoJSON, Excel, ZIP]
+access:
+  - method: download
+    url: https://dataverse.geus.dk/dataverse/greenland_data_centre
+    auth: none
+  - method: api
+    url: https://dataverse.geus.dk/api/search?q=greenland&type=dataset
+    auth: none
+    notes: Dataverse search and file access API
+licence:
+  id: LicenseRef-GEUS-Terms-of-Use
+  notes: "The datasets checked carry GEUS terms of use, not an open licence: use 'for internal purposes only', no new maps from processed data passed to third parties, and no redistribution without written consent."
+caveats:
+  - Files downloaded without login on 2026-11-06, but the terms of use still restrict reuse. Read the terms on each dataset.
+  - Check each dataset; terms can differ between packages.
+sources:
+  - https://dataverse.geus.dk/api/dataverses/greenland_data_centre
+  - https://dataverse.geus.dk/api/datasets/:persistentId/?persistentId=doi:10.22008/FK2/29BUCP
+  - https://dataverse.geus.dk/api/datasets/:persistentId/?persistentId=doi:10.22008/FK2/YWFJ7D
+last_verified: 2026-11-06
+verified_by: XploraHub

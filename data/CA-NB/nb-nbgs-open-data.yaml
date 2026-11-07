@@ -1,0 +1,41 @@
+id: nb-nbgs-open-data
+name: New Brunswick Geological Survey open data
+agency: New Brunswick Department of Natural Resources and Energy Development (Geological Survey)
+jurisdiction: CA-NB
+level: province
+homepage: https://www2.gnb.ca/content/gnb/en/departments/erd/open-data/metallic-minerals.html
+status: active
+summary: Open data and ArcGIS services for New Brunswick mineral occurrences, exploration drillholes and trenches, mineral reports of work, mineral claims, bedrock geology, geochronology and till samples.
+data_types: [mineral-occurrences, drillholes, company-reports, tenements, geological-maps, geochronology, surface-geochemistry]
+formats: [CSV, GeoJSON, KML, shapefile]
+access:
+  - method: arcgis-rest
+    url: https://gis-erd-der.gnb.ca/server/rest/services/OpenData/NBGS_Exploration_Drillholes/MapServer
+    auth: none
+    notes: Drillhole collars from reports of work
+  - method: arcgis-rest
+    url: https://gis-erd-der.gnb.ca/server/rest/services/OpenData/NBGS_Mineral_Occurrences_Venues_minerales/MapServer
+    auth: none
+  - method: arcgis-rest
+    url: https://gis-erd-der.gnb.ca/server/rest/services/OpenData/NBGS_Reports_Of_Work/MapServer
+    auth: none
+    notes: Further OpenData services cover trenches, claims, bedrock geology, geochronology and till
+  - method: download
+    url: https://gnb.socrata.com/datasets/y6kx-pxd5
+    auth: none
+    notes: Mineral occurrences on the GNB open data portal
+licence:
+  id: LicenseRef-OGL-New-Brunswick
+  url: https://www.snb.ca/e/2000/data-E.html
+  notes: Named as the New Brunswick Open Government Licence on the GNB open data portal and the open.canada.ca record.
+aggregated_by: [open-canada]
+caveats:
+  - gnb.ca pages returned 403 to automated requests on 6 November 2026; services and catalogue records were checked instead.
+  - Drillhole locations come from report maps and may be inaccurate; GNB advises checking the original report.
+  - The drillhole dataset was created in 2014 and is updated as reports become public.
+sources:
+  - https://gis-erd-der.gnb.ca/server/rest/services/OpenData/NBGS_Exploration_Drillholes/MapServer?f=json
+  - https://gis-erd-der.gnb.ca/server/rest/services/OpenData?f=json
+  - https://open.canada.ca/data/en/dataset/058b74e9-de96-77c5-f196-e679a3d7ea38
+last_verified: 2026-11-06
+verified_by: XploraHub

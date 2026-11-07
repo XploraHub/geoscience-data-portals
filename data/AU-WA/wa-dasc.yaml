@@ -1,0 +1,25 @@
+id: wa-dasc
+name: Data and Software Centre (DASC)
+agency: Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)
+jurisdiction: AU-WA
+level: state
+homepage: https://dasc.dmirs.wa.gov.au
+status: active
+summary: Download centre for Western Australia's statewide spatial datasets, geology map series and data packages, including the company drillhole and geochemistry database.
+data_types: [geological-maps, drillholes, drillhole-assays, surface-geochemistry, magnetics, gravity, radiometrics, mineral-occurrences, tenements]
+formats: [shapefile, ESRI file geodatabase, ESRI layer files]
+access:
+  - method: bulk-download
+    url: https://dasc.dmirs.wa.gov.au
+    auth: none
+licence:
+  id: CC-BY-4.0
+  url: https://dasc.dmirs.wa.gov.au
+  notes: Attribute as "© State of Western Australia (Department of Mines, Petroleum and Exploration)".
+caveats:
+  - From 31 March 2026 new outputs are GDA2020 only; older releases are GDA1994.
+  - Several WMS and REST services were retired in 2023 and moved to DataWA (SLIP). Scripts using old DASC or GeoVIEW addresses need updating after the 2022 move to the cloud.
+sources:
+  - https://dasc.dmirs.wa.gov.au
+last_verified: 2026-11-06
+verified_by: XploraHub

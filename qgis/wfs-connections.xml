@@ -1,0 +1,17 @@
+<!DOCTYPE connections>
+<qgsWFSConnections version="1.0">
+  <wfs name="DMPE map services on Data WA (SLIP)" url="https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Geology_and_Soils_Map_WFS/MapServer/WFSServer" />
+  <wfs name="DMPE map services on Data WA (SLIP) (2)" url="https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining_WFS/MapServer/WFSServer" />
+  <wfs name="GeoVic" url="https://opendata.maps.vic.gov.au/geoserver/wfs" />
+  <wfs name="Mineral Resources Tasmania digital data" url="https://www.mrt.tas.gov.au/web-services/ows" />
+  <wfs name="ARIS Assessment Report Indexing System" url="https://openmaps.gov.bc.ca/geo/pub/WHSE_MINERAL_TENURE.ARIS_MINERAL_REPORTS/ows" />
+  <wfs name="MINFILE Mineral Inventory" url="https://openmaps.gov.bc.ca/geo/pub/WHSE_MINERAL_TENURE.MINFIL_MINERAL_FILE/ows" />
+  <wfs name="MapPlace 2" url="http://apps.empr.gov.bc.ca/geoserver/cgi/ows" />
+  <wfs name="Earth MRI data releases" url="https://mrdata.usgs.gov/services/wfs/emri-project" />
+  <wfs name="Mineral Resources Online Spatial Data (MRDS, NGDB rock, NURE-HSSR)" url="https://mrdata.usgs.gov/services/wfs/mrds" />
+  <wfs name="Mineral Resources Online Spatial Data (MRDS, NGDB rock, NURE-HSSR) (2)" url="https://mrdata.usgs.gov/services/wfs/ngdbrock" />
+  <wfs name="Mineral Resources Online Spatial Data (MRDS, NGDB rock, NURE-HSSR) (3)" url="https://mrdata.usgs.gov/services/wfs/nuresed" />
+  <wfs name="USMIN Mineral Deposit Database" url="https://mrdata.usgs.gov/services/wfs/deposit" />
+  <wfs name="Alaska Resource Data File (ARDF)" url="https://mrdata.usgs.gov/services/wfs/ardf" />
+  <wfs name="Greenland Mineral Occurrence Map (GMOM) and Greenland Portal" url="https://data.geus.dk/geusmap/ows/32624.jsp" />
+</qgsWFSConnections>

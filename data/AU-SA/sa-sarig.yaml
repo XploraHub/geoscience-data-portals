@@ -1,0 +1,30 @@
+id: sa-sarig
+name: SARIG (South Australian Resources Information Gateway)
+agency: Department for Energy and Mining (Geological Survey of South Australia)
+jurisdiction: AU-SA
+level: state
+homepage: https://map.sarig.sa.gov.au
+status: active
+summary: South Australia's map and data gateway, with over 300,000 drillholes, 3 million rock sample analyses, 9,000 mineral occurrences and company reports.
+data_types: [geological-maps, drillholes, drillhole-assays, surface-geochemistry, petrophysics, mineral-occurrences, company-reports, core-library]
+formats: [CSV, shapefile, MapInfo TAB, KMZ]
+access:
+  - method: viewer
+    url: https://map.sarig.sa.gov.au
+    auth: none
+  - method: bulk-download
+    url: https://pid.sarig.sa.gov.au/dataset/mesac1017
+    auth: none
+    notes: SARIG data packages, updated yearly in June or July
+licence:
+  id: CC-BY-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  notes: Stated for SARIG data. No statement was found for the company reports themselves.
+caveats:
+  - The map's drillhole spatial search is limited to 4 by 4 degrees.
+  - The custom geochemistry download takes up to 10 analytes at a time.
+  - Maximum downhole geochemistry (MaxDH) is also served as WMS and WFS; the service addresses are at https://pid.sarig.sa.gov.au/service/mesac1019.
+sources:
+  - https://www.energymining.sa.gov.au/industry/geological-survey/products-and-services/map-viewers-databases-and-services/mineral-drilling-and-geochemistry
+last_verified: 2026-11-06
+verified_by: XploraHub

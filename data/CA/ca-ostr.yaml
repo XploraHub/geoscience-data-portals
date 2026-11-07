@@ -1,0 +1,23 @@
+id: ca-ostr
+name: NRCan Open S&T Repository (OSTR), formerly GEOSCAN
+agency: Natural Resources Canada
+jurisdiction: CA
+level: national
+homepage: https://ostrnrcan-dostrncan.canada.ca
+status: active
+summary: Natural Resources Canada's repository of scientific and technical publications, including the Geological Survey of Canada and Canada Centre for Remote Sensing publications once listed in GEOSCAN.
+language: [en, fr]
+data_types: [publications]
+access:
+  - method: download
+    url: https://ostrnrcan-dostrncan.canada.ca
+    auth: none
+licence:
+  id: unstated
+caveats:
+  - geoscan.nrcan.gc.ca did not resolve on 6 November 2026; a Laurier Library guide says NRCan merged GEOSCAN and the Canadian Forest Service publications into OSTR in February 2024.
+sources:
+  - https://ostrnrcan-dostrncan.canada.ca
+  - https://www.library.wlu.ca/node/620
+last_verified: 2026-11-06
+verified_by: XploraHub

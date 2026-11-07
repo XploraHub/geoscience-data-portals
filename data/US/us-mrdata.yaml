@@ -1,0 +1,63 @@
+id: us-mrdata
+name: Mineral Resources Online Spatial Data (MRDS, NGDB rock, NURE-HSSR)
+agency: U.S. Geological Survey (Mineral Resources Program)
+jurisdiction: US
+level: national
+homepage: https://mrdata.usgs.gov/
+status: active
+summary: USGS map and download site for national mineral resource data, including the Mineral Resources Data System (MRDS), 414,304 rock geochemistry records from the National Geochemical Database and 397,625 NURE-HSSR sediment records.
+data_types: [mineral-occurrences, surface-geochemistry]
+formats: [CSV, shapefile, DBF, KML, KMZ, tab-delimited text]
+access:
+  - method: viewer
+    url: https://mrdata.usgs.gov/
+    auth: none
+  - method: bulk-download
+    url: https://mrdata.usgs.gov/mrds/
+    auth: none
+    notes: MRDS as CSV or shapefile; NGDB rock at https://mrdata.usgs.gov/ngdb/rock/ and NURE-HSSR sediment at https://mrdata.usgs.gov/nure/sediment/
+  - method: wms
+    url: https://mrdata.usgs.gov/services/mrds
+    auth: none
+    notes: MRDS
+  - method: wfs
+    url: https://mrdata.usgs.gov/services/wfs/mrds
+    auth: none
+    notes: MRDS
+  - method: wms
+    url: https://mrdata.usgs.gov/services/ngdbrock
+    auth: none
+    notes: NGDB rock geochemistry
+  - method: wfs
+    url: https://mrdata.usgs.gov/services/wfs/ngdbrock
+    auth: none
+    notes: NGDB rock geochemistry
+  - method: wms
+    url: https://mrdata.usgs.gov/services/nuresed
+    auth: none
+    notes: NURE-HSSR sediment; answers with WMS 1.1.1 capabilities
+  - method: wfs
+    url: https://mrdata.usgs.gov/services/wfs/nuresed
+    auth: none
+    notes: NURE-HSSR sediment
+licence:
+  id: LicenseRef-US-Public-Domain
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  notes: USGS-authored data are in the U.S. public domain; the MRDS and NURE-HSSR metadata give no use constraints.
+caveats:
+  - USGS ceased systematic updates to MRDS in 2011; the metadata gives an extract date of 15 March 2016 and "None planned" for updates.
+  - MRDS records are graded A to E by how much information they hold; many are simple reports of a commodity at a location, and grade E records generally lack references.
+  - For Alaska, the MRDS page points to the Alaska Resource Data File as the more coherent source.
+  - NGDB rock samples were collected and analysed between 1963 and 2003; NURE-HSSR sediment samples between 1975 and 1980.
+  - The national Geochemical Data Portal (us-geochemical-data-portal) now consolidates NGDB and NURE-HSSR data, so the two overlap.
+sources:
+  - https://mrdata.usgs.gov/
+  - https://mrdata.usgs.gov/mrds/
+  - https://mrdata.usgs.gov/metadata/mrds.txt
+  - https://mrdata.usgs.gov/ngdb/rock/
+  - https://mrdata.usgs.gov/metadata/ngdbrock.txt
+  - https://mrdata.usgs.gov/nure/sediment/
+  - https://mrdata.usgs.gov/metadata/nurehssr.txt
+  - https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+last_verified: 2026-11-06
+verified_by: XploraHub

@@ -1,0 +1,36 @@
+id: fi-gtk-mdae
+name: Mineral Deposits and Exploration (MDaE) map service
+agency: Geological Survey of Finland (GTK)
+jurisdiction: FI
+level: national
+homepage: https://gtkdata.gtk.fi/mdae/
+status: active
+summary: GTK map service for Finnish mineral deposits, mines, extractive waste sites, exploration and drilling sites, with geophysics and geology layers. Each deposit links to the RAKKA interface.
+data_types: [mineral-occurrences, drillholes, core-library, magnetics, gravity, geological-maps]
+access:
+  - method: viewer
+    url: https://gtkdata.gtk.fi/mdae/
+    auth: none
+  - method: arcgis-rest
+    url: https://gtkdata.gtk.fi/arcgis/rest/services/MDaE/Mines_deposits_waste/MapServer
+    auth: none
+    notes: Mines, deposits and extractive waste; dated exploration and geophysics services are in the same MDaE folder
+  - method: wms
+    url: https://gtkdata.gtk.fi/arcgis/services/Rajapinnat/GTK_Geofysiikka_WMS/MapServer/WMSServer
+    auth: none
+    notes: GTK geophysics WMS (Finnish layer names)
+licence:
+  id: CC-BY-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  notes: GTK Open Licence, stated as compatible with CC BY 4.0, from 1 December 2025. The MDaE service itself names no licence.
+caveats:
+  - The ArcGIS services carry no copyright or licence text.
+  - The WMS endpoint for MDaE/Mines_deposits_waste returned an ArcGIS error on 2026-11-06; use the REST service.
+  - Downloads of the deposit data are through Hakku.
+sources:
+  - https://www.gtk.fi/en/current/gtks-mineral-deposit-database-renewed-extractive-waste-now-on-a-map/
+  - https://www.gtk.fi/en/research-infrastructure/national-drill-core-archive/
+  - https://gtkdata.gtk.fi/arcgis/rest/services/MDaE?f=json
+  - https://www.gtk.fi/en/open-licence/
+last_verified: 2026-11-06
+verified_by: XploraHub

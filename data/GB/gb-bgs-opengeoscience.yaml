@@ -1,0 +1,29 @@
+id: gb-bgs-opengeoscience
+name: BGS OpenGeoscience
+agency: British Geological Survey
+jurisdiction: GB
+level: national
+homepage: https://www.bgs.ac.uk/geological-data/opengeoscience/
+status: active
+summary: BGS free data service with over a million borehole scans, scanned maps and sections from 1832, publications from 1835, the GeoScenic photo archive, downloadable map datasets and a geology WMS.
+data_types: [geological-maps, drillholes, publications]
+access:
+  - method: download
+    url: https://www.bgs.ac.uk/geological-data/opengeoscience/
+    auth: none
+  - method: wms
+    url: https://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows
+    auth: none
+    notes: 1:625,000 bedrock and superficial geology
+licence:
+  id: LicenseRef-BGS-Licences
+  notes: "Each product carries one of four licences: Open Government Licence, BGS Open Licence, BGS Non-Commercial Use Licence or BGS Viewer Licence. The terms are shown at the top of each product page. The geology WMS is under OGL v3."
+caveats:
+  - Check the licence on each product before commercial use; some are non-commercial or viewing only.
+  - Borehole scans are reached through GeoIndex.
+sources:
+  - https://www.bgs.ac.uk/geological-data/opengeoscience/
+  - https://www.bgs.ac.uk/technologies/web-map-services-wms/web-map-services-geology-625k/
+  - https://www.bgs.ac.uk/technologies/web-map-services-wms/
+last_verified: 2026-11-06
+verified_by: XploraHub

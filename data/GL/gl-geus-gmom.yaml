@@ -1,0 +1,37 @@
+id: gl-geus-gmom
+name: Greenland Mineral Occurrence Map (GMOM) and Greenland Portal
+agency: Geological Survey of Denmark and Greenland (GEUS)
+jurisdiction: GL
+level: national
+homepage: https://greenmin.gl/
+status: active
+summary: GEUS map of known mineral occurrences in Greenland with geological summaries, served through the Greenland Portal web map and as WMS, WFS, shapefile and GeoJSON.
+language: [en, da]
+data_types: [mineral-occurrences, geological-maps, company-reports]
+formats: [shapefile, GeoJSON]
+access:
+  - method: viewer
+    url: https://data.geus.dk/geusmap/?mapname=greenland_portal&lang=en
+    auth: none
+  - method: wms
+    url: https://data.geus.dk/geusmap/ows/32624.jsp
+    auth: none
+    notes: Layer mineral_occurrences_v3_external
+  - method: wfs
+    url: https://data.geus.dk/geusmap/ows/32624.jsp
+    auth: none
+    notes: Feature type mineral_occurrences_v3_external; GetFeature returns shapefile or GeoJSON
+licence:
+  id: CC-BY-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  notes: Licence as given in the GEUS metadata record for GMOM.
+caveats:
+  - greenmin.gl returned 403 to automated requests and maps.greenmin.gl did not respond on 2026-11-06; the same map runs at data.geus.dk.
+  - GEUS describes the Greenland Portal as the entry point for Greenland mineral resources information, with a webshop; no licence is stated for portal content other than GMOM.
+  - Older GMOM metadata record addresses on data.geus.dk now redirect to the catalogue front page.
+sources:
+  - https://metadata.geus.dk/geonetwork/srv/api/search/records/_search
+  - https://eng.geus.dk/products-services-facilities/data-and-maps/greenland-portal
+  - https://data.geus.dk/geusmap/ows/32624.jsp?service=WFS&request=GetCapabilities
+last_verified: 2026-11-06
+verified_by: XploraHub

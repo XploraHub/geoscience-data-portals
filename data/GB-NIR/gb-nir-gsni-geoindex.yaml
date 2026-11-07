@@ -1,0 +1,37 @@
+id: gb-nir-gsni-geoindex
+name: GSNI GeoIndex
+agency: Geological Survey of Northern Ireland
+jurisdiction: GB-NIR
+level: regional
+homepage: https://www.bgs.ac.uk/geology-projects/gsni/
+status: active
+summary: GSNI map viewer for Northern Ireland with geology, mineral occurrences, mineral resources, mineral and petroleum licences, Tellus airborne geophysics, gravity, geochemistry and borehole records.
+data_types: [geological-maps, mineral-occurrences, tenements, magnetics, radiometrics, electromagnetics, gravity, surface-geochemistry, drillholes]
+access:
+  - method: viewer
+    url: https://mapapps2.bgs.ac.uk/GSNI_Geoindex/home.html
+    auth: none
+  - method: wms
+    url: https://map.bgs.ac.uk/arcgis/services/GeoIndex_GSNI/GSNI_Minerals/MapServer/WMSServer
+    auth: none
+    notes: Mineral occurrences to 2000, gold in stream sediments, mineral resources, mineral licence applications, mining and petroleum licences
+  - method: wms
+    url: https://map.bgs.ac.uk/arcgis/services/GeoIndex_GSNI/GSNI_Geophysics/MapServer/WMSServer
+    auth: none
+    notes: Tellus 2005-2006 magnetics, electromagnetics and radiometrics; 1959 regional magnetics; combined gravity
+  - method: arcgis-rest
+    url: https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_GSNI/GSNI_Minerals/MapServer
+    auth: none
+    notes: Geochemistry, geology, hydrogeology and enquiries services sit in the same GeoIndex_GSNI folder
+licence:
+  id: unstated
+  notes: The GSNI page gives no licence for the viewer or services. Many GSNI datasets are on Open Data NI under OGL (see gb-nir-tellus-opendatani).
+caveats:
+  - Mineral occurrences in the service are labelled "up to year 2000".
+  - Licensing of the services is not stated; ask gsni@bgs.ac.uk.
+sources:
+  - https://www.bgs.ac.uk/geology-projects/gsni/
+  - https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_GSNI?f=json
+  - https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_GSNI/GSNI_Minerals/MapServer?f=json
+last_verified: 2026-11-06
+verified_by: XploraHub

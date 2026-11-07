@@ -1,0 +1,29 @@
+id: bc-aris-drillholes
+name: Assessment report drillhole database (BCGS GeoFile 2025-11 and 2026-11)
+agency: British Columbia Geological Survey
+jurisdiction: CA-BC
+level: province
+homepage: https://cmscontent.nrs.gov.bc.ca/geoscience/PublicationCatalogue/GeoFile/BCGS_GF2026-11.pdf
+status: active
+summary: Drill collars, lithology logs, samples and assays digitised from BC mineral assessment reports; the 2026 update holds 2,034 drillholes from 205 reports with 211,995 samples and 9.2 million determinations.
+data_types: [drillholes, drillhole-assays]
+formats: [GeoPackage]
+access:
+  - method: download
+    url: https://cmscontent.nrs.gov.bc.ca/geoscience/PublicationCatalogue/GeoFile/BCGS_GF2026-11.zip
+    auth: none
+    notes: 2026 update, about 106 MB, holds ardh_data_release_2026.gpkg and the GeoFile PDF
+  - method: download
+    url: https://cmscontent.nrs.gov.bc.ca/geoscience/PublicationCatalogue/GeoFile/BCGS_GF2025-11.pdf
+    auth: none
+    notes: Initial 2025 release (GeoFile 2025-11)
+licence:
+  id: unstated
+caveats:
+  - The two releases count differently. GeoFile 2025-11 describes more than 400 reports, 6,000 drillholes and 80,000 samples; GeoFile 2026-11 counts 205 reports and 2,034 drillholes and says it includes only collars with associated assay data.
+  - Easting and northing are kept in each report's original coordinate system with an EPSG code; the database also has latitude–longitude (ll83) views.
+sources:
+  - https://cmscontent.nrs.gov.bc.ca/geoscience/PublicationCatalogue/GeoFile/BCGS_GF2026-11.pdf
+  - https://cmscontent.nrs.gov.bc.ca/geoscience/PublicationCatalogue/GeoFile/BCGS_GF2025-11.pdf
+last_verified: 2026-11-06
+verified_by: XploraHub

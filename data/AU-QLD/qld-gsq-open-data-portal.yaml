@@ -1,0 +1,23 @@
+id: qld-gsq-open-data-portal
+name: GSQ Open Data Portal
+agency: Geological Survey of Queensland
+jurisdiction: AU-QLD
+level: state
+homepage: https://geoscience.data.qld.gov.au
+status: active
+summary: One search for Queensland's public geoscience data, including boreholes, geochemistry, airborne and ground geophysics, seismic, mineral occurrences and open-file company reports.
+data_types: [drillholes, surface-geochemistry, magnetics, gravity, radiometrics, seismic, mineral-occurrences, geological-maps, company-reports, remote-sensing, 3d-models]
+access:
+  - method: download
+    url: https://geoscience.data.qld.gov.au
+    auth: none
+    notes: The portal can be used without registering; it says it offers open API access but does not name the API
+licence:
+  id: unstated
+  url: https://www.qld.gov.au/legal/copyright
+caveats:
+  - The information page states no data licence; check each dataset.
+sources:
+  - https://www.business.qld.gov.au/industries/mining-energy-water/resources/minerals-coal/online-services/gsq-open-data-portal
+last_verified: 2026-11-06
+verified_by: XploraHub

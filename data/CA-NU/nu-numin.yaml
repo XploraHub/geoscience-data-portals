@@ -1,0 +1,35 @@
+id: nu-numin
+name: NunavutGeoscience.ca (NUMIN)
+agency: Canada-Nunavut Geoscience Office
+jurisdiction: CA-NU
+level: territory
+homepage: https://nunavutgeoscience.ca/en/
+status: active
+summary: Nunavut's geoscience portal, with the NUMIN database of 5,074 references, including assessment reports and open files, 2,757 mineral showings and downloadable digital reports.
+language: [en, fr, iu]
+data_types: [mineral-occurrences, company-reports, publications, geological-maps]
+access:
+  - method: viewer
+    url: https://nunavutgeoscience.ca/apps/showing/showQuery.php
+    auth: none
+    notes: Showings map and query
+  - method: viewer
+    url: https://nunavutgeoscience.ca/apps/ref/showQuery.php
+    auth: none
+    notes: Reference query
+  - method: download
+    url: https://nunavutgeoscience.ca/gateway/browseA.php
+    auth: none
+    notes: Gateway report search and download
+licence:
+  id: unstated
+caveats:
+  - Only publicly available assessment reports are listed.
+  - Counts are those shown by the reference and showing queries on 6 November 2026.
+  - Run by the Canada-Nunavut Geoscience Office with CIRNAC and the Government of Nunavut; CNGO data series and open file maps are on cngo.ca.
+sources:
+  - https://nunavutgeoscience.ca/en/
+  - https://nunavutgeoscience.ca/apps/ref/showQuery.php
+  - https://nunavutgeoscience.ca/apps/showing/showQuery.php
+last_verified: 2026-11-06
+verified_by: XploraHub

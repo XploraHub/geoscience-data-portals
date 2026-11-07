@@ -1,0 +1,24 @@
+name: Correction
+description: Something about a portal is wrong or out of date
+labels: [correction]
+body:
+  - type: input
+    id: portal
+    attributes:
+      label: Portal
+      description: Name or id, as in the README
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong, and what is right
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A page that shows the correct information
+    validations:
+      required: true

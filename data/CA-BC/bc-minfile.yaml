@@ -1,0 +1,37 @@
+id: bc-minfile
+name: MINFILE Mineral Inventory
+agency: British Columbia Geological Survey
+jurisdiction: CA-BC
+level: province
+homepage: https://minfile.gov.bc.ca
+status: active
+summary: British Columbia's mineral occurrence database, with 16,261 records covering status, commodities, host rocks, geological setting, inventory, production, capsule geology and references.
+data_types: [mineral-occurrences]
+formats: [CSV, KML, XLSX]
+access:
+  - method: viewer
+    url: https://minfile.gov.bc.ca/searchbasic.aspx
+    auth: none
+    notes: Basic and advanced search
+  - method: bulk-download
+    url: https://minfile.gov.bc.ca/publish/minfilepc.zip
+    auth: none
+    notes: MINFILE_pc database
+  - method: wms
+    url: https://openmaps.gov.bc.ca/geo/pub/WHSE_MINERAL_TENURE.MINFIL_MINERAL_FILE/ows
+    auth: none
+  - method: wfs
+    url: https://openmaps.gov.bc.ca/geo/pub/WHSE_MINERAL_TENURE.MINFIL_MINERAL_FILE/ows
+    auth: none
+    notes: Layer pub:WHSE_MINERAL_TENURE.MINFIL_MINERAL_FILE
+licence:
+  id: LicenseRef-BC-Access-Only
+  url: https://www2.gov.bc.ca/gov/content?id=1AAACC9C65754E4D89A118B875E0FBDA
+  notes: The BC Data Catalogue lists the licence as "Access Only", not an open licence.
+caveats:
+  - The record count (16,261) is the total shown on the MINFILE search page on 6 November 2026.
+sources:
+  - https://minfile.gov.bc.ca
+  - https://catalogue.data.gov.bc.ca/dataset/minfile-mineral-occurrence-database
+last_verified: 2026-11-06
+verified_by: XploraHub

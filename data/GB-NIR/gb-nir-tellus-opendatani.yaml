@@ -1,0 +1,32 @@
+id: gb-nir-tellus-opendatani
+name: GSNI open data on Open Data NI (Tellus and minerals)
+agency: Geological Survey of Northern Ireland
+jurisdiction: GB-NIR
+level: regional
+homepage: https://www.opendatani.gov.uk/
+status: active
+summary: GSNI datasets on Open Data NI, including Tellus airborne magnetics, radiometrics and electromagnetics (line data and grids), stream sediments, stream waters, rural soils, 1:250,000 geology, mineral resources and the core and cuttings list.
+data_types: [magnetics, radiometrics, electromagnetics, surface-geochemistry, geological-maps, core-library]
+formats: [ZIP, XYZ]
+access:
+  - method: ckan
+    url: https://admin.opendatani.gov.uk/api/3/action/package_search?fq=organization:geological-survey-of-northern-ireland
+    auth: none
+    notes: 12 GSNI datasets on 2026-11-06
+  - method: download
+    url: https://resources.bgs.ac.uk/gsni/geophysics/Magnetics.zip
+    auth: none
+    notes: Tellus magnetic line data (XYZ); other files are linked from each dataset record
+licence:
+  id: LicenseRef-OGL-UK-3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  notes: Every GSNI dataset on Open Data NI is marked uk-ogl.
+caveats:
+  - "The Department for the Economy data-licensing page says Tellus data are released under a licensing scheme with annual licence fees, waivable for research. That page gives no date; the 12 GSNI datasets on Open Data NI are under OGL UK 3.0, and datasets not there may still be fee-based."
+  - Mineral prospecting licences, applications and mining leases are published separately by the Department for the Economy Minerals and Petroleum Branch on Open Data NI, also under OGL.
+sources:
+  - https://admin.opendatani.gov.uk/api/3/action/package_search?q=tellus&rows=20
+  - https://admin.opendatani.gov.uk/api/3/action/package_show?id=gsni-tellus-regional-airborne-geophysical-survey-magnetics
+  - https://www.economy-ni.gov.uk/articles/data-licensing
+last_verified: 2026-11-06
+verified_by: XploraHub

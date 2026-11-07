@@ -1,0 +1,17 @@
+name: Portal down or moved
+description: A portal or service no longer works, or has moved
+labels: [portal-down]
+body:
+  - type: input
+    id: portal
+    attributes:
+      label: Portal
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      description: The address you tried, the error, and the new address if it moved
+    validations:
+      required: true

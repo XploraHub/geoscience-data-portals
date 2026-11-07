@@ -1,0 +1,38 @@
+id: qld-georesglobe
+name: GeoResGlobe
+agency: Queensland Government (Business Queensland, resources)
+jurisdiction: AU-QLD
+level: state
+homepage: https://www.business.qld.gov.au/industries/mining-energy-water/resources/minerals-coal/online-services/georesglobe
+status: active
+summary: Queensland's free map viewer for mining and exploration, with over 600 layers of current and historical resource authorities, geology, boreholes, geophysical surveys and images, mineral occurrences and links to reports in the GSQ Open Data Portal.
+data_types: [tenements, geological-maps, drillholes, mineral-occurrences, magnetics, gravity, radiometrics, seismic, magnetotellurics, company-reports]
+access:
+  - method: viewer
+    url: https://georesglobe.information.qld.gov.au/
+    auth: none
+    notes: Logging in is optional and saves your work
+  - method: arcgis-rest
+    url: https://spatial-gis.information.qld.gov.au/arcgis/rest/services/GeoscientificInformation/GeologyDetailed/MapServer
+    auth: none
+    notes: Detailed 1:100 000 geology and structure; the GeoscientificInformation folder also holds GeologyState, Boreholes, Geophysics, MiningResources and ReportIndex
+  - method: arcgis-rest
+    url: https://spatial-gis.information.qld.gov.au/arcgis/rest/services/GeoscientificInformation/Boreholes/MapServer
+    auth: none
+  - method: arcgis-rest
+    url: https://spatial-gis.information.qld.gov.au/arcgis/rest/services/GeoscientificInformation/GeophysicalImagery/MapServer
+    auth: none
+    notes: Statewide TMI, RTP, radiometric and Bouguer gravity images
+licence:
+  id: unstated
+  url: https://www.qld.gov.au/legal/copyright
+aggregated_by: [auscope]
+caveats:
+  - Reports and data are downloaded through the GSQ Open Data Portal, not the viewer itself.
+  - The layers catalogue PDF (version 1.0.45, September 2023) lists 584 layers; the service page says over 600.
+sources:
+  - https://www.business.qld.gov.au/industries/mining-energy-water/resources/minerals-coal/online-services/georesglobe
+  - https://georesglobe.information.qld.gov.au/help-info/assets/img/docs/GeoResGlobe_Layers_Catalogue.pdf
+  - https://portal.auscope.org.au/api/getKnownLayers.do
+last_verified: 2026-11-06
+verified_by: XploraHub

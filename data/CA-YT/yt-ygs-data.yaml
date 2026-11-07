@@ -1,0 +1,42 @@
+id: yt-ygs-data
+name: Yukon Geological Survey integrated data system
+agency: Yukon Geological Survey (Government of Yukon)
+jurisdiction: CA-YT
+level: territory
+homepage: https://data.geology.gov.yk.ca
+status: active
+summary: Yukon's geoscience data system, holding Yukon MINFILE, assessment reports, publications, regional geochemistry, drillhole locations and compilations, with the same layers served through GeoYukon map services.
+data_types: [mineral-occurrences, company-reports, publications, geological-maps, surface-geochemistry, drillholes, geochronology, petrophysics, tenements]
+formats: [GDB, shapefile, KMZ]
+access:
+  - method: viewer
+    url: https://data.geology.gov.yk.ca
+    auth: none
+  - method: bulk-download
+    url: https://ygsftp.gov.yk.ca/YGSIDS/compilations/Minfile/
+    auth: none
+    notes: MINFILE compilation files
+  - method: arcgis-rest
+    url: https://mapservices.gov.yk.ca/arcgis/rest/services/GeoYukon/GY_Geological/MapServer
+    auth: none
+    notes: Geochemistry (RGS, assessment report and lithogeochemistry), mineral occurrences, drillhole locations, geochronology, rock properties, bedrock and surficial geology
+  - method: arcgis-rest
+    url: https://mapservices.gov.yk.ca/arcgis/rest/services/GeoYukon/GY_Mining/MapServer
+    auth: none
+    notes: Quartz, placer and coal tenure
+licence:
+  id: LicenseRef-OGL-Yukon
+  url: https://yukon.ca/en/your-government/open-government/open-government-licence-yukon
+  notes: As given on the Yukon open data records for Survey compilations.
+aggregated_by: [open-canada]
+caveats:
+  - data.geology.gov.yk.ca, ygsftp.gov.yk.ca and yukon.ca returned 403 to automated requests on 6 November 2026; the description relies on the open.yukon.ca records and search results.
+  - Yukon's mining pages, seen only in search results, say assessment reports stay confidential for five years from submission.
+  - The open data MINFILE extract holds location, name, deposit type, status and commodities only; capsule, production and resource data are in the data system.
+sources:
+  - https://open.yukon.ca/data/mineral-occurrences
+  - https://open.yukon.ca/data/assessment-report-footprints-1
+  - https://mapservices.gov.yk.ca/arcgis/rest/services/GeoYukon/GY_Geological/MapServer?f=json
+  - https://yukon.ca/en/science-and-natural-resources/mining/find-mining-assessment-reports
+last_verified: 2026-11-06
+verified_by: XploraHub

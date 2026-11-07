@@ -1,0 +1,28 @@
+id: on-odhd
+name: Ontario Drill Hole Database (ODHD)
+agency: Ontario Geological Survey (Ministry of Mines)
+jurisdiction: CA-ON
+level: province
+homepage: https://data.ontario.ca/dataset/ontario-drill-hole-database
+status: active
+summary: Index of more than 126,000 percussion, overburden, sonic and diamond drill holes from Ontario assessment files, with location, company, orientation, depth and flags for assays above cut-offs for gold, silver, base metals and PGE.
+data_types: [drillholes]
+formats: [KML]
+access:
+  - method: download
+    url: https://www.geologyontario.mndm.gov.on.ca/mines/data/google/EDS013_rev/ODHD.kml
+    auth: none
+  - method: viewer
+    url: https://www.hub.geologyontario.mines.gov.on.ca/pages/drill-holes
+    auth: none
+licence:
+  id: LicenseRef-Kings-Printer-Ontario
+  url: https://www.ontario.ca/page/copyright-information
+  notes: Listed on data.ontario.ca as "King's Printer for Ontario".
+caveats:
+  - This is an index, not assay data; it only notes whether assays within cut-off values exist and points to the source assessment file.
+  - Drill holes appear only where they are reported in assessment files on record with the Mines and Minerals Division.
+sources:
+  - https://data.ontario.ca/dataset/ontario-drill-hole-database
+last_verified: 2026-11-06
+verified_by: XploraHub

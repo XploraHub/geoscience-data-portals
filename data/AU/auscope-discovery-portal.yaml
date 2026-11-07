@@ -1,0 +1,27 @@
+id: auscope-discovery-portal
+name: AuScope Discovery Portal
+agency: AuScope
+jurisdiction: AU
+level: national
+homepage: https://portal.auscope.org.au/
+status: active
+summary: Map portal that brings together web services from Geoscience Australia, the state and territory geological surveys and research groups, with about 280 layers of geology, mineral occurrences, boreholes, geochemistry, geophysics, tenements and 3D models.
+data_types: [geological-maps, mineral-occurrences, drillholes, surface-geochemistry, magnetics, gravity, radiometrics, magnetotellurics, seismic, geochronology, tenements, remote-sensing, 3d-models, publications]
+access:
+  - method: viewer
+    url: https://portal.auscope.org.au/
+    auth: none
+  - method: api
+    url: https://portal.auscope.org.au/api/getKnownLayers.do
+    auth: none
+    notes: JSON list of the portal's layers, each with the source agency's own service addresses
+licence:
+  id: unstated
+  notes: Layers keep their source agency's terms; check each dataset's record.
+caveats:
+  - Most layers are served from the source agencies' own servers; the layer list gives their addresses.
+sources:
+  - https://portal.auscope.org.au/api/getKnownLayers.do
+  - https://www.auscope.org.au/avre
+last_verified: 2026-11-06
+verified_by: XploraHub

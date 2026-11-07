@@ -1,0 +1,38 @@
+id: on-geologyontario
+name: GeologyOntario
+agency: Ontario Geological Survey (Ministry of Mines)
+jurisdiction: CA-ON
+level: province
+homepage: https://www.geologyontario.mines.gov.on.ca/
+status: active
+summary: Ontario's geoscience portal for assessment files, drill holes, the mineral deposit inventory, abandoned mines and bedrock and Quaternary geology, with an ArcGIS map service and WMS.
+language: [en, fr]
+data_types: [company-reports, drillholes, mineral-occurrences, geological-maps]
+formats: [KML, PDF]
+access:
+  - method: viewer
+    url: https://www.geologyontario.mines.gov.on.ca/
+    auth: none
+  - method: download
+    url: https://www.hub.geologyontario.mines.gov.on.ca/pages/assessment-files
+    auth: none
+    notes: GeologyOntario hub; assessment file PDFs and the assessment file database
+  - method: arcgis-rest
+    url: https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/GeologyOntario/GeologyOntario_Map/MapServer
+    auth: none
+    notes: Mineral inventory, drill holes, technical file areas, abandoned mines, bedrock and Quaternary geology
+  - method: wms
+    url: https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/GeologyOntario/GeologyOntario_Map/MapServer/WMSServer
+    auth: none
+licence:
+  id: LicenseRef-Kings-Printer-Ontario
+  url: https://www.ontario.ca/page/copyright-information
+  notes: Ontario's data catalogue lists the assessment file database as "King's Printer for Ontario" (Crown copyright), not the Open Government Licence – Ontario.
+caveats:
+  - The GeologyOntario site needs JavaScript and cannot be read by simple scripts.
+  - French versions are on platforme.geologyontario.mines.gov.on.ca.
+sources:
+  - https://data.ontario.ca/dataset/assessment-files
+  - https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/GeologyOntario/GeologyOntario_Map/MapServer?f=json
+last_verified: 2026-11-06
+verified_by: XploraHub

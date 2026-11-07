@@ -1,0 +1,48 @@
+id: ie-gsi-minerals
+name: Geological Survey Ireland minerals data
+agency: Geological Survey Ireland
+jurisdiction: IE
+level: national
+homepage: https://gsi.ie/data-and-maps/minerals/
+status: active
+summary: GSI minerals downloads and services for Ireland, including mineral localities, about 10,000 mineral exploration boreholes drilled 1957-2002, historic soil geochemistry, the quarry directory, the core store catalogue and open-file exploration records.
+data_types: [mineral-occurrences, drillholes, surface-geochemistry, company-reports, core-library]
+formats: [shapefile, Excel, File Geodatabase]
+access:
+  - method: viewer
+    url: https://experience.arcgis.com/experience/73a4c33e9e7e4e5a857f47cd1b50d700
+    auth: none
+  - method: download
+    url: https://gsi.geodata.gov.ie/downloads/Minerals/Data/IE_GSI_Mineral_Locations_IE26_ITM.zip
+    auth: none
+    notes: Mineral localities
+  - method: download
+    url: https://gsi.geodata.gov.ie/downloads/Minerals/Data/IE_GSI_Mineral_Exploration_Boreholes_50K_IE26_ITM.zip
+    auth: none
+    notes: Mineral exploration boreholes (shapefile); an Excel version is also offered
+  - method: wms
+    url: https://gsi.geodata.gov.ie/server/services/Minerals/IE_GSI_Mineral_Exploration_Boreholes_50K_IE26_ITM/MapServer/WMSServer
+    auth: none
+  - method: arcgis-rest
+    url: https://gsi.geodata.gov.ie/server/rest/services/Minerals/IE_GSI_Mineral_Locations_IE26_ITM/MapServer
+    auth: none
+    notes: Other minerals services, including the boreholes, are in the same Minerals folder
+  - method: viewer
+    url: https://experience.arcgis.com/experience/a186544ca13f491cb25cb4721f19c948/page/Home
+    auth: none
+    notes: Mineral Exploration and Mining web applications, linked from the Exploration Records section
+licence:
+  id: CC-BY-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  notes: "GSI asks for the attribution 'Contains Irish Public Sector Data (Geological Survey Ireland) licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence'."
+caveats:
+  - Mineral locality positions are within 10 m for just over half the points and within 100 m for two thirds; the rest may be out by up to 10 km.
+  - The borehole database covers the Open File, from when companies had to submit reports to GSI (1957-2002); later reports are not included.
+  - The GOLDMINE scanned-document archive is linked as https://secure.decc.gov.ie/goldmine/index.html, which returned 404 on 2026-11-06.
+  - The old gsi.ie/en-ie/... page addresses now return 404; use the addresses above.
+sources:
+  - https://gsi.ie/data-and-maps/minerals/
+  - https://gsi.ie/data-and-maps/
+  - https://gsi.geodata.gov.ie/server/rest/services/Minerals/IE_GSI_Mineral_Locations_IE26_ITM/MapServer?f=json
+last_verified: 2026-11-06
+verified_by: XploraHub

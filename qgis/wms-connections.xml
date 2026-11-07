@@ -1,0 +1,38 @@
+<!DOCTYPE connections>
+<qgsWMSConnections version="1.0">
+  <wms name="Exploring for the Future Data Discovery Portal" url="https://services.ga.gov.au/gis/magnetotellurics/wms" />
+  <wms name="DMPE map services on Data WA (SLIP)" url="https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Geology_and_Soils_Map/MapServer/WMSServer" />
+  <wms name="DMPE map services on Data WA (SLIP) (2)" url="https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/Industry_and_Mining/MapServer/WMSServer" />
+  <wms name="DMPE map services on Data WA (SLIP) (3)" url="https://public-services.slip.wa.gov.au/public/services/SLIP_Public_Services/DMIRS_Imagery_Service/MapServer/WMSServer" />
+  <wms name="Mineral Resources Tasmania digital data" url="https://www.mrt.tas.gov.au/web-services/ows" />
+  <wms name="Canadian Database of Geochemical Surveys (CDoGS)" url="https://geochem.nrcan.gc.ca/cgi-bin/GSC_Geochemistry/wms" />
+  <wms name="ARIS Assessment Report Indexing System" url="https://openmaps.gov.bc.ca/geo/pub/WHSE_MINERAL_TENURE.ARIS_MINERAL_REPORTS/ows" />
+  <wms name="MINFILE Mineral Inventory" url="https://openmaps.gov.bc.ca/geo/pub/WHSE_MINERAL_TENURE.MINFIL_MINERAL_FILE/ows" />
+  <wms name="MapPlace 2" url="http://apps.empr.gov.bc.ca/geoserver/cgi/ows" />
+  <wms name="GeologyOntario" url="https://ws.lioservices.lrc.gov.on.ca/arcgis2/services/GeologyOntario/GeologyOntario_Map/MapServer/WMSServer" />
+  <wms name="SIGÉOM (Système d'information géominière du Québec)" url="https://servicesvectoriels.atlas.gouv.qc.ca/IDS_SGM_WMS/service.svc/get" />
+  <wms name="SIGÉOM (Système d'information géominière du Québec) (2)" url="https://servicesgeo.atlas.gouv.qc.ca/ApolloCatalogWMSPublic/service.svc/get" />
+  <wms name="Earth MRI data releases" url="https://mrdata.usgs.gov/services/emri-project" />
+  <wms name="Earth MRI data releases (2)" url="https://mrdata.usgs.gov/services/earthmrichem" />
+  <wms name="Mineral Resources Online Spatial Data (MRDS, NGDB rock, NURE-HSSR)" url="https://mrdata.usgs.gov/services/mrds" />
+  <wms name="Mineral Resources Online Spatial Data (MRDS, NGDB rock, NURE-HSSR) (2)" url="https://mrdata.usgs.gov/services/ngdbrock" />
+  <wms name="Mineral Resources Online Spatial Data (MRDS, NGDB rock, NURE-HSSR) (3)" url="https://mrdata.usgs.gov/services/nuresed" />
+  <wms name="USMIN Mineral Deposit Database" url="https://mrdata.usgs.gov/services/deposit" />
+  <wms name="Alaska Resource Data File (ARDF)" url="https://mrdata.usgs.gov/services/ardf" />
+  <wms name="BGS GeoIndex (onshore)" url="https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/boreholes/MapServer/WmsServer" />
+  <wms name="BGS GeoIndex (onshore) (2)" url="https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/geochemistry/MapServer/WmsServer" />
+  <wms name="BGS GeoIndex (onshore) (3)" url="https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/geophysics/MapServer/WmsServer" />
+  <wms name="BGS GeoIndex (onshore) (4)" url="https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer" />
+  <wms name="BGS OpenGeoscience" url="https://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows" />
+  <wms name="GSNI GeoIndex" url="https://map.bgs.ac.uk/arcgis/services/GeoIndex_GSNI/GSNI_Minerals/MapServer/WMSServer" />
+  <wms name="GSNI GeoIndex (2)" url="https://map.bgs.ac.uk/arcgis/services/GeoIndex_GSNI/GSNI_Geophysics/MapServer/WMSServer" />
+  <wms name="Geological Survey Ireland minerals data" url="https://gsi.geodata.gov.ie/server/services/Minerals/IE_GSI_Mineral_Exploration_Boreholes_50K_IE26_ITM/MapServer/WMSServer" />
+  <wms name="Tellus (Geological Survey Ireland)" url="https://gsi.geodata.gov.ie/server/services/Geochemistry/IE_GSI_GSNI_Geochemistry_Shallow_Topsoil_A_ICPar_IE32_ITM/MapServer/WMSServer" />
+  <wms name="SGU geological data" url="https://resource.sgu.se/service/wms/130/mineralresurser" />
+  <wms name="SGU geological data (2)" url="https://resource.sgu.se/service/wms/130/borrkarnor" />
+  <wms name="Mineral Deposits and Exploration (MDaE) map service" url="https://gtkdata.gtk.fi/arcgis/services/Rajapinnat/GTK_Geofysiikka_WMS/MapServer/WMSServer" />
+  <wms name="NGU Geoscience Portal" url="https://geo.ngu.no/mapserver/GeofysikkWMS4" />
+  <wms name="NGU mineral resources database" url="https://geo.ngu.no/mapserver/MetalsWMS2" />
+  <wms name="NGU mineral resources database (2)" url="https://geo.ngu.no/mapserver/IndustrialMineralsWMS3" />
+  <wms name="Greenland Mineral Occurrence Map (GMOM) and Greenland Portal" url="https://data.geus.dk/geusmap/ows/32624.jsp" />
+</qgsWMSConnections>

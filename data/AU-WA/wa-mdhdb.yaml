@@ -1,0 +1,36 @@
+id: wa-mdhdb
+name: Company Mineral Drillhole and Surface Geochemistry Database (MDHDB)
+agency: Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)
+jurisdiction: AU-WA
+level: state
+homepage: https://wa.gov.au/service/natural-resources/mineral-resources/access-company-mineral-drillhole-and-surface-geochemistry-database
+status: active
+summary: Over 3 million historic drillholes and 11 million surface samples from open-file company exploration reports (WAMEX), with harmonised assays in ppm.
+data_types: [drillholes, drillhole-assays, surface-geochemistry]
+formats: [CSV, ESRI file geodatabase]
+access:
+  - method: viewer
+    url: https://geoview.dmp.wa.gov.au/GeoView/?Viewer=GeoVIEW&layerTheme=Drillholes&Module=Drillholes
+    auth: none
+  - method: bulk-download
+    url: https://dasc.dmirs.wa.gov.au
+    auth: none
+    notes: Datasets [GDA1994] tab, Statewide spatial datasets
+  - method: viewer
+    url: https://wamexgeochem.net.au
+    auth: none
+    notes: WAMEX Geochem website, listed on the department's database page as a way to view the data
+licence:
+  id: unstated
+  url: https://wa.gov.au/terms-of-use
+  notes: The page links to WA Government terms of use; the download centre itself is CC BY 4.0.
+open_file_after: 5
+caveats:
+  - No quality control on assay results; only the collar file is checked against tenement outlines. Check the original WAMEX report if in doubt.
+  - Not a complete record of drilling in WA. Digital submission became mandatory in 2007; pre-2000 data is sparse.
+  - Data becomes public after a five-year confidentiality period.
+  - The WAMEX page still quotes 2 million drillholes and 7 million samples; the database page (updated 3 February 2026) says over 3 million and 11 million.
+sources:
+  - https://wa.gov.au/service/natural-resources/mineral-resources/access-company-mineral-drillhole-and-surface-geochemistry-database
+last_verified: 2026-11-06
+verified_by: XploraHub

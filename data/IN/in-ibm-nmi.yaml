@@ -1,0 +1,29 @@
+id: in-ibm-nmi
+name: National Mineral Inventory (NMI)
+agency: Indian Bureau of Mines, Ministry of Mines
+jurisdiction: IN
+level: national
+homepage: https://ibm.gov.in/IBMPortal/pages/National-Mineral-Inventory
+status: active
+summary: Computerised inventory of India's mineral deposits kept by the Indian Bureau of Mines since 1970, covering 64 minerals in over 5,500 freehold and 7,500 leasehold deposits and blocks, with reserves and resources, location, geology and exploration.
+data_types: [mineral-occurrences]
+formats: [PDF]
+access:
+  - method: order
+    url: https://ibm.gov.in/IBMPortal/pages/National-Mineral-Inventory
+    auth: paid
+    notes: Orders by letter or email to the Chief Mineral Economist, Nagpur; payment by demand draft or cheque
+  - method: download
+    url: https://ibm.gov.in/IBMPortal/pages/National-Mineral-Inventory
+    auth: none
+    notes: NMI At a Glance (2015, 2020, 2025) and overview summaries
+licence:
+  id: unstated
+caveats:
+  - Deposit data are sold as PDF only. The 2025 schedule charges Rs 810 per freehold deposit (minimum Rs 8,100 per mineral per district), Rs 8,10,000 for all freehold deposits, and US$24.31 per deposit for foreign buyers (minimum US$243.10).
+  - Charges rise by 5% a year from 1 April 2026.
+sources:
+  - https://ibm.gov.in/IBMPortal/pages/National-Mineral-Inventory
+  - https://ibm.gov.in/writereaddata/files/1753085085687df49d14df4SoC__NMI__Lease_Directory__2025.pdf
+last_verified: 2026-11-06
+verified_by: XploraHub

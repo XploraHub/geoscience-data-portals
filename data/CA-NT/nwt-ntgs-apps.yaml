@@ -1,0 +1,41 @@
+id: nwt-ntgs-apps
+name: NTGS Web Apps (References, NORMIN showings, KIDD, KANDD)
+agency: Northwest Territories Geological Survey
+jurisdiction: CA-NT
+level: territory
+homepage: https://app.nwtgeoscience.ca/
+status: active
+summary: Search and download applications for 10,174 NWT geoscience publications and assessment reports, 3,108 mineral showings, kimberlite indicator and diamond data, and kimberlite anomaly and drillhole data.
+data_types: [company-reports, publications, mineral-occurrences, drillholes, surface-geochemistry, core-library]
+access:
+  - method: viewer
+    url: https://app.nwtgeoscience.ca/Searching/ReferenceSearch.aspx
+    auth: none
+    notes: References, including assessment reports; choose "Assessment Report" as the type
+  - method: viewer
+    url: https://app.nwtgeoscience.ca/Searching/ShowingsSearch.aspx
+    auth: none
+    notes: Mineral showings (NORMIN)
+  - method: viewer
+    url: https://app.nwtgeoscience.ca/Searching/KANDDSearch.aspx
+    auth: none
+    notes: Kimberlite anomaly and drillhole data
+  - method: download
+    url: https://ntgs-open-data-ntgs.hub.arcgis.com
+    auth: none
+    notes: NTGS open data hub on ArcGIS Online
+licence:
+  id: LicenseRef-NTGS-Terms-of-Use
+  url: https://app.nwtgeoscience.ca/
+  notes: GNWT copyright; no commercial use without written consent from NTGS. NTGS says its terms are most similar to CC BY-NC-SA, and that its own terms prevail.
+caveats:
+  - Assessment reports are released three years after submission.
+  - The NTGS archive holds over 4,000 assessment reports from the 1940s; all are free to download.
+  - Data are provided as is, with no warranty of quality, accuracy or completeness.
+  - Record counts are those shown on the web apps page on 6 November 2026; kimberlite indicator data are listed as 219,770 KIDD and 144,235 KIMC records.
+sources:
+  - https://app.nwtgeoscience.ca/
+  - https://www.nwtgeoscience.ca/mineral-exploration-assessment-reports
+  - https://www.nwtgeoscience.ca/our-data-and-searching-tools
+last_verified: 2026-11-06
+verified_by: XploraHub

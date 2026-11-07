@@ -1,0 +1,2031 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.8,
+     -25.3
+    ]
+   },
+   "properties": {
+    "id": "auscope-discovery-portal",
+    "name": "AuScope Discovery Portal",
+    "agency": "AuScope",
+    "jurisdiction": "AU",
+    "status": "active",
+    "homepage": "https://portal.auscope.org.au/",
+    "data_types": [
+     "geological-maps",
+     "mineral-occurrences",
+     "drillholes",
+     "surface-geochemistry",
+     "magnetics",
+     "gravity",
+     "radiometrics",
+     "magnetotellurics",
+     "seismic",
+     "geochronology",
+     "tenements",
+     "remote-sensing",
+     "3d-models",
+     "publications"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.8,
+     -25.3
+    ]
+   },
+   "properties": {
+    "id": "ga-eftf-portal",
+    "name": "Exploring for the Future Data Discovery Portal",
+    "agency": "Geoscience Australia",
+    "jurisdiction": "AU",
+    "status": "active",
+    "homepage": "https://portal.ga.gov.au/persona/eftf",
+    "data_types": [
+     "electromagnetics",
+     "magnetotellurics",
+     "surface-geochemistry",
+     "drillholes"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.8,
+     -25.3
+    ]
+   },
+   "properties": {
+    "id": "ga-gadds",
+    "name": "Geophysical Archive Data Delivery System (GADDS)",
+    "agency": "Geoscience Australia",
+    "jurisdiction": "AU",
+    "status": "active",
+    "homepage": "https://portal.ga.gov.au/persona/gaddsResources",
+    "data_types": [
+     "magnetics",
+     "radiometrics",
+     "gravity",
+     "elevation"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.8,
+     -25.3
+    ]
+   },
+   "properties": {
+    "id": "ga-portal",
+    "name": "Geoscience Australia Portal",
+    "agency": "Geoscience Australia",
+    "jurisdiction": "AU",
+    "status": "active",
+    "homepage": "https://portal.ga.gov.au",
+    "data_types": [
+     "geological-maps",
+     "mineral-occurrences",
+     "surface-geochemistry",
+     "magnetics",
+     "gravity",
+     "radiometrics",
+     "electromagnetics",
+     "magnetotellurics",
+     "geochronology"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6,
+     -25.0
+    ]
+   },
+   "properties": {
+    "id": "wa-mdhdb",
+    "name": "Company Mineral Drillhole and Surface Geochemistry Database (MDHDB)",
+    "agency": "Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)",
+    "jurisdiction": "AU-WA",
+    "status": "active",
+    "homepage": "https://wa.gov.au/service/natural-resources/mineral-resources/access-company-mineral-drillhole-and-surface-geochemistry-database",
+    "data_types": [
+     "drillholes",
+     "drillhole-assays",
+     "surface-geochemistry"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6,
+     -25.0
+    ]
+   },
+   "properties": {
+    "id": "wa-gswa-ebookshop",
+    "name": "DMPE eBookshop (GSWA publications)",
+    "agency": "Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)",
+    "jurisdiction": "AU-WA",
+    "status": "active",
+    "homepage": "https://www.wa.gov.au/organisation/department-of-mines-petroleum-and-exploration/geological-survey-of-western-australia/dmpe-ebookshop",
+    "data_types": [
+     "publications",
+     "geological-maps",
+     "surface-geochemistry"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6,
+     -25.0
+    ]
+   },
+   "properties": {
+    "id": "wa-datawa-slip",
+    "name": "DMPE map services on Data WA (SLIP)",
+    "agency": "Department of Mines, Petroleum and Exploration, published through Data WA and SLIP (Landgate)",
+    "jurisdiction": "AU-WA",
+    "status": "active",
+    "homepage": "https://data.wa.gov.au/slip",
+    "data_types": [
+     "geological-maps",
+     "mineral-occurrences",
+     "drillholes",
+     "surface-geochemistry",
+     "geochronology",
+     "tenements",
+     "company-reports",
+     "magnetics",
+     "radiometrics",
+     "gravity",
+     "seismic",
+     "core-library"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6,
+     -25.0
+    ]
+   },
+   "properties": {
+    "id": "wa-dasc",
+    "name": "Data and Software Centre (DASC)",
+    "agency": "Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)",
+    "jurisdiction": "AU-WA",
+    "status": "active",
+    "homepage": "https://dasc.dmirs.wa.gov.au",
+    "data_types": [
+     "geological-maps",
+     "drillholes",
+     "drillhole-assays",
+     "surface-geochemistry",
+     "magnetics",
+     "gravity",
+     "radiometrics",
+     "mineral-occurrences",
+     "tenements"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6,
+     -25.0
+    ]
+   },
+   "properties": {
+    "id": "wa-geoview",
+    "name": "GeoVIEW.WA",
+    "agency": "Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)",
+    "jurisdiction": "AU-WA",
+    "status": "active",
+    "homepage": "https://www.wa.gov.au/service/natural-resources/mineral-resources/search-geoscience-and-titles-information-geoviewwa",
+    "data_types": [
+     "geological-maps",
+     "mineral-occurrences",
+     "drillholes",
+     "surface-geochemistry",
+     "geochronology",
+     "tenements",
+     "company-reports",
+     "publications"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6,
+     -25.0
+    ]
+   },
+   "properties": {
+    "id": "wa-magix",
+    "name": "MAGIX geophysical survey register",
+    "agency": "Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)",
+    "jurisdiction": "AU-WA",
+    "status": "active",
+    "homepage": "https://www.wa.gov.au/service/natural-resources/mineral-resources/access-magix-online",
+    "data_types": [
+     "magnetics",
+     "radiometrics",
+     "gravity",
+     "electromagnetics",
+     "magnetotellurics",
+     "seismic"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6,
+     -25.0
+    ]
+   },
+   "properties": {
+    "id": "wa-minedex",
+    "name": "MINEDEX (Mines and Mineral Deposits)",
+    "agency": "Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)",
+    "jurisdiction": "AU-WA",
+    "status": "active",
+    "homepage": "https://www.wa.gov.au/service/natural-resources/mineral-resources/access-mines-and-mineral-deposits-minedex",
+    "data_types": [
+     "mineral-occurrences"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6,
+     -25.0
+    ]
+   },
+   "properties": {
+    "id": "wa-wamex",
+    "name": "WAMEX mineral exploration reports",
+    "agency": "Department of Mines, Petroleum and Exploration (Geological Survey of Western Australia)",
+    "jurisdiction": "AU-WA",
+    "status": "active",
+    "homepage": "https://wamex.dmp.wa.gov.au/Wamex",
+    "data_types": [
+     "company-reports",
+     "drillholes",
+     "surface-geochemistry",
+     "3d-models"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.8,
+     -30.0
+    ]
+   },
+   "properties": {
+    "id": "sa-sarig",
+    "name": "SARIG (South Australian Resources Information Gateway)",
+    "agency": "Department for Energy and Mining (Geological Survey of South Australia)",
+    "jurisdiction": "AU-SA",
+    "status": "active",
+    "homepage": "https://map.sarig.sa.gov.au",
+    "data_types": [
+     "geological-maps",
+     "drillholes",
+     "drillhole-assays",
+     "surface-geochemistry",
+     "petrophysics",
+     "mineral-occurrences",
+     "company-reports",
+     "core-library"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.1,
+     -22.6
+    ]
+   },
+   "properties": {
+    "id": "qld-gsq-open-data-portal",
+    "name": "GSQ Open Data Portal",
+    "agency": "Geological Survey of Queensland",
+    "jurisdiction": "AU-QLD",
+    "status": "active",
+    "homepage": "https://geoscience.data.qld.gov.au",
+    "data_types": [
+     "drillholes",
+     "surface-geochemistry",
+     "magnetics",
+     "gravity",
+     "radiometrics",
+     "seismic",
+     "mineral-occurrences",
+     "geological-maps",
+     "company-reports",
+     "remote-sensing",
+     "3d-models"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.1,
+     -22.6
+    ]
+   },
+   "properties": {
+    "id": "qld-georesglobe",
+    "name": "GeoResGlobe",
+    "agency": "Queensland Government (Business Queensland, resources)",
+    "jurisdiction": "AU-QLD",
+    "status": "active",
+    "homepage": "https://www.business.qld.gov.au/industries/mining-energy-water/resources/minerals-coal/online-services/georesglobe",
+    "data_types": [
+     "tenements",
+     "geological-maps",
+     "drillholes",
+     "mineral-occurrences",
+     "magnetics",
+     "gravity",
+     "radiometrics",
+     "seismic",
+     "magnetotellurics",
+     "company-reports"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.0,
+     -32.2
+    ]
+   },
+   "properties": {
+    "id": "nsw-digs",
+    "name": "DIGS (exploration reports)",
+    "agency": "Geological Survey of New South Wales",
+    "jurisdiction": "AU-NSW",
+    "status": "active",
+    "homepage": "https://search.geoscience.nsw.gov.au",
+    "data_types": [
+     "company-reports",
+     "publications"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.0,
+     -32.2
+    ]
+   },
+   "properties": {
+    "id": "nsw-minview",
+    "name": "MinView",
+    "agency": "Geological Survey of New South Wales",
+    "jurisdiction": "AU-NSW",
+    "status": "active",
+    "homepage": "https://minview.geoscience.nsw.gov.au",
+    "data_types": [
+     "geological-maps",
+     "mineral-occurrences",
+     "drillholes",
+     "drillhole-assays",
+     "surface-geochemistry",
+     "magnetics",
+     "gravity",
+     "radiometrics",
+     "seismic",
+     "geochronology",
+     "tenements"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.3,
+     -36.9
+    ]
+   },
+   "properties": {
+    "id": "vic-geovic",
+    "name": "GeoVic",
+    "agency": "Geological Survey of Victoria",
+    "jurisdiction": "AU-VIC",
+    "status": "active",
+    "homepage": "https://resources.vic.gov.au/geology-and-data/maps-reports-data/geovic",
+    "data_types": [
+     "geological-maps",
+     "drillholes",
+     "surface-geochemistry",
+     "mineral-occurrences",
+     "tenements",
+     "core-library"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     146.6,
+     -42.0
+    ]
+   },
+   "properties": {
+    "id": "tas-mrt",
+    "name": "Mineral Resources Tasmania digital data",
+    "agency": "Mineral Resources Tasmania",
+    "jurisdiction": "AU-TAS",
+    "status": "active",
+    "homepage": "https://mrt.tas.gov.au/products/digital_data",
+    "data_types": [
+     "geological-maps",
+     "drillholes",
+     "surface-geochemistry",
+     "magnetics",
+     "radiometrics",
+     "gravity",
+     "tenements",
+     "company-reports"
+    ],
+    "licence": "CC-BY-3.0-AU",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.4,
+     -19.5
+    ]
+   },
+   "properties": {
+    "id": "nt-gemis",
+    "name": "GEMIS",
+    "agency": "Northern Territory Geological Survey",
+    "jurisdiction": "AU-NT",
+    "status": "active",
+    "homepage": "https://geoscience.nt.gov.au/gemis/",
+    "data_types": [
+     "company-reports",
+     "drillholes",
+     "drillhole-assays",
+     "surface-geochemistry",
+     "magnetics",
+     "publications"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.4,
+     -19.5
+    ]
+   },
+   "properties": {
+    "id": "nt-strike",
+    "name": "STRIKE",
+    "agency": "Northern Territory Geological Survey",
+    "jurisdiction": "AU-NT",
+    "status": "active",
+    "homepage": "https://nt.gov.au/industry/geoscience/online-geoscience-information-systems",
+    "data_types": [
+     "geological-maps",
+     "drillholes",
+     "surface-geochemistry",
+     "mineral-occurrences",
+     "tenements"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.3,
+     56.1
+    ]
+   },
+   "properties": {
+    "id": "ca-cdogs",
+    "name": "Canadian Database of Geochemical Surveys (CDoGS)",
+    "agency": "Natural Resources Canada (Geological Survey of Canada)",
+    "jurisdiction": "CA",
+    "status": "active",
+    "homepage": "https://geochem.nrcan.gc.ca/cdogs/content/main/home_en.htm",
+    "data_types": [
+     "surface-geochemistry",
+     "publications"
+    ],
+    "licence": "LicenseRef-OGL-Canada-2.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.3,
+     56.1
+    ]
+   },
+   "properties": {
+    "id": "ca-gdr",
+    "name": "Geophysical Data (Geoscience Data Repository)",
+    "agency": "Natural Resources Canada (Geological Survey of Canada)",
+    "jurisdiction": "CA",
+    "status": "active",
+    "homepage": "https://geophysical-data.canada.ca",
+    "data_types": [
+     "magnetics",
+     "electromagnetics",
+     "gravity",
+     "radiometrics"
+    ],
+    "licence": "LicenseRef-OGL-Canada-2.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.3,
+     56.1
+    ]
+   },
+   "properties": {
+    "id": "ca-ostr",
+    "name": "NRCan Open S&T Repository (OSTR), formerly GEOSCAN",
+    "agency": "Natural Resources Canada",
+    "jurisdiction": "CA",
+    "status": "active",
+    "homepage": "https://ostrnrcan-dostrncan.canada.ca",
+    "data_types": [
+     "publications"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -127.6,
+     53.7
+    ]
+   },
+   "properties": {
+    "id": "bc-aris",
+    "name": "ARIS Assessment Report Indexing System",
+    "agency": "British Columbia Geological Survey",
+    "jurisdiction": "CA-BC",
+    "status": "active",
+    "homepage": "https://apps.nrs.gov.bc.ca/pub/aris/",
+    "data_types": [
+     "company-reports",
+     "drillholes",
+     "surface-geochemistry",
+     "magnetics",
+     "electromagnetics",
+     "gravity",
+     "radiometrics"
+    ],
+    "licence": "LicenseRef-BC-Access-Only",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -127.6,
+     53.7
+    ]
+   },
+   "properties": {
+    "id": "bc-aris-drillholes",
+    "name": "Assessment report drillhole database (BCGS GeoFile 2025-11 and 2026-11)",
+    "agency": "British Columbia Geological Survey",
+    "jurisdiction": "CA-BC",
+    "status": "active",
+    "homepage": "https://cmscontent.nrs.gov.bc.ca/geoscience/PublicationCatalogue/GeoFile/BCGS_GF2026-11.pdf",
+    "data_types": [
+     "drillholes",
+     "drillhole-assays"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -127.6,
+     53.7
+    ]
+   },
+   "properties": {
+    "id": "bc-minfile",
+    "name": "MINFILE Mineral Inventory",
+    "agency": "British Columbia Geological Survey",
+    "jurisdiction": "CA-BC",
+    "status": "active",
+    "homepage": "https://minfile.gov.bc.ca",
+    "data_types": [
+     "mineral-occurrences"
+    ],
+    "licence": "LicenseRef-BC-Access-Only",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -127.6,
+     53.7
+    ]
+   },
+   "properties": {
+    "id": "bc-mapplace",
+    "name": "MapPlace 2",
+    "agency": "British Columbia Geological Survey",
+    "jurisdiction": "CA-BC",
+    "status": "active",
+    "homepage": "https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/british-columbia-geological-survey/mapplace",
+    "data_types": [
+     "geological-maps",
+     "mineral-occurrences"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -135.0,
+     64.3
+    ]
+   },
+   "properties": {
+    "id": "yt-ygs-data",
+    "name": "Yukon Geological Survey integrated data system",
+    "agency": "Yukon Geological Survey (Government of Yukon)",
+    "jurisdiction": "CA-YT",
+    "status": "active",
+    "homepage": "https://data.geology.gov.yk.ca",
+    "data_types": [
+     "mineral-occurrences",
+     "company-reports",
+     "publications",
+     "geological-maps",
+     "surface-geochemistry",
+     "drillholes",
+     "geochronology",
+     "petrophysics",
+     "tenements"
+    ],
+    "licence": "LicenseRef-OGL-Yukon",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -119.2,
+     64.8
+    ]
+   },
+   "properties": {
+    "id": "nwt-ntgs-apps",
+    "name": "NTGS Web Apps (References, NORMIN showings, KIDD, KANDD)",
+    "agency": "Northwest Territories Geological Survey",
+    "jurisdiction": "CA-NT",
+    "status": "active",
+    "homepage": "https://app.nwtgeoscience.ca/",
+    "data_types": [
+     "company-reports",
+     "publications",
+     "mineral-occurrences",
+     "drillholes",
+     "surface-geochemistry",
+     "core-library"
+    ],
+    "licence": "LicenseRef-NTGS-Terms-of-Use",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -83.1,
+     70.3
+    ]
+   },
+   "properties": {
+    "id": "nu-numin",
+    "name": "NunavutGeoscience.ca (NUMIN)",
+    "agency": "Canada-Nunavut Geoscience Office",
+    "jurisdiction": "CA-NU",
+    "status": "active",
+    "homepage": "https://nunavutgeoscience.ca/en/",
+    "data_types": [
+     "mineral-occurrences",
+     "company-reports",
+     "publications",
+     "geological-maps"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -116.6,
+     53.9
+    ]
+   },
+   "properties": {
+    "id": "ab-mars",
+    "name": "Alberta metallic and industrial mineral assessment reports",
+    "agency": "Alberta Energy and Minerals (Coal and Mineral Development Unit)",
+    "jurisdiction": "CA-AB",
+    "status": "active",
+    "homepage": "https://www.alberta.ca/metallic-and-industrial-mineral-assessment-report-searches",
+    "data_types": [
+     "company-reports"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -116.6,
+     53.9
+    ]
+   },
+   "properties": {
+    "id": "ab-ags-mar-data",
+    "name": "Data extracted from Alberta mineral assessment reports (AGS)",
+    "agency": "Alberta Geological Survey (Alberta Energy Regulator)",
+    "jurisdiction": "CA-AB",
+    "status": "active",
+    "homepage": "https://ags.aer.ca/our-science/mineral-resources/mineral-exploration",
+    "data_types": [
+     "drillholes",
+     "drillhole-assays",
+     "surface-geochemistry",
+     "radiometrics",
+     "company-reports"
+    ],
+    "licence": "LicenseRef-OGL-Alberta",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.5,
+     52.9
+    ]
+   },
+   "properties": {
+    "id": "sk-geods",
+    "name": "Saskatchewan Geoscience Data System (GeoDS)",
+    "agency": "Saskatchewan Geological Survey (Ministry of Energy and Resources)",
+    "jurisdiction": "CA-SK",
+    "status": "active",
+    "homepage": "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/mineral-exploration-and-mining/saskatchewan-geological-survey/saskatchewan-geoscience-data-system",
+    "data_types": [
+     "company-reports",
+     "drillholes",
+     "surface-geochemistry"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.5,
+     52.9
+    ]
+   },
+   "properties": {
+    "id": "sk-geoatlas",
+    "name": "Saskatchewan Mining and Petroleum GeoAtlas, SMDI and SMAD",
+    "agency": "Saskatchewan Ministry of Energy and Resources (Saskatchewan Geological Survey)",
+    "jurisdiction": "CA-SK",
+    "status": "active",
+    "homepage": "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/mineral-exploration-and-mining/saskatchewan-geological-survey",
+    "data_types": [
+     "geological-maps",
+     "mineral-occurrences",
+     "company-reports",
+     "tenements"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.8,
+     53.8
+    ]
+   },
+   "properties": {
+    "id": "mb-map-gallery",
+    "name": "Manitoba GIS Map Gallery and geological databases",
+    "agency": "Manitoba Geological Survey",
+    "jurisdiction": "CA-MB",
+    "status": "active",
+    "homepage": "https://www.manitoba.ca/iem/geo/gis/index.html",
+    "data_types": [
+     "geological-maps",
+     "mineral-occurrences",
+     "drillholes",
+     "company-reports",
+     "magnetics",
+     "geochronology",
+     "surface-geochemistry",
+     "tenements",
+     "publications"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -85.3,
+     51.3
+    ]
+   },
+   "properties": {
+    "id": "on-geologyontario",
+    "name": "GeologyOntario",
+    "agency": "Ontario Geological Survey (Ministry of Mines)",
+    "jurisdiction": "CA-ON",
+    "status": "active",
+    "homepage": "https://www.geologyontario.mines.gov.on.ca/",
+    "data_types": [
+     "company-reports",
+     "drillholes",
+     "mineral-occurrences",
+     "geological-maps"
+    ],
+    "licence": "LicenseRef-Kings-Printer-Ontario",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -85.3,
+     51.3
+    ]
+   },
+   "properties": {
+    "id": "on-odhd",
+    "name": "Ontario Drill Hole Database (ODHD)",
+    "agency": "Ontario Geological Survey (Ministry of Mines)",
+    "jurisdiction": "CA-ON",
+    "status": "active",
+    "homepage": "https://data.ontario.ca/dataset/ontario-drill-hole-database",
+    "data_types": [
+     "drillholes"
+    ],
+    "licence": "LicenseRef-Kings-Printer-Ontario",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -73.5,
+     52.9
+    ]
+   },
+   "properties": {
+    "id": "qc-sigeom",
+    "name": "SIGÉOM (Système d'information géominière du Québec)",
+    "agency": "Ministère des Ressources naturelles et des Forêts du Québec (Géologie Québec)",
+    "jurisdiction": "CA-QC",
+    "status": "active",
+    "homepage": "https://sigeom.mines.gouv.qc.ca",
+    "data_types": [
+     "geological-maps",
+     "mineral-occurrences",
+     "drillholes",
+     "surface-geochemistry",
+     "geochronology",
+     "magnetics",
+     "radiometrics",
+     "electromagnetics",
+     "petrophysics",
+     "company-reports",
+     "publications"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -66.5,
+     46.6
+    ]
+   },
+   "properties": {
+    "id": "nb-nbgs-open-data",
+    "name": "New Brunswick Geological Survey open data",
+    "agency": "New Brunswick Department of Natural Resources and Energy Development (Geological Survey)",
+    "jurisdiction": "CA-NB",
+    "status": "active",
+    "homepage": "https://www2.gnb.ca/content/gnb/en/departments/erd/open-data/metallic-minerals.html",
+    "data_types": [
+     "mineral-occurrences",
+     "drillholes",
+     "company-reports",
+     "tenements",
+     "geological-maps",
+     "geochronology",
+     "surface-geochemistry"
+    ],
+    "licence": "LicenseRef-OGL-New-Brunswick",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -63.0,
+     45.0
+    ]
+   },
+   "properties": {
+    "id": "ns-modb-drillholes",
+    "name": "Nova Scotia Mineral Occurrence and Drillhole Databases",
+    "agency": "Nova Scotia Department of Natural Resources (Geoscience and Mines Branch)",
+    "jurisdiction": "CA-NS",
+    "status": "active",
+    "homepage": "https://novascotia.ca/natr/meb/mineral-resources/mineral-occurrences.asp",
+    "data_types": [
+     "mineral-occurrences",
+     "drillholes",
+     "surface-geochemistry",
+     "core-library"
+    ],
+    "licence": "LicenseRef-OGL-Nova-Scotia",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -57.7,
+     53.1
+    ]
+   },
+   "properties": {
+    "id": "nl-geoscience-atlas",
+    "name": "Newfoundland and Labrador GeoScience Atlas, MODS and GeoFiles",
+    "agency": "Geological Survey of Newfoundland and Labrador (Department of Natural Resources)",
+    "jurisdiction": "CA-NL",
+    "status": "active",
+    "homepage": "https://gis.geosurv.gov.nl.ca/",
+    "data_types": [
+     "geological-maps",
+     "surface-geochemistry",
+     "mineral-occurrences",
+     "company-reports",
+     "tenements",
+     "publications"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.6,
+     39.8
+    ]
+   },
+   "properties": {
+    "id": "us-earth-mri",
+    "name": "Earth MRI data releases",
+    "agency": "U.S. Geological Survey (Earth Mapping Resources Initiative)",
+    "jurisdiction": "US",
+    "status": "active",
+    "homepage": "https://www.usgs.gov/special-topics/earth-mri",
+    "data_types": [
+     "magnetics",
+     "radiometrics",
+     "electromagnetics",
+     "surface-geochemistry",
+     "geological-maps"
+    ],
+    "licence": "LicenseRef-US-Public-Domain",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.6,
+     39.8
+    ]
+   },
+   "properties": {
+    "id": "us-mrdata",
+    "name": "Mineral Resources Online Spatial Data (MRDS, NGDB rock, NURE-HSSR)",
+    "agency": "U.S. Geological Survey (Mineral Resources Program)",
+    "jurisdiction": "US",
+    "status": "active",
+    "homepage": "https://mrdata.usgs.gov/",
+    "data_types": [
+     "mineral-occurrences",
+     "surface-geochemistry"
+    ],
+    "licence": "LicenseRef-US-Public-Domain",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.6,
+     39.8
+    ]
+   },
+   "properties": {
+    "id": "us-ngmdb",
+    "name": "National Geologic Map Database (NGMDB)",
+    "agency": "U.S. Geological Survey and Association of American State Geologists",
+    "jurisdiction": "US",
+    "status": "active",
+    "homepage": "https://ngmdb.usgs.gov/ngmdb/ngmdb_home.html",
+    "data_types": [
+     "geological-maps",
+     "publications"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.6,
+     39.8
+    ]
+   },
+   "properties": {
+    "id": "us-geochemical-data-portal",
+    "name": "USGS Geochemical Data Portal (rock, sediment, soil and mineral samples)",
+    "agency": "U.S. Geological Survey (Mineral Resources Program)",
+    "jurisdiction": "US",
+    "status": "active",
+    "homepage": "https://www.usgs.gov/tools/geochemical-data-portal-rock-sediment-soil-and-mineral-samples-united-states-and-territories",
+    "data_types": [
+     "surface-geochemistry"
+    ],
+    "licence": "LicenseRef-US-Public-Domain",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -98.6,
+     39.8
+    ]
+   },
+   "properties": {
+    "id": "us-usmin",
+    "name": "USMIN Mineral Deposit Database",
+    "agency": "U.S. Geological Survey",
+    "jurisdiction": "US",
+    "status": "active",
+    "homepage": "https://mrdata.usgs.gov/deposit/",
+    "data_types": [
+     "mineral-occurrences"
+    ],
+    "licence": "LicenseRef-US-Public-Domain",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -116.6,
+     39.3
+    ]
+   },
+   "properties": {
+    "id": "nv-nbmg",
+    "name": "Nevada Bureau of Mines and Geology data and mining district files",
+    "agency": "Nevada Bureau of Mines and Geology (University of Nevada, Reno)",
+    "jurisdiction": "US-NV",
+    "status": "active",
+    "homepage": "https://nbmg.unr.edu/Maps&Data/index.html",
+    "data_types": [
+     "mineral-occurrences",
+     "company-reports",
+     "geological-maps",
+     "surface-geochemistry",
+     "publications"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -111.7,
+     34.2
+    ]
+   },
+   "properties": {
+    "id": "az-azgs",
+    "name": "AZGS Document Repository and Mining Data (AZLibrary)",
+    "agency": "Arizona Geological Survey (University of Arizona)",
+    "jurisdiction": "US-AZ",
+    "status": "active",
+    "homepage": "https://library.azgs.arizona.edu/",
+    "data_types": [
+     "publications",
+     "geological-maps",
+     "company-reports",
+     "mineral-occurrences"
+    ],
+    "licence": "CC-BY-NC-SA-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -149.5,
+     64.2
+    ]
+   },
+   "properties": {
+    "id": "ak-dggs",
+    "name": "Alaska DGGS geochemistry, geophysics and Geologic Materials Center",
+    "agency": "Alaska Division of Geological & Geophysical Surveys",
+    "jurisdiction": "US-AK",
+    "status": "active",
+    "homepage": "https://dggs.alaska.gov/maps-data/interactive-maps.html",
+    "data_types": [
+     "surface-geochemistry",
+     "magnetics",
+     "electromagnetics",
+     "radiometrics",
+     "gravity",
+     "core-library",
+     "publications"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -149.5,
+     64.2
+    ]
+   },
+   "properties": {
+    "id": "ak-ardf",
+    "name": "Alaska Resource Data File (ARDF)",
+    "agency": "U.S. Geological Survey",
+    "jurisdiction": "US-AK",
+    "status": "active",
+    "homepage": "https://mrdata.usgs.gov/ardf/",
+    "data_types": [
+     "mineral-occurrences"
+    ],
+    "licence": "LicenseRef-US-Public-Domain",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.3,
+     46.3
+    ]
+   },
+   "properties": {
+    "id": "mn-dnr-minerals",
+    "name": "Minnesota DNR Drill Core Library and mineral exploration documents",
+    "agency": "Minnesota Department of Natural Resources (Lands and Minerals Division)",
+    "jurisdiction": "US-MN",
+    "status": "active",
+    "homepage": "https://gis.data.mn.gov/datasets/ff548af5cbba4259966882b17539ce82",
+    "data_types": [
+     "drillholes",
+     "core-library",
+     "company-reports"
+    ],
+    "licence": "LicenseRef-MN-State-Noncommercial",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -114.7,
+     44.1
+    ]
+   },
+   "properties": {
+    "id": "id-igs-mines",
+    "name": "Database of the Mines and Prospects of Idaho (DD-1)",
+    "agency": "Idaho Geological Survey",
+    "jurisdiction": "US-ID",
+    "status": "active",
+    "homepage": "https://www.idahogeology.org/product/dd-1",
+    "data_types": [
+     "mineral-occurrences",
+     "company-reports"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.6,
+     47.0
+    ]
+   },
+   "properties": {
+    "id": "mt-mbmg",
+    "name": "Montana Bureau of Mines and Geology publications and analytical datasets",
+    "agency": "Montana Bureau of Mines and Geology (Montana Technological University)",
+    "jurisdiction": "US-MT",
+    "status": "active",
+    "homepage": "https://mbmg.mtech.edu/mbmgcat/public/BrowseCatalog.asp",
+    "data_types": [
+     "surface-geochemistry",
+     "geochronology",
+     "publications",
+     "geological-maps"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -85.4,
+     44.3
+    ]
+   },
+   "properties": {
+    "id": "mi-dnr-mineral-leases",
+    "name": "Michigan DNR mineral leases",
+    "agency": "Michigan Department of Natural Resources",
+    "jurisdiction": "US-MI",
+    "status": "active",
+    "homepage": "https://gis-michigan.opendata.arcgis.com/maps/midnr::michigan-dnr-mineral-leases",
+    "data_types": [
+     "tenements"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -85.4,
+     44.3
+    ]
+   },
+   "properties": {
+    "id": "mi-mgs-mgrre",
+    "name": "Michigan Geological Repository for Research and Education (MGRRE)",
+    "agency": "Michigan Geological Survey (Western Michigan University)",
+    "jurisdiction": "US-MI",
+    "status": "active",
+    "homepage": "https://mgs.wmich.edu/michigan-geological-repository-for-research-and-education",
+    "data_types": [
+     "core-library",
+     "drillholes",
+     "geological-maps"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5,
+     54.0
+    ]
+   },
+   "properties": {
+    "id": "gb-bgs-geoindex",
+    "name": "BGS GeoIndex (onshore)",
+    "agency": "British Geological Survey",
+    "jurisdiction": "GB",
+    "status": "active",
+    "homepage": "https://www.bgs.ac.uk/map-viewers/geoindex-onshore/",
+    "data_types": [
+     "geological-maps",
+     "drillholes",
+     "surface-geochemistry",
+     "mineral-occurrences",
+     "magnetics",
+     "gravity",
+     "seismic",
+     "core-library"
+    ],
+    "licence": "LicenseRef-OGL-UK-3.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5,
+     54.0
+    ]
+   },
+   "properties": {
+    "id": "gb-bgs-opengeoscience",
+    "name": "BGS OpenGeoscience",
+    "agency": "British Geological Survey",
+    "jurisdiction": "GB",
+    "status": "active",
+    "homepage": "https://www.bgs.ac.uk/geological-data/opengeoscience/",
+    "data_types": [
+     "geological-maps",
+     "drillholes",
+     "publications"
+    ],
+    "licence": "LicenseRef-BGS-Licences",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -6.7,
+     54.6
+    ]
+   },
+   "properties": {
+    "id": "gb-nir-gsni-geoindex",
+    "name": "GSNI GeoIndex",
+    "agency": "Geological Survey of Northern Ireland",
+    "jurisdiction": "GB-NIR",
+    "status": "active",
+    "homepage": "https://www.bgs.ac.uk/geology-projects/gsni/",
+    "data_types": [
+     "geological-maps",
+     "mineral-occurrences",
+     "tenements",
+     "magnetics",
+     "radiometrics",
+     "electromagnetics",
+     "gravity",
+     "surface-geochemistry",
+     "drillholes"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -6.7,
+     54.6
+    ]
+   },
+   "properties": {
+    "id": "gb-nir-tellus-opendatani",
+    "name": "GSNI open data on Open Data NI (Tellus and minerals)",
+    "agency": "Geological Survey of Northern Ireland",
+    "jurisdiction": "GB-NIR",
+    "status": "active",
+    "homepage": "https://www.opendatani.gov.uk/",
+    "data_types": [
+     "magnetics",
+     "radiometrics",
+     "electromagnetics",
+     "surface-geochemistry",
+     "geological-maps",
+     "core-library"
+    ],
+    "licence": "LicenseRef-OGL-UK-3.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -8.2,
+     53.4
+    ]
+   },
+   "properties": {
+    "id": "ie-gsi-minerals",
+    "name": "Geological Survey Ireland minerals data",
+    "agency": "Geological Survey Ireland",
+    "jurisdiction": "IE",
+    "status": "active",
+    "homepage": "https://gsi.ie/data-and-maps/minerals/",
+    "data_types": [
+     "mineral-occurrences",
+     "drillholes",
+     "surface-geochemistry",
+     "company-reports",
+     "core-library"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -8.2,
+     53.4
+    ]
+   },
+   "properties": {
+    "id": "ie-gsi-tellus",
+    "name": "Tellus (Geological Survey Ireland)",
+    "agency": "Geological Survey Ireland",
+    "jurisdiction": "IE",
+    "status": "active",
+    "homepage": "https://gsi.ie/programmes-projects/tellus/",
+    "data_types": [
+     "magnetics",
+     "radiometrics",
+     "electromagnetics",
+     "surface-geochemistry"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     15.0,
+     62.0
+    ]
+   },
+   "properties": {
+    "id": "se-sgu",
+    "name": "SGU geological data",
+    "agency": "Geological Survey of Sweden (SGU)",
+    "jurisdiction": "SE",
+    "status": "active",
+    "homepage": "https://www.sgu.se/en/products/geological-data/",
+    "data_types": [
+     "mineral-occurrences",
+     "drillholes",
+     "core-library",
+     "tenements",
+     "geological-maps",
+     "magnetics",
+     "radiometrics",
+     "gravity",
+     "electromagnetics",
+     "seismic",
+     "petrophysics"
+    ],
+    "licence": "CC0-1.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.0,
+     64.0
+    ]
+   },
+   "properties": {
+    "id": "fi-gtk-hakku",
+    "name": "Hakku (GTK search and download service)",
+    "agency": "Geological Survey of Finland (GTK)",
+    "jurisdiction": "FI",
+    "status": "active",
+    "homepage": "https://hakku.gtk.fi/en",
+    "data_types": [
+     "publications",
+     "company-reports",
+     "geological-maps",
+     "mineral-occurrences",
+     "drillholes",
+     "drillhole-assays",
+     "petrophysics",
+     "magnetics"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     26.0,
+     64.0
+    ]
+   },
+   "properties": {
+    "id": "fi-gtk-mdae",
+    "name": "Mineral Deposits and Exploration (MDaE) map service",
+    "agency": "Geological Survey of Finland (GTK)",
+    "jurisdiction": "FI",
+    "status": "active",
+    "homepage": "https://gtkdata.gtk.fi/mdae/",
+    "data_types": [
+     "mineral-occurrences",
+     "drillholes",
+     "core-library",
+     "magnetics",
+     "gravity",
+     "geological-maps"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.5,
+     64.5
+    ]
+   },
+   "properties": {
+    "id": "no-ngu-geoscience-portal",
+    "name": "NGU Geoscience Portal",
+    "agency": "Geological Survey of Norway (NGU)",
+    "jurisdiction": "NO",
+    "status": "active",
+    "homepage": "https://geo.ngu.no/geoscienceportalopen/search",
+    "data_types": [
+     "magnetics",
+     "radiometrics",
+     "electromagnetics",
+     "gravity",
+     "petrophysics"
+    ],
+    "licence": "NLOD-2.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     11.5,
+     64.5
+    ]
+   },
+   "properties": {
+    "id": "no-ngu-mineral-resources",
+    "name": "NGU mineral resources database",
+    "agency": "Geological Survey of Norway (NGU)",
+    "jurisdiction": "NO",
+    "status": "active",
+    "homepage": "https://geo.ngu.no/kart/mineralressurser_mobil/?lang=eng",
+    "data_types": [
+     "mineral-occurrences"
+    ],
+    "licence": "NLOD-1.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -40.0,
+     72.0
+    ]
+   },
+   "properties": {
+    "id": "gl-geus-dataverse",
+    "name": "GEUS Dataverse - Greenland Data Centre",
+    "agency": "Geological Survey of Denmark and Greenland (GEUS)",
+    "jurisdiction": "GL",
+    "status": "active",
+    "homepage": "https://dataverse.geus.dk/dataverse/greenland_data_centre",
+    "data_types": [
+     "surface-geochemistry",
+     "mineral-occurrences",
+     "magnetics",
+     "electromagnetics",
+     "geological-maps",
+     "company-reports"
+    ],
+    "licence": "LicenseRef-GEUS-Terms-of-Use",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -40.0,
+     72.0
+    ]
+   },
+   "properties": {
+    "id": "gl-geus-gmom",
+    "name": "Greenland Mineral Occurrence Map (GMOM) and Greenland Portal",
+    "agency": "Geological Survey of Denmark and Greenland (GEUS)",
+    "jurisdiction": "GL",
+    "status": "active",
+    "homepage": "https://greenmin.gl/",
+    "data_types": [
+     "mineral-occurrences",
+     "geological-maps",
+     "company-reports"
+    ],
+    "licence": "CC-BY-4.0",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     45.1,
+     23.9
+    ]
+   },
+   "properties": {
+    "id": "sa-ngd",
+    "name": "National Geological Database (NGD) and portal",
+    "agency": "Saudi Geological Survey",
+    "jurisdiction": "SA",
+    "status": "active",
+    "homepage": "https://ngd.sgs.gov.sa/",
+    "data_types": [
+     "geological-maps",
+     "mineral-occurrences",
+     "surface-geochemistry",
+     "magnetics",
+     "drillholes",
+     "core-library",
+     "publications",
+     "company-reports"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     45.1,
+     23.9
+    ]
+   },
+   "properties": {
+    "id": "sa-sgs-report-library",
+    "name": "SGS technical reports, books and maps database",
+    "agency": "Saudi Geological Survey",
+    "jurisdiction": "SA",
+    "status": "active",
+    "homepage": "https://ngdp.sgs.gov.sa/biblioapp/",
+    "data_types": [
+     "publications",
+     "geological-maps"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     45.1,
+     23.9
+    ]
+   },
+   "properties": {
+    "id": "sa-taadeen",
+    "name": "Taadeen mining platform",
+    "agency": "Ministry of Industry and Mineral Resources (run by ESNAD, Saudi Mining Services Company)",
+    "jurisdiction": "SA",
+    "status": "active",
+    "homepage": "https://taadeen.sa/en",
+    "data_types": [
+     "tenements"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.0,
+     22.0
+    ]
+   },
+   "properties": {
+    "id": "in-gsi-bhukosh",
+    "name": "Bhukosh (GSI geoscience portal)",
+    "agency": "Geological Survey of India",
+    "jurisdiction": "IN",
+    "status": "uncertain",
+    "homepage": "https://bhukosh.gsi.gov.in/Bhukosh/Public",
+    "data_types": [
+     "geological-maps",
+     "mineral-occurrences",
+     "magnetics",
+     "gravity",
+     "publications"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.0,
+     22.0
+    ]
+   },
+   "properties": {
+    "id": "in-ngdr",
+    "name": "National Geoscience Data Repository (NGDR)",
+    "agency": "Geological Survey of India, Ministry of Mines",
+    "jurisdiction": "IN",
+    "status": "active",
+    "homepage": "https://geodataindia.gov.in/",
+    "data_types": [
+     "geological-maps",
+     "surface-geochemistry",
+     "magnetics",
+     "gravity",
+     "drillholes",
+     "company-reports"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     79.0,
+     22.0
+    ]
+   },
+   "properties": {
+    "id": "in-ibm-nmi",
+    "name": "National Mineral Inventory (NMI)",
+    "agency": "Indian Bureau of Mines, Ministry of Mines",
+    "jurisdiction": "IN",
+    "status": "active",
+    "homepage": "https://ibm.gov.in/IBMPortal/pages/National-Mineral-Inventory",
+    "data_types": [
+     "mineral-occurrences"
+    ],
+    "licence": "unstated",
+    "last_verified": "2026-11-06"
+   }
+  }
+ ]
+}

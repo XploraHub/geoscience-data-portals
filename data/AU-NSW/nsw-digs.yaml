@@ -1,0 +1,24 @@
+id: nsw-digs
+name: DIGS (exploration reports)
+agency: Geological Survey of New South Wales
+jurisdiction: AU-NSW
+level: state
+homepage: https://search.geoscience.nsw.gov.au
+status: active
+summary: Online collection of New South Wales company exploration reports, mine records and survey publications; non-confidential reports can be previewed and downloaded.
+data_types: [company-reports, publications]
+formats: [PDF]
+access:
+  - method: download
+    url: https://search.geoscience.nsw.gov.au
+    auth: none
+licence:
+  id: unstated
+caveats:
+  - Scanned images are compressed; higher-quality copies can be ordered.
+  - Confidential reports are withheld; enquiries go through the DIGS email address.
+sources:
+  - https://resources.nsw.gov.au/geological-survey/digs
+  - https://resources.nsw.gov.au/geological-survey/minview
+last_verified: 2026-11-06
+verified_by: XploraHub

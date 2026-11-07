@@ -1,0 +1,49 @@
+id: gb-bgs-geoindex
+name: BGS GeoIndex (onshore)
+agency: British Geological Survey
+jurisdiction: GB
+level: national
+homepage: https://www.bgs.ac.uk/map-viewers/geoindex-onshore/
+status: active
+summary: BGS map viewer for Great Britain with borehole records, 1:50,000 geology, geochemistry samples, gravity and magnetic anomalies, airborne surveys and mineral occurrences, with clip-and-download for an area.
+data_types: [geological-maps, drillholes, surface-geochemistry, mineral-occurrences, magnetics, gravity, seismic, core-library]
+access:
+  - method: viewer
+    url: https://mapapps2.bgs.ac.uk/geoindex/home.html
+    auth: none
+  - method: wms
+    url: https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/boreholes/MapServer/WmsServer
+    auth: none
+    notes: Borehole records, drillcore, geophysical logs, onshore hydrocarbon wells
+  - method: wms
+    url: https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/geochemistry/MapServer/WmsServer
+    auth: none
+    notes: Stream sediment, stream water, soil, rock and panned drainage sample locations
+  - method: wms
+    url: https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/geophysics/MapServer/WmsServer
+    auth: none
+    notes: Gravity and magnetic anomalies, airborne survey extents, survey lines, UKOGL seismic
+  - method: wms
+    url: https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer
+    auth: none
+    notes: Includes a Mineral.Occurrences layer, mineral resources and MEIGA (Mineral Exploration Investment Grants Act) areas
+  - method: arcgis-rest
+    url: https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_Onshore/boreholes/MapServer
+    auth: none
+    notes: Other themes sit in the same GeoIndex_Onshore folder
+licence:
+  id: LicenseRef-OGL-UK-3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  notes: "Acknowledge as 'Contains British Geological Survey materials © UKRI [year]'."
+caveats:
+  - "The BGS Mineral Occurrences Database itself is restricted: its metadata says \"External supplied with sets, not access to database\". Only the GeoIndex layer is open."
+  - BGS datasets are split into Open and Premium; mineral resources at 1:50,000 and some geochemistry are Premium.
+  - BGS says the WMS addresses occasionally change and older versions are not supported.
+  - A unified onshore and offshore GeoIndex beta runs at https://geoindex.bgs.ac.uk/; BGS advises professional users to keep using the existing viewer for now.
+sources:
+  - https://www.bgs.ac.uk/map-viewers/geoindex-onshore/
+  - https://www.bgs.ac.uk/technologies/web-map-services-wms/geoindex-wms-services/
+  - https://www.bgs.ac.uk/geological-data/datasets/
+  - https://metadata.bgs.ac.uk/geonetwork/srv/api/records/9df8df51-6391-37a8-e044-0003ba9b0d98
+last_verified: 2026-11-06
+verified_by: XploraHub

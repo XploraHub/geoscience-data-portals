@@ -1,0 +1,34 @@
+id: id-igs-mines
+name: Database of the Mines and Prospects of Idaho (DD-1)
+agency: Idaho Geological Survey
+jurisdiction: US-ID
+level: state
+homepage: https://www.idahogeology.org/product/dd-1
+status: active
+summary: Free database of more than 8,000 mining properties in Idaho (version 1.2023), with production figures and fields from MRDS and the U.S. Bureau of Mines MILS, plus scanned mineral property files to order.
+data_types: [mineral-occurrences, company-reports]
+formats: [Microsoft Access, shapefile, file geodatabase, KMZ, ArcGIS Pro project]
+access:
+  - method: viewer
+    url: https://www.idahogeology.org/webmap/?show=mines
+    auth: none
+  - method: bulk-download
+    url: https://www.idahogeology.org/pub/Digital_Data/Digital_Databases/MinesPubDD-1_2023.zip
+    auth: none
+    notes: Database, metadata, shapefile, map projects and KMZ (about 27 MB)
+  - method: order
+    url: https://www.idahogeology.org/geologic-resources/mines-minerals/mineral-property-files
+    auth: paid
+    notes: Scanned mineral property files as PDF, $10 per order plus $0.50 a sheet
+licence:
+  id: unstated
+caveats:
+  - IGS does not guarantee the data to be free of errors.
+  - Production figures for gold, silver, copper, lead and zinc come from unpublished U.S. Bureau of Mines records.
+  - The mineral property files include reports to the State Mine Inspector from 1899 to 1962; scanning is in progress and many are not yet digital.
+sources:
+  - https://www.idahogeology.org/product/dd-1
+  - https://www.idahogeology.org/geologic-resources/mines-minerals/introduction-to-mines-and-prospects-database
+  - https://www.idahogeology.org/geologic-resources/mines-minerals/mineral-property-files
+last_verified: 2026-11-06
+verified_by: XploraHub

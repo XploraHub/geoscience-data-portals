@@ -1,0 +1,39 @@
+id: ca-cdogs
+name: Canadian Database of Geochemical Surveys (CDoGS)
+agency: Natural Resources Canada (Geological Survey of Canada)
+jurisdiction: CA
+level: national
+homepage: https://geochem.nrcan.gc.ca/cdogs/content/main/home_en.htm
+status: active
+summary: Catalogue of 1,646 regional geochemical surveys across Canada since the 1950s, with standardised raw data for 292 of them as spreadsheets and KML, plus links to the original publications.
+language: [en, fr]
+data_types: [surface-geochemistry, publications]
+formats: [XLSX, KML, MS Access]
+access:
+  - method: viewer
+    url: https://geochem.nrcan.gc.ca/indexmap/content/mapserver/main_e.phtml
+    auth: none
+    notes: Index map of survey extents
+  - method: download
+    url: https://geochem.nrcan.gc.ca/cdogs/content/main/home_en.htm
+    auth: none
+    notes: Per-survey data, periodic-table search and index tables
+  - method: wms
+    url: https://geochem.nrcan.gc.ca/cgi-bin/GSC_Geochemistry/wms
+    auth: none
+    notes: Survey index layers only, not the analytical data
+licence:
+  id: LicenseRef-OGL-Canada-2.0
+  url: https://open.canada.ca/en/open-government-licence-canada
+  notes: Licence as given on the open.canada.ca record; the CDoGS site itself names none.
+aggregated_by: [open-canada]
+caveats:
+  - Database summary dated 4 May 2025 gives 219,201 sites, 890,084 analysed samples and about 13 million analytical values.
+  - Only about 500 of the catalogued surveys are being standardised; the rest have metadata and links to the original publications only.
+  - The downloadable MS Access versions are reduced and hold no raw analytical data, or data for a single survey.
+sources:
+  - https://geochem.nrcan.gc.ca/cdogs/content/main/home_en.htm
+  - https://geochem.nrcan.gc.ca/GSC_Geochemistry/index.html
+  - https://open.canada.ca/data/en/dataset/b174e9f5-e8ea-f99a-9bc9-f8162650c024
+last_verified: 2026-11-06
+verified_by: XploraHub

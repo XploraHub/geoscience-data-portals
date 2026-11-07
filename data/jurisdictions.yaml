@@ -1,0 +1,41 @@
+# Name and an approximate centre for each jurisdiction, used for the map file.
+# Codes are ISO 3166-1 alpha-2 (countries) and ISO 3166-2 (states, provinces, territories).
+
+"AU": { name: Australia, lat: -25.3, lon: 133.8 }
+"AU-WA": { name: Western Australia, lat: -25.0, lon: 121.6 }
+"AU-SA": { name: South Australia, lat: -30.0, lon: 135.8 }
+"AU-QLD": { name: Queensland, lat: -22.6, lon: 144.1 }
+"AU-NSW": { name: New South Wales, lat: -32.2, lon: 147.0 }
+"AU-VIC": { name: Victoria, lat: -36.9, lon: 144.3 }
+"AU-TAS": { name: Tasmania, lat: -42.0, lon: 146.6 }
+"AU-NT": { name: Northern Territory, lat: -19.5, lon: 133.4 }
+"CA": { name: Canada, lat: 56.1, lon: -106.3 }
+"CA-BC": { name: British Columbia, lat: 53.7, lon: -127.6 }
+"CA-YT": { name: Yukon, lat: 64.3, lon: -135.0 }
+"CA-NT": { name: Northwest Territories, lat: 64.8, lon: -119.2 }
+"CA-NU": { name: Nunavut, lat: 70.3, lon: -83.1 }
+"CA-AB": { name: Alberta, lat: 53.9, lon: -116.6 }
+"CA-SK": { name: Saskatchewan, lat: 52.9, lon: -106.5 }
+"CA-MB": { name: Manitoba, lat: 53.8, lon: -98.8 }
+"CA-ON": { name: Ontario, lat: 51.3, lon: -85.3 }
+"CA-QC": { name: Quebec, lat: 52.9, lon: -73.5 }
+"CA-NB": { name: New Brunswick, lat: 46.6, lon: -66.5 }
+"CA-NS": { name: Nova Scotia, lat: 45.0, lon: -63.0 }
+"CA-NL": { name: Newfoundland and Labrador, lat: 53.1, lon: -57.7 }
+"US": { name: United States, lat: 39.8, lon: -98.6 }
+"US-NV": { name: Nevada, lat: 39.3, lon: -116.6 }
+"US-AZ": { name: Arizona, lat: 34.2, lon: -111.7 }
+"US-AK": { name: Alaska, lat: 64.2, lon: -149.5 }
+"US-MN": { name: Minnesota, lat: 46.3, lon: -94.3 }
+"US-ID": { name: Idaho, lat: 44.1, lon: -114.7 }
+"US-MT": { name: Montana, lat: 47.0, lon: -109.6 }
+"US-MI": { name: Michigan, lat: 44.3, lon: -85.4 }
+"GB": { name: United Kingdom, lat: 54.0, lon: -2.5 }
+"GB-NIR": { name: Northern Ireland, lat: 54.6, lon: -6.7 }
+"IE": { name: Ireland, lat: 53.4, lon: -8.2 }
+"SE": { name: Sweden, lat: 62.0, lon: 15.0 }
+"FI": { name: Finland, lat: 64.0, lon: 26.0 }
+"NO": { name: Norway, lat: 64.5, lon: 11.5 }
+"GL": { name: Greenland, lat: 72.0, lon: -40.0 }
+"SA": { name: Saudi Arabia, lat: 23.9, lon: 45.1 }
+"IN": { name: India, lat: 22.0, lon: 79.0 }

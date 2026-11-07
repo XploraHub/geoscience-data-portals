@@ -1,0 +1,38 @@
+id: bc-aris
+name: ARIS Assessment Report Indexing System
+agency: British Columbia Geological Survey
+jurisdiction: CA-BC
+level: province
+homepage: https://apps.nrs.gov.bc.ca/pub/aris/
+status: active
+summary: Searchable index and PDF copies of 41,761 approved mineral assessment reports filed by industry since 1947, covering geology, geochemistry, geophysics, drilling and prospecting.
+data_types: [company-reports, drillholes, surface-geochemistry, magnetics, electromagnetics, gravity, radiometrics]
+formats: [PDF, KML]
+access:
+  - method: viewer
+    url: https://apps.nrs.gov.bc.ca/pub/aris/
+    auth: none
+    notes: Search by report number, owner, operator, property, mining division, map sheet, MINFILE number or work type
+  - method: wms
+    url: https://openmaps.gov.bc.ca/geo/pub/WHSE_MINERAL_TENURE.ARIS_MINERAL_REPORTS/ows
+    auth: none
+  - method: wfs
+    url: https://openmaps.gov.bc.ca/geo/pub/WHSE_MINERAL_TENURE.ARIS_MINERAL_REPORTS/ows
+    auth: none
+    notes: Report locations and index fields
+licence:
+  id: LicenseRef-BC-Access-Only
+  url: https://www2.gov.bc.ca/gov/content?id=1AAACC9C65754E4D89A118B875E0FBDA
+  notes: The BC Data Catalogue lists the licence as "Access Only", not an open licence.
+open_file_after: 1
+caveats:
+  - Reports stay confidential for one year from the date the work was registered, and are released monthly.
+  - The count of 41,761 approved reports is from the ARIS search page on 6 November 2026; BC Data Catalogue descriptions still say 38,300 and 39,600.
+  - Results are mostly held in the report PDFs; BCGS is digitising drillhole data from them (see bc-aris-drillholes).
+sources:
+  - https://www2.gov.bc.ca/gov/content/industry/mineral-exploration-mining/british-columbia-geological-survey/assessmentreports
+  - https://apps.nrs.gov.bc.ca/pub/aris/
+  - https://catalogue.data.gov.bc.ca/dataset/assessment-report-index-system-aris-database
+  - https://cmscontent.nrs.gov.bc.ca/geoscience/PublicationCatalogue/GeoFile/BCGS_GF2026-11.pdf
+last_verified: 2026-11-06
+verified_by: XploraHub

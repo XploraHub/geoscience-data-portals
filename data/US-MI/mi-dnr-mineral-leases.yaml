@@ -1,0 +1,27 @@
+id: mi-dnr-mineral-leases
+name: Michigan DNR mineral leases
+agency: Michigan Department of Natural Resources
+jurisdiction: US-MI
+level: state
+homepage: https://gis-michigan.opendata.arcgis.com/maps/midnr::michigan-dnr-mineral-leases
+status: active
+summary: State mineral leases, lease nominations and parcel lease classifications from the DNR land ownership system, as open data and a feature service.
+data_types: [tenements]
+access:
+  - method: download
+    url: https://gis-michigan.opendata.arcgis.com/maps/midnr::michigan-dnr-mineral-leases
+    auth: none
+  - method: arcgis-rest
+    url: https://services3.arcgis.com/Jdnp1TjADvSDxMAX/ArcGIS/rest/services/DNRLOTSParcelsOPENDATA/FeatureServer
+    auth: none
+    notes: Layer 6 leases, 7 lease nominations, 1 parcel lease classification
+licence:
+  id: unstated
+caveats:
+  - The service queries the DNR Land Ownership Tracking System database directly.
+  - The DNR minerals pages on michigan.gov blocked automated access, so the DNR's interactive minerals map was not checked.
+sources:
+  - https://gis-michigan.opendata.arcgis.com/maps/midnr::michigan-dnr-mineral-leases
+  - https://services3.arcgis.com/Jdnp1TjADvSDxMAX/ArcGIS/rest/services/DNRLOTSParcelsOPENDATA/FeatureServer?f=json
+last_verified: 2026-11-06
+verified_by: XploraHub

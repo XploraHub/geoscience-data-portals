@@ -1,0 +1,64 @@
+name: Nightly check
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Government sites often block automated requests, so 403 and 429 count as reachable
+          args: --no-progress --max-retries 3 --timeout 30 --accept 200,403,429 "data/**/*.yaml"
+          fail: false
+      # Update the open issue rather than opening a new one every night
+      - id: links-issue
+        if: steps.lychee.outputs.exit_code != 0
+        run: echo "number=$(gh issue list --repo "$GITHUB_REPOSITORY" --label broken-link --state open --limit 1 --json number --jq '.[0].number // empty')" >> "$GITHUB_OUTPUT"
+      - if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Broken links found by the nightly check
+          content-filepath: ./lychee/out.md
+          labels: broken-link
+          issue-number: ${{ steps.links-issue.outputs.number }}
+
+  services:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml==6.0.2
+      - id: check
+        run: python scripts/check_services.py services-report.md
+        continue-on-error: true
+      - id: services-issue
+        if: steps.check.outcome == 'failure'
+        run: echo "number=$(gh issue list --repo "$GITHUB_REPOSITORY" --label service-down --state open --limit 1 --json number --jq '.[0].number // empty')" >> "$GITHUB_OUTPUT"
+      - if: steps.check.outcome == 'failure'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Services that did not answer the nightly check
+          content-filepath: ./services-report.md
+          labels: service-down
+          issue-number: ${{ steps.services-issue.outputs.number }}

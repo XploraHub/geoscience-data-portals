@@ -1,0 +1,31 @@
+id: us-ngmdb
+name: National Geologic Map Database (NGMDB)
+agency: U.S. Geological Survey and Association of American State Geologists
+jurisdiction: US
+level: national
+homepage: https://ngmdb.usgs.gov/ngmdb/ngmdb_home.html
+status: active
+summary: National archive of US geological maps, mandated by the Geologic Mapping Act of 1992. Its catalogue holds more than 100,000 maps and reports from over 600 publishers, with mapView, the Geolex names lexicon and the GeMS map database standard.
+data_types: [geological-maps, publications]
+access:
+  - method: download
+    url: https://ngmdb.usgs.gov/ngm-bin/ngm_compsearch.pl
+    auth: none
+    notes: Catalogue search by keyword, theme, location and publisher, with links to viewable documents and downloadable files
+  - method: viewer
+    url: https://ngmdb.usgs.gov/mapview/
+    auth: none
+    notes: Selected maps from the catalogue; the interface is in beta
+licence:
+  id: unstated
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  notes: USGS-authored works are in the U.S. public domain; maps from state surveys and other publishers keep their own terms.
+caveats:
+  - The site says it is migrating to a new infrastructure and warns of service disruptions.
+sources:
+  - https://www.usgs.gov/programs/national-cooperative-geologic-mapping-program/science/national-geologic-map-database-0
+  - https://ngmdb.usgs.gov/ngmdb/ngmdb_home.html
+  - https://ngmdb.usgs.gov/ngm-bin/ngm_compsearch.pl
+  - https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+last_verified: 2026-11-06
+verified_by: XploraHub

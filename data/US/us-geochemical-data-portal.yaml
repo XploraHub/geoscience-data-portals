@@ -1,0 +1,34 @@
+id: us-geochemical-data-portal
+name: USGS Geochemical Data Portal (rock, sediment, soil and mineral samples)
+agency: U.S. Geological Survey (Mineral Resources Program)
+jurisdiction: US
+level: national
+homepage: https://www.usgs.gov/tools/geochemical-data-portal-rock-sediment-soil-and-mineral-samples-united-states-and-territories
+status: active
+summary: Interactive map and data release of geochemical analyses for 1,524,014 rock, sediment, soil and mineral samples from the United States and territories, analysed from 1962 to 2023.
+data_types: [surface-geochemistry]
+formats: [file geodatabase, GeoPackage, Parquet]
+access:
+  - method: viewer
+    url: https://alaska.usgs.gov/science/geology/geochem_portal/geochem_portal.html
+    auth: none
+  - method: bulk-download
+    url: https://doi.org/10.5066/P1FXE9GK
+    auth: none
+    notes: Whole data release on ScienceBase (about 0.3 to 0.65 GB zipped per format)
+licence:
+  id: LicenseRef-US-Public-Domain
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+aggregated_by: [sciencebase]
+caveats:
+  - The release combines the legacy National Geochemical Database, the Mineral Resources Program laboratory system, NURE-HSSR and the Alaska Geochemical Database (AGDB4), so it overlaps the mrdata.usgs.gov datasets.
+  - Results come from 108 laboratory and field methods in 25 laboratories; check the method behind each value.
+  - AGDB4 "best values" are for mineral exploration and assessment and, USGS says, should not be assumed to suit other uses.
+  - USGS publishes Python tools for ArcGIS Pro and QGIS to filter and reformat the release.
+sources:
+  - https://www.usgs.gov/tools/geochemical-data-portal-rock-sediment-soil-and-mineral-samples-united-states-and-territories
+  - https://www.usgs.gov/data/geochemical-data-rock-sediment-soil-and-mineral-samples-united-states-and-territories-1962
+  - https://www.sciencebase.gov/catalog/item/63a107a0d34e0de3a1f2795f
+  - https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+last_verified: 2026-11-06
+verified_by: XploraHub

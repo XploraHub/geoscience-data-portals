@@ -1,0 +1,40 @@
+id: ie-gsi-tellus
+name: Tellus (Geological Survey Ireland)
+agency: Geological Survey Ireland
+jurisdiction: IE
+level: national
+homepage: https://gsi.ie/programmes-projects/tellus/
+status: active
+summary: Tellus airborne magnetics, radiometrics and electromagnetics (line data and grids, merged to 2022) and stream sediment, stream water and topsoil geochemistry for Ireland, as downloads and map services.
+data_types: [magnetics, radiometrics, electromagnetics, surface-geochemistry]
+formats: [XYZ, GRD, GeoTIFF, GXF]
+access:
+  - method: download
+    url: https://gsi.ie/data-and-maps/geophysics/
+    auth: none
+    notes: Tellus survey blocks and the 2022 merged dataset
+  - method: download
+    url: https://gsi.ie/data-and-maps/geochemistry/
+    auth: none
+  - method: arcgis-rest
+    url: https://gsi.geodata.gov.ie/server/rest/services/Geophysics/IE_GSI_GSNI_Magnetic_Intensity_50m_IE32_ITM_GRID/MapServer
+    auth: none
+    notes: Other magnetic, radiometric and EM grids are in the same Geophysics folder
+  - method: wms
+    url: https://gsi.geodata.gov.ie/server/services/Geochemistry/IE_GSI_GSNI_Geochemistry_Shallow_Topsoil_A_ICPar_IE32_ITM/MapServer/WMSServer
+    auth: none
+    notes: Shallow topsoil geochemistry
+licence:
+  id: CC-BY-4.0
+  url: https://creativecommons.org/licenses/by/4.0/
+  notes: GSI's data licence covers data produced directly by GSI unless otherwise specified.
+caveats:
+  - The grids are joint GSI and GSNI products and cover Northern Ireland as well. GSI's licence statement covers data produced directly by GSI and does not name the joint grids; GSNI's own Tellus data on Open Data NI are under OGL UK 3.0.
+  - The tellus.ie site did not respond on 2026-11-06; data are on gsi.ie.
+sources:
+  - https://gsi.ie/data-and-maps/geophysics/
+  - https://gsi.ie/data-and-maps/geochemistry/
+  - https://gsi.ie/data-and-maps/
+  - https://gsi.geodata.gov.ie/server/rest/services/Geophysics?f=json
+last_verified: 2026-11-06
+verified_by: XploraHub

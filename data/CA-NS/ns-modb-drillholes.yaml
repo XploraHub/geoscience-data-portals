@@ -1,0 +1,42 @@
+id: ns-modb-drillholes
+name: Nova Scotia Mineral Occurrence and Drillhole Databases
+agency: Nova Scotia Department of Natural Resources (Geoscience and Mines Branch)
+jurisdiction: CA-NS
+level: province
+homepage: https://novascotia.ca/natr/meb/mineral-resources/mineral-occurrences.asp
+status: active
+summary: Nova Scotia's Mineral Occurrence Database (over 3,000 occurrences with sample analyses) and Drillhole Database (28,341 drillholes, over 40,000 references, 6,597 with core at Stellarton), compiled from assessment reports and publications.
+data_types: [mineral-occurrences, drillholes, surface-geochemistry, core-library]
+formats: [shapefile, FGDB, KML, XLS]
+access:
+  - method: download
+    url: https://novascotia.ca/natr/meb/download/dp002.asp
+    auth: none
+    notes: Mineral Occurrence Database DP ME 2, version 12, 2024
+  - method: download
+    url: https://novascotia.ca/natr/meb/download/dp003.asp
+    auth: none
+    notes: Drillhole Database DP ME 3, version 6, 2023
+  - method: viewer
+    url: https://gesner.novascotia.ca/modb/queryView/querysearch.aspx
+    auth: none
+    notes: Online mineral occurrence search
+  - method: arcgis-rest
+    url: https://services.arcgis.com/TS1HHBYLM10d1SZH/arcgis/rest/services/db_NS_Drillhole_Database__d003ns_UT83/FeatureServer
+    auth: none
+    notes: Drillhole database, version 6
+licence:
+  id: LicenseRef-OGL-Nova-Scotia
+  url: https://novascotia.ca/opendata/licence.asp
+caveats:
+  - Many drillhole locations are approximate; each hole carries a source reference.
+  - The occurrence database does not hold every known occurrence in the province.
+  - Downloads are in UTM zone 20, NAD83.
+  - The old address novascotia.ca/natr/meb/geoscience-online/ returns 404; data products are under /natr/meb/download/.
+  - The mineral occurrence FeatureServer on dawson.novascotia.ca listed on the DP ME 2 page did not answer on 6 November 2026.
+sources:
+  - https://novascotia.ca/natr/meb/download/dp002.asp
+  - https://novascotia.ca/natr/meb/download/dp003.asp
+  - https://novascotia.ca/natr/meb/geoscience-online/about-database-modb.asp
+last_verified: 2026-11-06
+verified_by: XploraHub

@@ -1,0 +1,51 @@
+id: us-earth-mri
+name: Earth MRI data releases
+agency: U.S. Geological Survey (Earth Mapping Resources Initiative)
+jurisdiction: US
+level: national
+homepage: https://www.usgs.gov/special-topics/earth-mri
+status: active
+summary: Data from the USGS Earth Mapping Resources Initiative, including airborne magnetic, radiometric and electromagnetic surveys and new geochemistry, published as ScienceBase data releases, with a map of acquisition projects.
+data_types: [magnetics, radiometrics, electromagnetics, surface-geochemistry, geological-maps]
+formats: [Geosoft database, Geosoft grid, CSV, GeoTIFF, shapefile, netCDF, Microsoft Access]
+access:
+  - method: download
+    url: https://www.sciencebase.gov/catalog/items?q=&filter=tags%3DEarthMRI
+    auth: none
+    notes: ScienceBase items tagged EarthMRI (150 on the day checked)
+  - method: download
+    url: https://mrdata.usgs.gov/earthmri/geochemistry/
+    auth: none
+    notes: Earth MRI geochemistry as CSV and Access database
+  - method: wms
+    url: https://mrdata.usgs.gov/services/emri-project
+    auth: none
+    notes: Footprints of acquisition projects
+  - method: wfs
+    url: https://mrdata.usgs.gov/services/wfs/emri-project
+    auth: none
+    notes: Footprints of acquisition projects
+  - method: wms
+    url: https://mrdata.usgs.gov/services/earthmrichem
+    auth: none
+    notes: Earth MRI geochemistry samples
+licence:
+  id: LicenseRef-US-Public-Domain
+  url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+aggregated_by: [sciencebase]
+caveats:
+  - Contractor packages in the airborne magnetic and radiometric releases are Geosoft databases and grids, which need Oasis montaj or the free Geosoft Viewer; some releases add CSV, GeoTIFF and shapefiles.
+  - Airborne electromagnetic releases (for example the Basin and Range survey) deliver flight-line data and inversions as netCDF.
+  - Superseded versions stay online; the 2019 Illinois-Kentucky-Indiana survey points to version 2.0 at https://doi.org/10.5066/P14PJFWS.
+  - The project page at https://mrdata.usgs.gov/earthmri/data-acquisition/ is marked "Currently under revision", and its Earth MRI Acquisitions Viewer (https://ngmdb.usgs.gov/emri/) refused automated access when checked.
+  - The WFS for Earth MRI geochemistry (https://mrdata.usgs.gov/services/wfs/earthmrichem) returned a MapServer error when tested.
+sources:
+  - https://www.usgs.gov/special-topics/earth-mri
+  - https://mrdata.usgs.gov/earthmri/data-acquisition/
+  - https://mrdata.usgs.gov/earthmri/geochemistry/
+  - https://www.sciencebase.gov/catalog/item/5e695f26e4b01d50925e7053
+  - https://www.sciencebase.gov/catalog/item/65c3a97ed34ef4b119cae594
+  - https://www.usgs.gov/data/airborne-magnetic-and-radiometric-survey-upper-peninsula-michigan-and-parts-northern-wisconsin
+  - https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+last_verified: 2026-11-06
+verified_by: XploraHub

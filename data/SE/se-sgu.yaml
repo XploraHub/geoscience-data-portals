@@ -1,0 +1,48 @@
+id: se-sgu
+name: SGU geological data
+agency: Geological Survey of Sweden (SGU)
+jurisdiction: SE
+level: national
+homepage: https://www.sgu.se/en/products/geological-data/
+status: active
+summary: SGU open data for Sweden, including about 20,000 mineral and rock occurrences, boreholes and drill cores with hyperspectral core scans, mineral permits, ores and concentrators, bedrock, airborne magnetics, gamma, gravity and petrophysics.
+language: [sv, en]
+data_types: [mineral-occurrences, drillholes, core-library, tenements, geological-maps, magnetics, radiometrics, gravity, electromagnetics, seismic, petrophysics]
+formats: [GeoPackage, GeoJSON, CSV, TIFF]
+access:
+  - method: viewer
+    url: https://apps.sgu.se/kartvisare/index-en.html
+    auth: none
+  - method: bulk-download
+    url: https://resource.sgu.se/data/oppnadata/mineralresurser/mineralresurser.zip
+    auth: none
+    notes: Mineral and bedrock occurrences (GeoPackage); each product page has its own zip
+  - method: ogc-api
+    url: https://api.sgu.se/oppnadata/mineralresurser/ogc/features/v1
+    auth: none
+    notes: Mineral and bedrock occurrences
+  - method: ogc-api
+    url: https://api.sgu.se/oppnadata/borrhal/ogc/features/v1
+    auth: none
+    notes: Boreholes
+  - method: wms
+    url: https://resource.sgu.se/service/wms/130/mineralresurser
+    auth: none
+  - method: wms
+    url: https://resource.sgu.se/service/wms/130/borrkarnor
+    auth: none
+    notes: Boreholes and drill cores
+licence:
+  id: CC0-1.0
+  url: https://creativecommons.org/publicdomain/zero/1.0/
+  notes: All SGU geological data open under CC0 from 9 June 2024.
+caveats:
+  - Several product descriptions, such as the borehole one, are in Swedish only.
+  - The licence page does not say whether third-party material, such as company exploration reports, is covered.
+sources:
+  - https://www.sgu.se/en/products/geological-data/about-sgus-geological-data/license-terms-for-sgus-geological-data/
+  - https://www.sgu.se/en/products/geological-data/ores-and-minerals--geological-data/mineral-and-bedrock-occurrences/
+  - https://www.sgu.se/en/products/geological-data/ores-and-minerals--geological-data/drill-cores-and-bore-holes/
+  - https://www.sgu.se/en/products/geological-data/geophysics--geological-data/
+last_verified: 2026-11-06
+verified_by: XploraHub

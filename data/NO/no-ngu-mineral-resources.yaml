@@ -1,0 +1,39 @@
+id: no-ngu-mineral-resources
+name: NGU mineral resources database
+agency: Geological Survey of Norway (NGU)
+jurisdiction: "NO"
+level: national
+homepage: https://geo.ngu.no/kart/mineralressurser_mobil/?lang=eng
+status: active
+summary: NGU map and data for Norwegian metallic ores, industrial minerals and natural stone deposits, with fact sheets, WMS services and county or national downloads through Geonorge.
+language: ["no", en]
+data_types: [mineral-occurrences]
+formats: [FGDB, shapefile]
+access:
+  - method: viewer
+    url: https://geo.ngu.no/kart/mineralressurser_mobil/?lang=eng
+    auth: none
+  - method: wms
+    url: https://geo.ngu.no/mapserver/MetalsWMS2
+    auth: none
+  - method: wms
+    url: https://geo.ngu.no/mapserver/IndustrialMineralsWMS3
+    auth: none
+  - method: download
+    url: https://kartkatalog.geonorge.no/metadata/mineralressurser-industrimineral-naturstein-og-metaller/5a887d78-07ef-44c6-8941-cb8017c6328c
+    auth: none
+    notes: Geonorge download, by country or county
+licence:
+  id: NLOD-1.0
+  url: https://data.norge.no/nlod/no/1.0
+  notes: Geonorge metadata marks the dataset as open data under NLOD.
+caveats:
+  - The WMS capabilities say "Copyright Geological Survey of Norway 2011" and fees none; the licence comes from the Geonorge record.
+  - The geo.ngu.no root returned 503 on 2026-11-06, but the map viewer and WMS services answered.
+  - NGU also runs a mineral exploration map at https://mineralexploration.ngu.no/.
+sources:
+  - https://www.ngu.no/en/geologiske-kart/karttjenester
+  - https://kartkatalog.geonorge.no/api/getdata/5a887d78-07ef-44c6-8941-cb8017c6328c
+  - https://www.ngu.no/en/geologiske-kart
+last_verified: 2026-11-06
+verified_by: XploraHub

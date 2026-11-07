@@ -1,0 +1,35 @@
+id: vic-geovic
+name: GeoVic
+agency: Geological Survey of Victoria
+jurisdiction: AU-VIC
+level: state
+homepage: https://resources.vic.gov.au/geology-and-data/maps-reports-data/geovic
+status: active
+summary: Free map application for Victorian geology, boreholes (over 13,000), geochemistry and earth resources data, with table export; bulk files from the Earth Resources store.
+data_types: [geological-maps, drillholes, surface-geochemistry, mineral-occurrences, tenements, core-library]
+access:
+  - method: viewer
+    url: https://resources.vic.gov.au/geology-and-data/maps-reports-data/geovic
+    auth: none
+  - method: download
+    url: https://discover.data.vic.gov.au/dataset/boreholes-from-earth-resources-database
+    auth: none
+    notes: Borehole locations from the Earth Resources database on the Victorian datamart (shapefile, GDB, MapInfo and others)
+  - method: wfs
+    url: https://opendata.maps.vic.gov.au/geoserver/wfs
+    auth: none
+    notes: Victorian open data WFS, including the bores layer
+licence:
+  id: CC-BY-4.0
+  url: https://discover.data.vic.gov.au/dataset/boreholes-from-earth-resources-database
+  notes: The Victorian datamart lists the borehole datasets as CC BY 4.0. GeoVic's own terms were not found.
+aggregated_by: [auscope]
+caveats:
+  - The GeoVic information page blocks automated access, so its terms could not be checked directly.
+  - GSV publishes a Geoscience Data WMS and WFS; their addresses are in the AuScope catalogue record listed under sources.
+sources:
+  - https://resources.vic.gov.au/__data/assets/pdf_file/0019/1082134/Using-GeoVic-to-search-for-boreholes-with-available-core-and-cuttings.pdf
+  - https://portal.auscope.org.au/geonetwork/srv/api/records/63da855271d9377e0c96b3bbeaad40ebd24d7cfa
+  - https://discover.data.vic.gov.au/dataset/boreholes-from-earth-resources-database
+last_verified: 2026-11-06
+verified_by: XploraHub
