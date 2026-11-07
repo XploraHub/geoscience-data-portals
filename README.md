@@ -2,7 +2,7 @@
 
 # Geoscience data portals
 
-> Where the open geoscience data is, what it holds, and the catch.
+> Where to find open geoscience data, and what to check before you use it.
 
 [![Validate](https://github.com/XploraHub/geoscience-data-portals/actions/workflows/validate.yml/badge.svg)](https://github.com/XploraHub/geoscience-data-portals/actions/workflows/validate.yml)
 [![Nightly check](https://github.com/XploraHub/geoscience-data-portals/actions/workflows/links.yml/badge.svg)](https://github.com/XploraHub/geoscience-data-portals/actions/workflows/links.yml)
