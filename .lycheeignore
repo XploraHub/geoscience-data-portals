@@ -1,3 +1,10 @@
 # Dead links recorded on purpose in caveats
 https://secure.decc.gov.ie/goldmine/index.html
 https://gis.taadeen.sa/server/services/Maps/SGS_WMS/MapServer/WMSServer
+# Service endpoints: they need query parameters, and the services job checks them properly
+/geoserver/wfs$
+/WFSServer$
+^https://mrdata\.usgs\.gov/services/
+/geonetwork/srv/api/search/
+# Answers browsers, but the link checker cannot parse its responses
+^https://gis\.geosurv\.gov\.nl\.ca/
