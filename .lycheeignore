@@ -8,7 +8,5 @@ https://gis.taadeen.sa/server/services/Maps/SGS_WMS/MapServer/WMSServer
 /geonetwork/srv/api/search/
 # Answers browsers, but the link checker cannot parse its responses
 ^https://gis\.geosurv\.gov\.nl\.ca/
-# Refuses automated requests with an empty reply; answers browsers
-^https://www2\.gov\.bc\.ca/
 # Server sends the wrong intermediate certificate; browsers recover, the link checker cannot
 ^https://app\.nwtgeoscience\.ca/
